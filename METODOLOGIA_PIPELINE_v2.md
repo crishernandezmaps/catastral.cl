@@ -58,7 +58,7 @@ Cuando un worker termina su porción de trabajo, roba trabajo del worker más at
 ### Almacenamiento S3
 - **Endpoint**: `https://nbg1.your-objectstorage.com` (Hetzner Object Storage)
 - **Bucket**: `siipredios`
-- **Credenciales**: `AWS_ACCESS_KEY_ID=LT0PBPBQHR6Q8R5XBORX`
+- **Credenciales**: `AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY`
 
 ---
 
