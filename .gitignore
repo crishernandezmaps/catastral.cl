@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Temp
+/tmp/
+*.tmp
+
+# Large files
+*.pdf
+*.gpkg
+*.tif
+*.geojson
+
+# Claude
+.claude/
+
+# Legacy / removed
+backend/routers/predios.py
+backend/routers/geojson.py
+backend/routers/estadisticas.py
+backend/routers/payments.py
+backend/data/fase6_catalogo.json

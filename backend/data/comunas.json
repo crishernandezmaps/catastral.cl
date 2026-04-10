@@ -1,0 +1,2424 @@
+[
+  {
+    "id": "15101",
+    "nombre": "Arica",
+    "region": "Arica y Parinacota",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "15102",
+    "nombre": "Camarones",
+    "region": "Arica y Parinacota",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "15202",
+    "nombre": "General Lagos",
+    "region": "Arica y Parinacota",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "15201",
+    "nombre": "Putre",
+    "region": "Arica y Parinacota",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "01101",
+    "nombre": "Iquique",
+    "region": "Tarapacá",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "01107",
+    "nombre": "Alto Hospicio",
+    "region": "Tarapacá",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "01401",
+    "nombre": "Pozo Almonte",
+    "region": "Tarapacá",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "01402",
+    "nombre": "Camiña",
+    "region": "Tarapacá",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "01403",
+    "nombre": "Colchane",
+    "region": "Tarapacá",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "01404",
+    "nombre": "Huara",
+    "region": "Tarapacá",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "01405",
+    "nombre": "Pica",
+    "region": "Tarapacá",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "02101",
+    "nombre": "Antofagasta",
+    "region": "Antofagasta",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "02201",
+    "nombre": "Calama",
+    "region": "Antofagasta",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "02301",
+    "nombre": "Tocopilla",
+    "region": "Antofagasta",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "02302",
+    "nombre": "María Elena",
+    "region": "Antofagasta",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "02102",
+    "nombre": "Mejillones",
+    "region": "Antofagasta",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "02202",
+    "nombre": "Ollagüe",
+    "region": "Antofagasta",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "02203",
+    "nombre": "San Pedro de Atacama",
+    "region": "Antofagasta",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "02103",
+    "nombre": "Sierra Gorda",
+    "region": "Antofagasta",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "02104",
+    "nombre": "Taltal",
+    "region": "Antofagasta",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "03101",
+    "nombre": "Copiapó",
+    "region": "Atacama",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "03102",
+    "nombre": "Caldera",
+    "region": "Atacama",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "03103",
+    "nombre": "Tierra Amarilla",
+    "region": "Atacama",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "03201",
+    "nombre": "Chañaral",
+    "region": "Atacama",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "03202",
+    "nombre": "Diego de Almagro",
+    "region": "Atacama",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "03301",
+    "nombre": "Vallenar",
+    "region": "Atacama",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "03302",
+    "nombre": "Alto del Carmen",
+    "region": "Atacama",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "03303",
+    "nombre": "Freirina",
+    "region": "Atacama",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "03304",
+    "nombre": "Huasco",
+    "region": "Atacama",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "04101",
+    "nombre": "La Serena",
+    "region": "Coquimbo",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "04102",
+    "nombre": "Coquimbo",
+    "region": "Coquimbo",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "04301",
+    "nombre": "Ovalle",
+    "region": "Coquimbo",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "04201",
+    "nombre": "Illapel",
+    "region": "Coquimbo",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "04203",
+    "nombre": "Los Vilos",
+    "region": "Coquimbo",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "04204",
+    "nombre": "Salamanca",
+    "region": "Coquimbo",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "04106",
+    "nombre": "Vicuña",
+    "region": "Coquimbo",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "04105",
+    "nombre": "Paihuano",
+    "region": "Coquimbo",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "04103",
+    "nombre": "Andacollo",
+    "region": "Coquimbo",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "04104",
+    "nombre": "La Higuera",
+    "region": "Coquimbo",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "04303",
+    "nombre": "Monte Patria",
+    "region": "Coquimbo",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "04202",
+    "nombre": "Canela",
+    "region": "Coquimbo",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "04302",
+    "nombre": "Combarbalá",
+    "region": "Coquimbo",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "04304",
+    "nombre": "Punitaqui",
+    "region": "Coquimbo",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "04305",
+    "nombre": "Río Hurtado",
+    "region": "Coquimbo",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "05101",
+    "nombre": "Valparaíso",
+    "region": "Valparaíso",
+    "tier": "XL",
+    "precio": 576912
+  },
+  {
+    "id": "05109",
+    "nombre": "Viña del Mar",
+    "region": "Valparaíso",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "05801",
+    "nombre": "Quilpué",
+    "region": "Valparaíso",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "05804",
+    "nombre": "Villa Alemana",
+    "region": "Valparaíso",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "05601",
+    "nombre": "San Antonio",
+    "region": "Valparaíso",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "05501",
+    "nombre": "Quillota",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05802",
+    "nombre": "Limache",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05803",
+    "nombre": "Olmué",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05502",
+    "nombre": "La Calera",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05506",
+    "nombre": "Nogales",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05504",
+    "nombre": "La Cruz",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05503",
+    "nombre": "Hijuelas",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05102",
+    "nombre": "Casablanca",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05603",
+    "nombre": "Cartagena",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05604",
+    "nombre": "El Quisco",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05605",
+    "nombre": "El Tabo",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05602",
+    "nombre": "Algarrobo",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05606",
+    "nombre": "Santo Domingo",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05304",
+    "nombre": "San Esteban",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05301",
+    "nombre": "Los Andes",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05701",
+    "nombre": "San Felipe",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05402",
+    "nombre": "Cabildo",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05705",
+    "nombre": "Putaendo",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05303",
+    "nombre": "Rinconada",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05706",
+    "nombre": "Santa María",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05404",
+    "nombre": "Petorca",
+    "region": "Valparaíso",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "05405",
+    "nombre": "Zapallar",
+    "region": "Valparaíso",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "05403",
+    "nombre": "Papudo",
+    "region": "Valparaíso",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "05401",
+    "nombre": "La Ligua",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05302",
+    "nombre": "Calle Larga",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05704",
+    "nombre": "Panquehue",
+    "region": "Valparaíso",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "05702",
+    "nombre": "Catemu",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05703",
+    "nombre": "Llaillay",
+    "region": "Valparaíso",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "05201",
+    "nombre": "Isla de Pascua",
+    "region": "Valparaíso",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "05104",
+    "nombre": "Juan Fernández",
+    "region": "Valparaíso",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "05107",
+    "nombre": "Quintero",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05105",
+    "nombre": "Puchuncaví",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "05103",
+    "nombre": "Concón",
+    "region": "Valparaíso",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13101",
+    "nombre": "Santiago",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13201",
+    "nombre": "Puente Alto",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13119",
+    "nombre": "Maipú",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13110",
+    "nombre": "La Florida",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13114",
+    "nombre": "Las Condes",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13401",
+    "nombre": "San Bernardo",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13122",
+    "nombre": "Peñalolén",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13125",
+    "nombre": "Quilicura",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13124",
+    "nombre": "Pudahuel",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13112",
+    "nombre": "La Pintana",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13120",
+    "nombre": "Ñuñoa",
+    "region": "Metropolitana",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "13105",
+    "nombre": "El Bosque",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13115",
+    "nombre": "Lo Barnechea",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13109",
+    "nombre": "La Cisterna",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13127",
+    "nombre": "Recoleta",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13108",
+    "nombre": "Independencia",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13130",
+    "nombre": "San Miguel",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13106",
+    "nombre": "Estación Central",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13116",
+    "nombre": "Lo Espejo",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13121",
+    "nombre": "Pedro Aguirre Cerda",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13128",
+    "nombre": "Renca",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13103",
+    "nombre": "Cerro Navia",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13117",
+    "nombre": "Lo Prado",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13126",
+    "nombre": "Quinta Normal",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13104",
+    "nombre": "Conchalí",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13107",
+    "nombre": "Huechuraba",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13132",
+    "nombre": "Vitacura",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13123",
+    "nombre": "Providencia",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13113",
+    "nombre": "La Reina",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13118",
+    "nombre": "Macul",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13131",
+    "nombre": "San Ramón",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13111",
+    "nombre": "La Granja",
+    "region": "Metropolitana",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "13129",
+    "nombre": "San Joaquín",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13102",
+    "nombre": "Cerrillos",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13604",
+    "nombre": "Padre Hurtado",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13301",
+    "nombre": "Colina",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13302",
+    "nombre": "Lampa",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13402",
+    "nombre": "Buin",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13404",
+    "nombre": "Paine",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13605",
+    "nombre": "Peñaflor",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13601",
+    "nombre": "Talagante",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13602",
+    "nombre": "El Monte",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13603",
+    "nombre": "Isla de Maipo",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13501",
+    "nombre": "Melipilla",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13503",
+    "nombre": "Curacaví",
+    "region": "Metropolitana",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "13403",
+    "nombre": "Calera de Tango",
+    "region": "Metropolitana",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "13505",
+    "nombre": "San Pedro",
+    "region": "Metropolitana",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "13504",
+    "nombre": "María Pinto",
+    "region": "Metropolitana",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "13203",
+    "nombre": "San José de Maipo",
+    "region": "Metropolitana",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "13202",
+    "nombre": "Pirque",
+    "region": "Metropolitana",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "13303",
+    "nombre": "Tiltil",
+    "region": "Metropolitana",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "13502",
+    "nombre": "Alhué",
+    "region": "Metropolitana",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06101",
+    "nombre": "Rancagua",
+    "region": "O'Higgins",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "06108",
+    "nombre": "Machalí",
+    "region": "O'Higgins",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "06106",
+    "nombre": "Graneros",
+    "region": "O'Higgins",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "06110",
+    "nombre": "Mostazal",
+    "region": "O'Higgins",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "06102",
+    "nombre": "Codegua",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06103",
+    "nombre": "Coinco",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06104",
+    "nombre": "Coltauco",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06105",
+    "nombre": "Doñihue",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06114",
+    "nombre": "Quinta de Tilcoco",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06115",
+    "nombre": "Rengo",
+    "region": "O'Higgins",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "06116",
+    "nombre": "Requínoa",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06117",
+    "nombre": "San Vicente",
+    "region": "O'Higgins",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "06112",
+    "nombre": "Peumo",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06107",
+    "nombre": "Las Cabras",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06113",
+    "nombre": "Pichidegua",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06301",
+    "nombre": "San Fernando",
+    "region": "O'Higgins",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "06303",
+    "nombre": "Chimbarongo",
+    "region": "O'Higgins",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "06305",
+    "nombre": "Nancagua",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06306",
+    "nombre": "Palmilla",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06307",
+    "nombre": "Peralillo",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06308",
+    "nombre": "Placilla",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06310",
+    "nombre": "Santa Cruz",
+    "region": "O'Higgins",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "06302",
+    "nombre": "Chépica",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06304",
+    "nombre": "Lolol",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06204",
+    "nombre": "Marchihue",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06206",
+    "nombre": "Paredones",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06201",
+    "nombre": "Pichilemu",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "06202",
+    "nombre": "La Estrella",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06203",
+    "nombre": "Litueche",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06205",
+    "nombre": "Navidad",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06309",
+    "nombre": "Pumanque",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06105",
+    "nombre": "Lo Miranda",
+    "region": "O'Higgins",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "06111",
+    "nombre": "Olivar",
+    "region": "O'Higgins",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07101",
+    "nombre": "Talca",
+    "region": "Maule",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "07301",
+    "nombre": "Curicó",
+    "region": "Maule",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "07401",
+    "nombre": "Linares",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07201",
+    "nombre": "Cauquenes",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07102",
+    "nombre": "Constitución",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07304",
+    "nombre": "Molina",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07109",
+    "nombre": "San Clemente",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07106",
+    "nombre": "Pelarco",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07108",
+    "nombre": "Río Claro",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07110",
+    "nombre": "San Rafael",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07107",
+    "nombre": "Pencahue",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07105",
+    "nombre": "Maule",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07103",
+    "nombre": "Curepto",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07104",
+    "nombre": "Empedrado",
+    "region": "Maule",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "07302",
+    "nombre": "Hualañé",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07303",
+    "nombre": "Licantén",
+    "region": "Maule",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "07305",
+    "nombre": "Rauco",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07306",
+    "nombre": "Romeral",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07307",
+    "nombre": "Sagrada Familia",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07308",
+    "nombre": "Teno",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07309",
+    "nombre": "Vichuquén",
+    "region": "Maule",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "07403",
+    "nombre": "Longaví",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07404",
+    "nombre": "Parral",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07405",
+    "nombre": "Retiro",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07406",
+    "nombre": "San Javier",
+    "region": "Maule",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "07407",
+    "nombre": "Villa Alegre",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07408",
+    "nombre": "Yerbas Buenas",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07202",
+    "nombre": "Chanco",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07203",
+    "nombre": "Pelluhue",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "07402",
+    "nombre": "Colbún",
+    "region": "Maule",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16101",
+    "nombre": "Chillán",
+    "region": "Ñuble",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "16103",
+    "nombre": "Chillán Viejo",
+    "region": "Ñuble",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "16301",
+    "nombre": "San Carlos",
+    "region": "Ñuble",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "16102",
+    "nombre": "Bulnes",
+    "region": "Ñuble",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "16107",
+    "nombre": "Quillón",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16104",
+    "nombre": "El Carmen",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16105",
+    "nombre": "Pemuco",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16106",
+    "nombre": "Pinto",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16108",
+    "nombre": "San Ignacio",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16109",
+    "nombre": "Yungay",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16302",
+    "nombre": "Coihueco",
+    "region": "Ñuble",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "16303",
+    "nombre": "Ñiquén",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16304",
+    "nombre": "San Fabián",
+    "region": "Ñuble",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "16305",
+    "nombre": "San Nicolás",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16202",
+    "nombre": "Cobquecura",
+    "region": "Ñuble",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "16203",
+    "nombre": "Coelemu",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16204",
+    "nombre": "Ninhue",
+    "region": "Ñuble",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "16205",
+    "nombre": "Portezuelo",
+    "region": "Ñuble",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "16201",
+    "nombre": "Quirihue",
+    "region": "Ñuble",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "16206",
+    "nombre": "Ránquil",
+    "region": "Ñuble",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "16207",
+    "nombre": "Treguaco",
+    "region": "Ñuble",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "08101",
+    "nombre": "Concepción",
+    "region": "Biobío",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "08110",
+    "nombre": "Talcahuano",
+    "region": "Biobío",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "08112",
+    "nombre": "Hualpén",
+    "region": "Biobío",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "08108",
+    "nombre": "San Pedro de la Paz",
+    "region": "Biobío",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "08103",
+    "nombre": "Chiguayante",
+    "region": "Biobío",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "08102",
+    "nombre": "Coronel",
+    "region": "Biobío",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "08106",
+    "nombre": "Lota",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08111",
+    "nombre": "Tomé",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08107",
+    "nombre": "Penco",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08105",
+    "nombre": "Hualqui",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08109",
+    "nombre": "Santa Juana",
+    "region": "Biobío",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "08104",
+    "nombre": "Florida",
+    "region": "Biobío",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "08301",
+    "nombre": "Los Ángeles",
+    "region": "Biobío",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "08306",
+    "nombre": "Nacimiento",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08305",
+    "nombre": "Mulchén",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08307",
+    "nombre": "Negrete",
+    "region": "Biobío",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "08302",
+    "nombre": "Antuco",
+    "region": "Biobío",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "08308",
+    "nombre": "Quilaco",
+    "region": "Biobío",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "08309",
+    "nombre": "Quilleco",
+    "region": "Biobío",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "08310",
+    "nombre": "San Rosendo",
+    "region": "Biobío",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "08311",
+    "nombre": "Santa Bárbara",
+    "region": "Biobío",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "08312",
+    "nombre": "Tucapel",
+    "region": "Biobío",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "08313",
+    "nombre": "Yumbel",
+    "region": "Biobío",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "08303",
+    "nombre": "Cabrero",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08304",
+    "nombre": "Laja",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08314",
+    "nombre": "Alto Biobío",
+    "region": "Biobío",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "08202",
+    "nombre": "Arauco",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08203",
+    "nombre": "Cañete",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08204",
+    "nombre": "Contulmo",
+    "region": "Biobío",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "08205",
+    "nombre": "Curanilahue",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08201",
+    "nombre": "Lebu",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08206",
+    "nombre": "Los Álamos",
+    "region": "Biobío",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "08207",
+    "nombre": "Tirúa",
+    "region": "Biobío",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09101",
+    "nombre": "Temuco",
+    "region": "Araucanía",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "09112",
+    "nombre": "Padre Las Casas",
+    "region": "Araucanía",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "09120",
+    "nombre": "Villarrica",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09115",
+    "nombre": "Pucón",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09201",
+    "nombre": "Angol",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09211",
+    "nombre": "Victoria",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09108",
+    "nombre": "Lautaro",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09114",
+    "nombre": "Pitrufquén",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09107",
+    "nombre": "Gorbea",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09109",
+    "nombre": "Loncoche",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09111",
+    "nombre": "Nueva Imperial",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09117",
+    "nombre": "Teodoro Schmidt",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09105",
+    "nombre": "Freire",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09119",
+    "nombre": "Vilcún",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09113",
+    "nombre": "Perquenco",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09106",
+    "nombre": "Galvarino",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09121",
+    "nombre": "Cholchol",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09210",
+    "nombre": "Traiguén",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09207",
+    "nombre": "Lumaco",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09208",
+    "nombre": "Purén",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09206",
+    "nombre": "Los Sauces",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09204",
+    "nombre": "Ercilla",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09202",
+    "nombre": "Collipulli",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09203",
+    "nombre": "Curacautín",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09205",
+    "nombre": "Lonquimay",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09110",
+    "nombre": "Melipeuco",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09103",
+    "nombre": "Cunco",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09104",
+    "nombre": "Curarrehue",
+    "region": "Araucanía",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "09118",
+    "nombre": "Toltén",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09102",
+    "nombre": "Carahue",
+    "region": "Araucanía",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "09116",
+    "nombre": "Saavedra",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "09209",
+    "nombre": "Renaico",
+    "region": "Araucanía",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "14101",
+    "nombre": "Valdivia",
+    "region": "Los Ríos",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "14201",
+    "nombre": "La Unión",
+    "region": "Los Ríos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "14204",
+    "nombre": "Río Bueno",
+    "region": "Los Ríos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "14108",
+    "nombre": "Panguipulli",
+    "region": "Los Ríos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "14102",
+    "nombre": "Corral",
+    "region": "Los Ríos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "14103",
+    "nombre": "Lanco",
+    "region": "Los Ríos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "14104",
+    "nombre": "Los Lagos",
+    "region": "Los Ríos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "14105",
+    "nombre": "Máfil",
+    "region": "Los Ríos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "14106",
+    "nombre": "Mariquina",
+    "region": "Los Ríos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "14107",
+    "nombre": "Paillaco",
+    "region": "Los Ríos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "14202",
+    "nombre": "Futrono",
+    "region": "Los Ríos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "14203",
+    "nombre": "Lago Ranco",
+    "region": "Los Ríos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10101",
+    "nombre": "Puerto Montt",
+    "region": "Los Lagos",
+    "tier": "XL",
+    "precio": 53550
+  },
+  {
+    "id": "10301",
+    "nombre": "Osorno",
+    "region": "Los Lagos",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "10201",
+    "nombre": "Castro",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10109",
+    "nombre": "Puerto Varas",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10202",
+    "nombre": "Ancud",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10102",
+    "nombre": "Calbuco",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10303",
+    "nombre": "Purranque",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10307",
+    "nombre": "San Pablo",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10304",
+    "nombre": "Puyehue",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10305",
+    "nombre": "Río Negro",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10306",
+    "nombre": "San Juan de la Costa",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10104",
+    "nombre": "Fresia",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10105",
+    "nombre": "Frutillar",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10302",
+    "nombre": "Puerto Octay",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10107",
+    "nombre": "Llanquihue",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10106",
+    "nombre": "Los Muermos",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10108",
+    "nombre": "Maullín",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10207",
+    "nombre": "Queilén",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "10208",
+    "nombre": "Quellón",
+    "region": "Los Lagos",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "10209",
+    "nombre": "Quemchi",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "10210",
+    "nombre": "Quinchao",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10205",
+    "nombre": "Dalcahue",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10204",
+    "nombre": "Curaco de Vélez",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "10206",
+    "nombre": "Puqueldón",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "10203",
+    "nombre": "Chonchi",
+    "region": "Los Lagos",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "10403",
+    "nombre": "Hualaihué",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "10401",
+    "nombre": "Chaitén",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "10402",
+    "nombre": "Futaleufú",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "10404",
+    "nombre": "Palena",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "10103",
+    "nombre": "Cochamó",
+    "region": "Los Lagos",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "11101",
+    "nombre": "Coyhaique",
+    "region": "Aysén",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "11201",
+    "nombre": "Aysén",
+    "region": "Aysén",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "11401",
+    "nombre": "Chile Chico",
+    "region": "Aysén",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "11202",
+    "nombre": "Cisnes",
+    "region": "Aysén",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "11203",
+    "nombre": "Guaitecas",
+    "region": "Aysén",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "11301",
+    "nombre": "Cochrane",
+    "region": "Aysén",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "11302",
+    "nombre": "O'Higgins",
+    "region": "Aysén",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "11303",
+    "nombre": "Tortel",
+    "region": "Aysén",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "11102",
+    "nombre": "Lago Verde",
+    "region": "Aysén",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "11402",
+    "nombre": "Río Ibáñez",
+    "region": "Aysén",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "12101",
+    "nombre": "Punta Arenas",
+    "region": "Magallanes",
+    "tier": "L",
+    "precio": 35700
+  },
+  {
+    "id": "12401",
+    "nombre": "Puerto Natales",
+    "region": "Magallanes",
+    "tier": "M",
+    "precio": 21420
+  },
+  {
+    "id": "12301",
+    "nombre": "Porvenir",
+    "region": "Magallanes",
+    "tier": "S",
+    "precio": 14280
+  },
+  {
+    "id": "12201",
+    "nombre": "Puerto Williams",
+    "region": "Magallanes",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "12302",
+    "nombre": "Primavera",
+    "region": "Magallanes",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "12303",
+    "nombre": "Timaukel",
+    "region": "Magallanes",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "12102",
+    "nombre": "Laguna Blanca",
+    "region": "Magallanes",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "12103",
+    "nombre": "Río Verde",
+    "region": "Magallanes",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "12104",
+    "nombre": "San Gregorio",
+    "region": "Magallanes",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "12402",
+    "nombre": "Torres del Paine",
+    "region": "Magallanes",
+    "tier": "XS",
+    "precio": 7140
+  },
+  {
+    "id": "12202",
+    "nombre": "Antártica",
+    "region": "Magallanes",
+    "tier": "XS",
+    "precio": 7140
+  }
+]
