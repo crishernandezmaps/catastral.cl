@@ -113,6 +113,10 @@ Los datos catastrales del SII son informacion publica por naturaleza: registros 
 - **Storage**: Hetzner Object Storage S3-compatible (`siipredios` bucket)
 - **Distribucion**: [catastral.cl](https://catastral.cl) (FastAPI + React, VPS separado)
 
-## Contacto
+## Autor
 
-Cristian Hernandez — [cris@tremen.tech](mailto:cris@tremen.tech) — [tremen.tech](https://tremen.tech)
+**Cristian Hernandez** — Fundador de [Tremen](https://tremen.tech), empresa chilena especializada en ciencia de datos geoespaciales e inteligencia de ubicacion. Tremen desarrolla soluciones de analisis territorial, optimizacion de redes y location intelligence para la industria inmobiliaria, retail y energia en Chile.
+
+Este proyecto fue desarrollado como parte del Magister en Analitica de Negocios de la Universidad de Chile y MIT Sloan School of Management (2026).
+
+[cris@tremen.tech](mailto:cris@tremen.tech) · [tremen.tech](https://tremen.tech) · [LinkedIn](https://www.linkedin.com/in/crishernandezco)
