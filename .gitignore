@@ -1,7 +1,12 @@
+# Web app (not part of this repo)
+backend/
+frontend/
+infra/
+pipeline/
+scripts/
+
 # Dependencies
 node_modules/
-frontend/node_modules/
-frontend/dist/
 __pycache__/
 *.pyc
 venv/
@@ -9,7 +14,6 @@ venv/
 # Environment / secrets
 .env
 .env.*
-!.env.example
 
 # OS
 .DS_Store
@@ -19,30 +23,22 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Build
-*.egg-info/
-dist/
-build/
-
-# Logs
-*.log
-
-# Temp
-/tmp/
-*.tmp
-
 # Large files
 *.pdf
 *.gpkg
 *.tif
 *.geojson
 
+# Temp
+*.log
+*.tmp
+
 # Claude
 .claude/
 
-# Legacy / removed
-backend/routers/predios.py
-backend/routers/geojson.py
-backend/routers/estadisticas.py
-backend/routers/payments.py
-backend/data/fase6_catalogo.json
+# Legacy catalogs
+fase6_catalogo.json
+comunas_fase3v2.json
+catalog_fase4v2.json
+plataforma_catastral_cl.md
+docker-compose.yml

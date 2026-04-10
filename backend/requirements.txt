@@ -1,8 +1,0 @@
-fastapi>=0.115
-uvicorn[standard]>=0.34
-psycopg[binary]>=3.2
-psycopg_pool>=3.2
-pyjwt>=2.9
-httpx>=0.28
-boto3>=1.35
-python-dotenv>=1.0
