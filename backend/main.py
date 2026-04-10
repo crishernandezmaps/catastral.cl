@@ -4,7 +4,7 @@ from logging_config import setup_logging
 setup_logging()
 from fastapi.middleware.cors import CORSMiddleware
 from config import FRONTEND_URL
-from routers import health, descargas, geocode
+from routers import health, descargas
 from routers import auth, marketplace, admin, sharing
 
 app = FastAPI(
@@ -24,7 +24,6 @@ app.add_middleware(
 
 app.include_router(health.router, prefix="/api")
 app.include_router(descargas.router, prefix="/api")
-app.include_router(geocode.router, prefix="/api")
 app.include_router(auth.router, prefix="/api")
 app.include_router(marketplace.router, prefix="/api")
 app.include_router(admin.router, prefix="/api")
