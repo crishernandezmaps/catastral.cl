@@ -20,13 +20,13 @@ El costo de esta inaccesibilidad supera los USD 2 millones anuales en transferen
 
 Un pipeline de 5 fases que supera las tres barreras:
 
-| Fase | Que hace | Output | Tiempo |
-|------|----------|--------|--------|
-| **0** | Extraccion masiva: parseo TXT + 9.5M llamadas API via 30 tuneles WireGuard | CSV por comuna (~90 cols) | ~15 dias |
-| **1** | Descarga cartografica WMS: tiles PNG zoom 19 (~0.3 m/pixel), 30 workers | GeoTIFF RGBA por comuna | ~10 dias |
-| **2** | Vectorizacion raster: polygonize GDAL, filtrado DN, relleno hoyos WMS | GeoPackage con poligonos | ~2 dias |
-| **3** | Join espacial: 6 metodos en cascada (point-in-polygon, nearest, herencia, manzana neighbor, getFeatureInfo, fallback) | CSV + GPKG con datos + geometria | ~3 horas |
-| **4** | Enriquecimiento: join con catastro semestral (pisos, materiales, calidades, bienes comunes) | CSV 112 cols + GPKG + CSV raw | ~50 min |
+| Fase | Que hace | Output |
+|------|----------|--------|
+| **0** | Extraccion masiva: parseo TXT + 9.5M llamadas API via 30 tuneles WireGuard | CSV por comuna (~90 cols) |
+| **1** | Descarga cartografica WMS: tiles PNG zoom 19 (~0.3 m/pixel), 30 workers | GeoTIFF RGBA por comuna |
+| **2** | Vectorizacion raster: polygonize GDAL, filtrado DN, relleno hoyos WMS | GeoPackage con poligonos |
+| **3** | Join espacial: 6 metodos en cascada (point-in-polygon, nearest, herencia, manzana neighbor, getFeatureInfo, fallback) | CSV + GPKG con datos + geometria |
+| **4** | Enriquecimiento: join con catastro semestral (pisos, materiales, calidades, bienes comunes) | CSV 112 cols + GPKG + CSV raw |
 
 ## Resultado
 
