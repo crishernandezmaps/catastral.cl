@@ -1,0 +1,21 @@
+# Pipeline catastral SII - Python 3.12
+# Instalar: pip install -r requirements.txt
+
+# ── Data & GIS ──────────────────────────────
+pandas>=2.2
+geopandas>=1.0
+numpy>=1.26
+shapely>=2.0
+pyproj>=3.6
+rasterio>=1.3
+
+# ── Storage (S3-compatible) ─────────────────
+boto3>=1.34
+
+# ── HTTP ────────────────────────────────────
+requests>=2.31
+urllib3>=2.0
+Pillow>=10.0
+
+# ── Database ────────────────────────────────
+psycopg2-binary>=2.9
