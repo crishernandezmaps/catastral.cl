@@ -1,6 +1,6 @@
 # Cartografia Predial SII Chile
 
-Pipeline de extraccion, vectorizacion y distribucion de los datos catastrales del Servicio de Impuestos Internos de Chile. Produce un dataset georreferenciado de 9.5 millones de predios con geometria vectorial para las 343 comunas del pais.
+Pipeline de extraccion, vectorizacion y distribucion de los datos catastrales del Servicio de Impuestos Internos de Chile. Produce un dataset georreferenciado de 9.5 millones de predios con geometria vectorial para las 346 comunas del pais.
 
 **Datos disponibles en:** [catastral.cl](https://catastral.cl)
 
@@ -18,53 +18,68 @@ El costo de esta inaccesibilidad supera los USD 2 millones anuales en transferen
 
 ## La solucion
 
-Un pipeline de 5 fases que supera las tres barreras:
+Un pipeline integrado que ejecuta descarga tabular, descarga cartografica WMS, vectorizacion y match espacial en un solo paso por comuna:
 
-| Fase | Que hace | Output |
+| Paso | Que hace | Output |
 |------|----------|--------|
-| **0** | Extraccion masiva: parseo TXT + 9.5M llamadas API via 30 tuneles WireGuard | CSV por comuna (~90 cols) |
-| **1** | Descarga cartografica WMS: tiles PNG zoom 19 (~0.3 m/pixel), 30 workers | GeoTIFF RGBA por comuna |
-| **2** | Vectorizacion raster: polygonize GDAL, filtrado DN, relleno hoyos WMS | GeoPackage con poligonos |
-| **3** | Join espacial: 6 metodos en cascada (point-in-polygon, nearest, herencia, manzana neighbor, getFeatureInfo, fallback) | CSV + GPKG con datos + geometria |
-| **4** | Enriquecimiento: join con catastro semestral (pisos, materiales, calidades, bienes comunes) | CSV 112 cols + GPKG + CSV raw |
+| **1. Datos tabulares** | 9.5M llamadas API SII via 70 tuneles WireGuard con flock queue + work stealing | CSV por comuna (~90 cols) |
+| **2. Supercells WMS** | Descarga tiles agrupados en supercells 1024x1024 px (4x4 tiles z19) del poligono BCN | PNGs en disco |
+| **3. Vectorizacion** | Bloques 16384x16384 px con overlap 1024 px, polygonize Python, merge costuras | Poligonos en memoria |
+| **4. Match espacial** | Point-in-polygon + nearest + herencia coord + manzana neighbor + OCR recovery | GeoParquet + CSV |
+| **5. Optimize** | Simplificacion de geometrias (1m matched, 5m orphans), make_valid | GeoParquet final |
+
+### Diferencias vs pipeline v1
+
+El pipeline anterior descargaba un GeoTIFF completo por comuna (tiles individuales z19 → ensamblaje rasterio → GDAL polygonize). Esto presentaba tres problemas:
+
+- **Grid lines visibles**: las costuras entre tiles generaban artefactos en la vectorizacion.
+- **Archivos de 500MB+**: GeoTIFFs completos consumian disco y RAM innecesariamente.
+- **Fases separadas**: descarga, vectorizacion y match eran scripts independientes que requerian coordinacion manual.
+
+El pipeline actual elimina el GeoTIFF intermedio. Descarga solo supercells (1024px) dentro del poligono BCN de cada comuna, vectoriza en bloques grandes con overlap de 1024px que eliminan las grid lines, y ejecuta todo en un orquestador integrado.
 
 ## Resultado
 
 | Metrica | Valor |
 |---------|-------|
-| Total filas CSV | 11,306,273 |
-| Total poligonos | 9,128,582 |
-| Predios con datos + poligono | 7,292,537 |
-| Comunas cubiertas | 343 / 346 |
-| Variables | 112 |
+| Total predios CSV | 9,500,000+ |
+| Comunas cubiertas | 346 |
+| Variables | ~90 |
 | Precision geometrica | ~30 cm |
 | Periodo | 2do semestre 2025 |
 
-### Tres capas por comuna
+### Dos capas por comuna
 
-Para cada una de las 343 comunas se producen tres archivos:
+Para cada comuna se producen dos archivos:
 
-- **GeoPackage (.gpkg)** — Poligonos vectorizados EPSG:4326 con atributos tabulares. Para QGIS, PostGIS, GeoPandas.
-- **CSV procesado (.csv)** — Todas las filas (con y sin poligono): 112 columnas incluyendo API SII, catastro semestral, areas homogeneas, observatorio de suelo urbano.
-- **CSV crudo (_raw.csv)** — Las 39 columnas originales del archivo `BRTMPNACROL` parseadas.
+- **GeoParquet (.parquet)** — Poligonos vectorizados EPSG:4326 con atributos tabulares y columna `geometry`. Para QGIS, PostGIS, GeoPandas.
+- **CSV (.csv)** — Todos los predios con datos tabulares (~90 columnas): avaluos, superficies, destinos, coordenadas, areas homogeneas.
 
 ## Codigo
 
 ```
-code/
-├── 0_get_sii.py              # Fase 0: extraccion datos API SII (30 tuneles)
-├── batch_tif_30ns.sh          # Fase 1: orquestador descarga WMS
-├── download_chunk.py          # Fase 1: worker de descarga por tunel
-├── prepare_tif_queue.py       # Fase 1: genera cola de trabajo
-├── comunas.py                 # Lista de comunas + nombres WMS
-├── 2_vectorizar.py            # Fase 2: vectorizacion raster
-├── batch_vectorize.sh         # Fase 2: batch para 347 comunas
-├── 3_join_mejorado.py         # Fase 3: join espacial (6 metodos)
-├── featureinfo_worker.py      # Fase 3: worker getFeatureInfo SII
-├── batch_join_v2.py           # Fase 3: batch para 347 comunas
-├── 4_enrich_catastro.py       # Fase 4: enriquecimiento catastro semestral
-├── 5_generate_catalog.py      # Fase 4: genera catalogo JSON
-└── METODOLOGIA_PIPELINE_v2.md # Documentacion tecnica completa
+code_v3/                          # Pipeline v3 (actual)
+├── fase0_orchestrator.py         # Orquestador: descarga tabular + WMS + vectorize + match
+├── fase0_config.py               # Configuracion: tuneles, S3, paths, WMS overrides
+├── fase0_worker.py               # Worker descarga datos tabulares (flock queue)
+├── sc_worker.py                  # Worker descarga supercells WMS (flock queue)
+├── fase0_selective_tif.py        # Descarga supercells + vectorizacion por bloques
+├── vectorize_simple.py           # Vectorizacion de TIF pre-construido (alternativa)
+├── fase0_match.py                # Match espacial: point-in-polygon + nearest + herencia
+├── fase0_recovery.py             # OCR recovery para predios sin match
+├── fase0_merge.py                # Merge JSONs → CSV normalizado
+├── fase0_normalize.py            # Normalizacion de columnas API SII
+├── optimize_parquet.py           # Simplificacion de geometrias post-pipeline
+├── batch_etapa1.py               # Batch etapa 1: descarga secuencial (usa tuneles VPN)
+└── batch_etapa2.py               # Batch etapa 2: procesamiento paralelo (3 workers CPU)
+
+code/                             # Pipeline v1 (legacy, referencia)
+├── 0_get_sii.py                  # Fase 0 original
+├── batch_tif_30ns.sh             # Fase 1 original: descarga WMS → GeoTIFF
+├── 2_vectorizar.py               # Fase 2 original: GDAL polygonize
+├── 3_join_mejorado.py            # Fase 3 original: join espacial
+├── 4_enrich_catastro.py          # Fase 4 original: enriquecimiento catastro
+└── ...
 ```
 
 ## Variables principales
@@ -79,15 +94,10 @@ code/
 | `valorComercial_clp_m2` | API SII | Valor comercial de suelo por m2 |
 | `destinoDescripcion` | API SII | Destino (Habitacional, Comercial, etc.) |
 | `ah, ah_valorUnitario` | API SII | Area homogenea y valor unitario |
-| `pisos_max` | TXT SII | Pisos construidos |
-| `materiales` | TXT SII | Materialidad (A=Acero, B=Hormigon, C=Albanileria, E=Madera) |
-| `calidades` | TXT SII | Calidad constructiva (1=Superior a 5=Inferior) |
-| `dc_contribucion_semestral` | TXT SII | Contribucion semestral (CLP) |
-| `dc_bc1_*` | TXT SII | Bien comun del edificio (lote padre) |
-| `pol_area_m2` | Pipeline | Area del poligono vectorizado (m2) |
+| `_match_method` | Pipeline | Metodo de match (contains, nearest, inherit, manzana, ocr, unmatched_polygon) |
 | `geometry` | Pipeline | Poligono predial (EPSG:4326) |
 
-Ver [METODOLOGIA_PIPELINE_v2.md](code/METODOLOGIA_PIPELINE_v2.md) para la documentacion tecnica completa.
+Ver [METODOLOGIA_PIPELINE_v3.md](METODOLOGIA_PIPELINE_v3.md) para la documentacion tecnica completa.
 
 ## Justificacion
 
@@ -108,8 +118,8 @@ Los datos catastrales del SII son informacion publica por naturaleza: registros 
 
 ## Infraestructura
 
-- **VPS extractor**: Hetzner, 8 vCPU, 128 GB RAM
-- **VPN**: 30 tuneles Mullvad WireGuard en network namespaces Linux
+- **VPS extractor**: Hetzner Cloud, 8 vCPU, 128 GB RAM
+- **VPN**: 70 tuneles Mullvad WireGuard en network namespaces Linux
 - **Storage**: Hetzner Object Storage S3-compatible (`siipredios` bucket)
 - **Distribucion**: [catastral.cl](https://catastral.cl) (FastAPI + React, VPS separado)
 
