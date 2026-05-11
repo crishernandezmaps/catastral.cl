@@ -34,13 +34,13 @@ def optimize(gdf):
     # Matched predios: gentle simplify (~1m) to smooth pixel edges
     if n_matched > 0:
         gdf.loc[matched_mask, "geometry"] = gdf.loc[matched_mask, "geometry"].simplify(
-            0.00001, preserve_topology=True
+            0.00001, preserve_topology=False
         )
 
     # Orphan polygons: stronger simplify (~5m) to reduce vertex count
     if n_orphan > 0:
         gdf.loc[orphan_mask, "geometry"] = gdf.loc[orphan_mask, "geometry"].simplify(
-            0.00005, preserve_topology=True
+            0.00005, preserve_topology=False
         )
 
     # Fix any invalid geometries

@@ -158,7 +158,7 @@ Las dos etapas corren en paralelo: E1 descarga secuencialmente mientras E2 proce
 
 Simplifica geometrias para reducir tamano de archivo:
 
-- **Predios matched**: `simplify(0.00001, preserve_topology=True)` — ~1 metro de tolerancia
+- **Predios matched**: `simplify(0.00001, preserve_topology=False)` — ~1 metro de tolerancia
 - **Poligonos huerfanos**: `simplify(0.00005, preserve_topology=False)` — ~5 metros
 - **Fix invalid**: `make_valid()` para geometrias invalidas post-simplificacion
 
@@ -184,16 +184,28 @@ Filas con `_match_method = "unmatched_polygon"` son poligonos sin dato tabular.
 
 ---
 
+## Resultado final
+
+345 de 346 comunas procesadas exitosamente. Unica excepcion: Trehuaco (8108), creada en 2020, sin poligono en el shapefile BCN.
+
+5 comunas patagonicas remotas (Laguna Blanca, Timaukel, Tortel, Rio Verde, San Gregorio) no tienen coordenadas en la API del SII (`KeyError: 'lat'`). Se procesaron con guards en `fase0_merge.py` que permiten generar el CSV sin lat/lon. El output contiene los poligonos vectorizados como `unmatched_polygon` (sin match tabular) — disponibles para matching manual futuro.
+
+El indice completo de comunas con rutas S3 esta en `comunas_sii.json`.
+
 ## Limitaciones conocidas
 
 1. **~1% de predios sin geometria**: predios en manzanas sin coordenadas donde OCR no recupera match.
 
 2. **Poligonos multi-unidad**: un poligono de edificio se asigna a todos sus departamentos. La geometria es identica — el WMS del SII no renderiza subdivision horizontal.
 
-3. **Comunas con timeout en OCR**: comunas rurales grandes (>50K supercells) pueden exceder el timeout de 2 horas en la fase OCR. Se procesan manualmente sin timeout.
+3. **Comunas con timeout en OCR**: comunas rurales grandes (>50K supercells) pueden exceder el timeout de 2 horas en la fase OCR. Se procesan sin timeout, matando OCR despues de 2 horas (el orquestador continua y sube el resultado sin los matches OCR).
 
 4. **Trehuaco (8108)**: comuna creada en 2020, no existe en el shapefile BCN. Requiere poligono actualizado.
 
+5. **5 comunas sin coordenadas SII**: Laguna Blanca (12206), Timaukel (12304), Tortel (11303), Rio Verde (12202), San Gregorio (12204). Output contiene solo poligonos huerfanos.
+
+6. **preserve_topology=False**: la simplificacion de geometrias usa `preserve_topology=False` para evitar timeouts en comunas con muchos poligonos agricolas. Esto puede generar geometrias ligeramente auto-intersectantes, corregidas con `make_valid()`.
+
 ---
 
-*Pipeline v3 disenado y ejecutado marzo-abril 2026. Datos reproducibles con los scripts en `code_v3/`.*
+*Pipeline v3 disenado y ejecutado marzo-mayo 2026. Datos reproducibles con los scripts en `code_v3/`.*

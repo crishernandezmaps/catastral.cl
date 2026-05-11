@@ -118,6 +118,10 @@ def main():
     addr_col = "dc_direccion" if "dc_direccion" in df.columns else "direccion_sii"
     df["_addr_base"] = df[addr_col].apply(normalize_address)
 
+    # Guard: si no existe columna lat (comunas sin coordenadas SII)
+    for col in ["lat", "lon"]:
+        if col not in df.columns:
+            df[col] = None
     has_coords = df["lat"].notna() & (df["lat"] != "None")
     con = df[has_coords & df["_addr_base"].notna()]
     sin = df[~has_coords & df["_addr_base"].notna()]
@@ -152,9 +156,9 @@ def main():
     # ── 4. Stats ─────────────────────────────────────────────────────────────
     print("[4] Stats:", flush=True)
     total = len(df)
-    with_coords = df["lat"].notna().sum() - (df["lat"] == "None").sum()
-    with_pp = df["predioPublicado_predio"].notna().sum()
-    ok = (df["_ok"] == True).sum()
+    with_coords = (df["lat"].notna().sum() - (df["lat"] == "None").sum()) if "lat" in df.columns else 0
+    with_pp = df["predioPublicado_predio"].notna().sum() if "predioPublicado_predio" in df.columns else 0
+    ok = (df["_ok"] == True).sum() if "_ok" in df.columns else 0
     print("    Total:           %s" % f"{total:,}", flush=True)
     print("    _ok=True:        %s (%s%%)" % (f"{ok:,}", f"{ok/total*100:.1f}"), flush=True)
     print("    Con lat/lon:     %s (%s%%)" % (f"{with_coords:,}", f"{with_coords/total*100:.1f}"), flush=True)

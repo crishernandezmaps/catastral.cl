@@ -1,0 +1,3116 @@
+[
+  {
+    "id": "1101",
+    "nombre": "Arica",
+    "region": "Arica y Parinacota",
+    "parquet": "s3://siipredios/sii_extractor/ARICA_1101/comuna=1101.parquet",
+    "csv": "s3://siipredios/sii_extractor/ARICA_1101/comuna=1101.csv",
+    "parquet_mb": 20.3,
+    "csv_mb": 40.9
+  },
+  {
+    "id": "1106",
+    "nombre": "Camarones",
+    "region": "Arica y Parinacota",
+    "parquet": "s3://siipredios/sii_extractor/CAMARONES_1106/comuna=1106.parquet",
+    "csv": "s3://siipredios/sii_extractor/CAMARONES_1106/comuna=1106.csv",
+    "parquet_mb": 0.9,
+    "csv_mb": 1.0
+  },
+  {
+    "id": "1201",
+    "nombre": "Iquique",
+    "region": "Tarapacá",
+    "parquet": "s3://siipredios/sii_extractor/IQUIQUE_1201/comuna=1201.parquet",
+    "csv": "s3://siipredios/sii_extractor/IQUIQUE_1201/comuna=1201.csv",
+    "parquet_mb": 30.9,
+    "csv_mb": 46.6
+  },
+  {
+    "id": "1203",
+    "nombre": "Pica",
+    "region": "Tarapacá",
+    "parquet": "s3://siipredios/sii_extractor/PICA_1203/comuna=1203.parquet",
+    "csv": "s3://siipredios/sii_extractor/PICA_1203/comuna=1203.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 2.2
+  },
+  {
+    "id": "1204",
+    "nombre": "Pozo Almonte",
+    "region": "Tarapacá",
+    "parquet": "s3://siipredios/sii_extractor/POZO_ALMONTE_1204/comuna=1204.parquet",
+    "csv": "s3://siipredios/sii_extractor/POZO_ALMONTE_1204/comuna=1204.csv",
+    "parquet_mb": 4.8,
+    "csv_mb": 6.1
+  },
+  {
+    "id": "1206",
+    "nombre": "Huara",
+    "region": "Tarapacá",
+    "parquet": "s3://siipredios/sii_extractor/HUARA_1206/comuna=1206.parquet",
+    "csv": "s3://siipredios/sii_extractor/HUARA_1206/comuna=1206.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 1.9
+  },
+  {
+    "id": "1208",
+    "nombre": "Camiña",
+    "region": "Tarapacá",
+    "parquet": "s3://siipredios/sii_extractor/CAMINA_1208/comuna=1208.parquet",
+    "csv": "s3://siipredios/sii_extractor/CAMINA_1208/comuna=1208.csv",
+    "parquet_mb": 0.5,
+    "csv_mb": 0.7
+  },
+  {
+    "id": "1210",
+    "nombre": "Colchane",
+    "region": "Tarapacá",
+    "parquet": "s3://siipredios/sii_extractor/COLCHANE_1210/comuna=1210.parquet",
+    "csv": "s3://siipredios/sii_extractor/COLCHANE_1210/comuna=1210.csv",
+    "parquet_mb": 0.8,
+    "csv_mb": 0.5
+  },
+  {
+    "id": "1211",
+    "nombre": "Alto Hospicio",
+    "region": "Tarapacá",
+    "parquet": "s3://siipredios/sii_extractor/ALTO_HOSPICIO_1211/comuna=1211.parquet",
+    "csv": "s3://siipredios/sii_extractor/ALTO_HOSPICIO_1211/comuna=1211.csv",
+    "parquet_mb": 4.7,
+    "csv_mb": 18.4
+  },
+  {
+    "id": "1301",
+    "nombre": "Putre",
+    "region": "Arica y Parinacota",
+    "parquet": "s3://siipredios/sii_extractor/PUTRE_1301/comuna=1301.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUTRE_1301/comuna=1301.csv",
+    "parquet_mb": 1.9,
+    "csv_mb": 2.3
+  },
+  {
+    "id": "1302",
+    "nombre": "General Lagos",
+    "region": "Arica y Parinacota",
+    "parquet": "s3://siipredios/sii_extractor/GENERAL_LAGOS_1302/comuna=1302.parquet",
+    "csv": "s3://siipredios/sii_extractor/GENERAL_LAGOS_1302/comuna=1302.csv",
+    "parquet_mb": 0.2,
+    "csv_mb": 0.2
+  },
+  {
+    "id": "2101",
+    "nombre": "Tocopilla",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/TOCOPILLA_2101/comuna=2101.parquet",
+    "csv": "s3://siipredios/sii_extractor/TOCOPILLA_2101/comuna=2101.csv",
+    "parquet_mb": 3.6,
+    "csv_mb": 5.1
+  },
+  {
+    "id": "2103",
+    "nombre": "María Elena",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/MARIA_ELENA_2103/comuna=2103.parquet",
+    "csv": "s3://siipredios/sii_extractor/MARIA_ELENA_2103/comuna=2103.csv",
+    "parquet_mb": 0.4,
+    "csv_mb": 0.3
+  },
+  {
+    "id": "2201",
+    "nombre": "Antofagasta",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/ANTOFAGASTA_2201/comuna=2201.parquet",
+    "csv": "s3://siipredios/sii_extractor/ANTOFAGASTA_2201/comuna=2201.csv",
+    "parquet_mb": 20.3,
+    "csv_mb": 88.1
+  },
+  {
+    "id": "2202",
+    "nombre": "Taltal",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/TALTAL_2202/comuna=2202.parquet",
+    "csv": "s3://siipredios/sii_extractor/TALTAL_2202/comuna=2202.csv",
+    "parquet_mb": 0.8,
+    "csv_mb": 2.2
+  },
+  {
+    "id": "2203",
+    "nombre": "Mejillones",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/MEJILLONES_2203/comuna=2203.parquet",
+    "csv": "s3://siipredios/sii_extractor/MEJILLONES_2203/comuna=2203.csv",
+    "parquet_mb": 1.0,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "2206",
+    "nombre": "Sierra Gorda",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/SIERRA_GORDA_2206/comuna=2206.parquet",
+    "csv": "s3://siipredios/sii_extractor/SIERRA_GORDA_2206/comuna=2206.csv",
+    "parquet_mb": 0.4,
+    "csv_mb": 0.6
+  },
+  {
+    "id": "2301",
+    "nombre": "Calama",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/CALAMA_2301/comuna=2301.parquet",
+    "csv": "s3://siipredios/sii_extractor/CALAMA_2301/comuna=2301.csv",
+    "parquet_mb": 13.2,
+    "csv_mb": 29.1
+  },
+  {
+    "id": "2302",
+    "nombre": "Ollagüe",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/OLLAGÜE_2302/comuna=2302.parquet",
+    "csv": "s3://siipredios/sii_extractor/OLLAGÜE_2302/comuna=2302.csv",
+    "parquet_mb": 0.1,
+    "csv_mb": 0.1
+  },
+  {
+    "id": "2303",
+    "nombre": "San Pedro de Atacama",
+    "region": "Antofagasta",
+    "parquet": "s3://siipredios/sii_extractor/SAN_PEDRO_DE_ATACAMA_2303/comuna=2303.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_PEDRO_DE_ATACAMA_2303/comuna=2303.csv",
+    "parquet_mb": 0.7,
+    "csv_mb": 2.3
+  },
+  {
+    "id": "3101",
+    "nombre": "Chañaral",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/CHANARAL_3101/comuna=3101.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHANARAL_3101/comuna=3101.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "3102",
+    "nombre": "Diego de Almagro",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/DIEGO_DE_ALMAGRO_3102/comuna=3102.parquet",
+    "csv": "s3://siipredios/sii_extractor/DIEGO_DE_ALMAGRO_3102/comuna=3102.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 1.8
+  },
+  {
+    "id": "3201",
+    "nombre": "Copiapó",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/COPIAPO_3201/comuna=3201.parquet",
+    "csv": "s3://siipredios/sii_extractor/COPIAPO_3201/comuna=3201.csv",
+    "parquet_mb": 35.3,
+    "csv_mb": 33.9
+  },
+  {
+    "id": "3202",
+    "nombre": "Caldera",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/CALDERA_3202/comuna=3202.parquet",
+    "csv": "s3://siipredios/sii_extractor/CALDERA_3202/comuna=3202.csv",
+    "parquet_mb": 6.4,
+    "csv_mb": 5.4
+  },
+  {
+    "id": "3203",
+    "nombre": "Tierra Amarilla",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/TIERRA_AMARILLA_3203/comuna=3203.parquet",
+    "csv": "s3://siipredios/sii_extractor/TIERRA_AMARILLA_3203/comuna=3203.csv",
+    "parquet_mb": 13.8,
+    "csv_mb": 2.2
+  },
+  {
+    "id": "3301",
+    "nombre": "Vallenar",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/VALLENAR_3301/comuna=3301.parquet",
+    "csv": "s3://siipredios/sii_extractor/VALLENAR_3301/comuna=3301.csv",
+    "parquet_mb": 8.7,
+    "csv_mb": 12.0
+  },
+  {
+    "id": "3302",
+    "nombre": "Freirina",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/FREIRINA_3302/comuna=3302.parquet",
+    "csv": "s3://siipredios/sii_extractor/FREIRINA_3302/comuna=3302.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 1.8
+  },
+  {
+    "id": "3303",
+    "nombre": "Huasco",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/HUASCO_3303/comuna=3303.parquet",
+    "csv": "s3://siipredios/sii_extractor/HUASCO_3303/comuna=3303.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 2.7
+  },
+  {
+    "id": "3304",
+    "nombre": "Alto del Carmen",
+    "region": "Atacama",
+    "parquet": "s3://siipredios/sii_extractor/ALTO_DEL_CARMEN_3304/comuna=3304.parquet",
+    "csv": "s3://siipredios/sii_extractor/ALTO_DEL_CARMEN_3304/comuna=3304.csv",
+    "parquet_mb": 1.7,
+    "csv_mb": 1.7
+  },
+  {
+    "id": "4101",
+    "nombre": "La Serena",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/LA_SERENA_4101/comuna=4101.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_SERENA_4101/comuna=4101.csv",
+    "parquet_mb": 20.4,
+    "csv_mb": 70.5
+  },
+  {
+    "id": "4102",
+    "nombre": "La Higuera",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/LA_HIGUERA_4102/comuna=4102.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_HIGUERA_4102/comuna=4102.csv",
+    "parquet_mb": 1.8,
+    "csv_mb": 3.2
+  },
+  {
+    "id": "4103",
+    "nombre": "Coquimbo",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/COQUIMBO_4103/comuna=4103.parquet",
+    "csv": "s3://siipredios/sii_extractor/COQUIMBO_4103/comuna=4103.csv",
+    "parquet_mb": 21.0,
+    "csv_mb": 64.2
+  },
+  {
+    "id": "4104",
+    "nombre": "Andacollo",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/ANDACOLLO_4104/comuna=4104.parquet",
+    "csv": "s3://siipredios/sii_extractor/ANDACOLLO_4104/comuna=4104.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 2.6
+  },
+  {
+    "id": "4105",
+    "nombre": "Vicuña",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/VICUNA_4105/comuna=4105.parquet",
+    "csv": "s3://siipredios/sii_extractor/VICUNA_4105/comuna=4105.csv",
+    "parquet_mb": 63.4,
+    "csv_mb": 7.1
+  },
+  {
+    "id": "4106",
+    "nombre": "Paihuano",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/PAIHUANO_4106/comuna=4106.parquet",
+    "csv": "s3://siipredios/sii_extractor/PAIHUANO_4106/comuna=4106.csv",
+    "parquet_mb": 1.0,
+    "csv_mb": 1.6
+  },
+  {
+    "id": "4201",
+    "nombre": "Ovalle",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/OVALLE_4201/comuna=4201.parquet",
+    "csv": "s3://siipredios/sii_extractor/OVALLE_4201/comuna=4201.csv",
+    "parquet_mb": 12.7,
+    "csv_mb": 30.0
+  },
+  {
+    "id": "4203",
+    "nombre": "Monte Patria",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/MONTE_PATRIA_4203/comuna=4203.parquet",
+    "csv": "s3://siipredios/sii_extractor/MONTE_PATRIA_4203/comuna=4203.csv",
+    "parquet_mb": 5.1,
+    "csv_mb": 8.3
+  },
+  {
+    "id": "4204",
+    "nombre": "Punitaqui",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/PUNITAQUI_4204/comuna=4204.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUNITAQUI_4204/comuna=4204.csv",
+    "parquet_mb": 2.0,
+    "csv_mb": 3.2
+  },
+  {
+    "id": "4205",
+    "nombre": "Combarbalá",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/COMBARBALA_4205/comuna=4205.parquet",
+    "csv": "s3://siipredios/sii_extractor/COMBARBALA_4205/comuna=4205.csv",
+    "parquet_mb": 2.7,
+    "csv_mb": 4.3
+  },
+  {
+    "id": "4206",
+    "nombre": "Río Hurtado",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/RIO_HURTADO_4206/comuna=4206.parquet",
+    "csv": "s3://siipredios/sii_extractor/RIO_HURTADO_4206/comuna=4206.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 1.7
+  },
+  {
+    "id": "4301",
+    "nombre": "Illapel",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/ILLAPEL_4301/comuna=4301.parquet",
+    "csv": "s3://siipredios/sii_extractor/ILLAPEL_4301/comuna=4301.csv",
+    "parquet_mb": 2.9,
+    "csv_mb": 5.7
+  },
+  {
+    "id": "4302",
+    "nombre": "Salamanca",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/SALAMANCA_4302/comuna=4302.parquet",
+    "csv": "s3://siipredios/sii_extractor/SALAMANCA_4302/comuna=4302.csv",
+    "parquet_mb": 3.6,
+    "csv_mb": 6.9
+  },
+  {
+    "id": "4303",
+    "nombre": "Los Vilos",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/LOS_VILOS_4303/comuna=4303.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOS_VILOS_4303/comuna=4303.csv",
+    "parquet_mb": 4.2,
+    "csv_mb": 8.2
+  },
+  {
+    "id": "4304",
+    "nombre": "Canela",
+    "region": "Coquimbo",
+    "parquet": "s3://siipredios/sii_extractor/CANELA_4304/comuna=4304.parquet",
+    "csv": "s3://siipredios/sii_extractor/CANELA_4304/comuna=4304.csv",
+    "parquet_mb": 1.8,
+    "csv_mb": 3.0
+  },
+  {
+    "id": "5101",
+    "nombre": "Isla de Pascua",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/ISLA_DE_PASCUA_5101/comuna=5101.parquet",
+    "csv": "s3://siipredios/sii_extractor/ISLA_DE_PASCUA_5101/comuna=5101.csv",
+    "parquet_mb": 0.4,
+    "csv_mb": 0.4
+  },
+  {
+    "id": "5201",
+    "nombre": "La Ligua",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/LA_LIGUA_5201/comuna=5201.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_LIGUA_5201/comuna=5201.csv",
+    "parquet_mb": 4.7,
+    "csv_mb": 10.2
+  },
+  {
+    "id": "5202",
+    "nombre": "Petorca",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/PETORCA_5202/comuna=5202.parquet",
+    "csv": "s3://siipredios/sii_extractor/PETORCA_5202/comuna=5202.csv",
+    "parquet_mb": 1.6,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "5203",
+    "nombre": "Cabildo",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/CABILDO_5203/comuna=5203.parquet",
+    "csv": "s3://siipredios/sii_extractor/CABILDO_5203/comuna=5203.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 4.4
+  },
+  {
+    "id": "5204",
+    "nombre": "Zapallar",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/ZAPALLAR_5204/comuna=5204.parquet",
+    "csv": "s3://siipredios/sii_extractor/ZAPALLAR_5204/comuna=5204.csv",
+    "parquet_mb": 2.5,
+    "csv_mb": 5.5
+  },
+  {
+    "id": "5205",
+    "nombre": "Papudo",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/PAPUDO_5205/comuna=5205.parquet",
+    "csv": "s3://siipredios/sii_extractor/PAPUDO_5205/comuna=5205.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 5.9
+  },
+  {
+    "id": "5301",
+    "nombre": "Valparaíso",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/VALPARAISO_5301/comuna=5301.parquet",
+    "csv": "s3://siipredios/sii_extractor/VALPARAISO_5301/comuna=5301.csv",
+    "parquet_mb": 15.8,
+    "csv_mb": 65.4
+  },
+  {
+    "id": "5302",
+    "nombre": "Viña del Mar",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/VINA_DEL_MAR_5302/comuna=5302.parquet",
+    "csv": "s3://siipredios/sii_extractor/VINA_DEL_MAR_5302/comuna=5302.csv",
+    "parquet_mb": 19.7,
+    "csv_mb": 116.7
+  },
+  {
+    "id": "5303",
+    "nombre": "Villa Alemana",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/VILLA_ALEMANA_5303/comuna=5303.parquet",
+    "csv": "s3://siipredios/sii_extractor/VILLA_ALEMANA_5303/comuna=5303.csv",
+    "parquet_mb": 9.6,
+    "csv_mb": 28.8
+  },
+  {
+    "id": "5304",
+    "nombre": "Quilpué",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/QUILPUE_5304/comuna=5304.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUILPUE_5304/comuna=5304.csv",
+    "parquet_mb": 10.9,
+    "csv_mb": 34.9
+  },
+  {
+    "id": "5305",
+    "nombre": "Casablanca",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/CASABLANCA_5305/comuna=5305.parquet",
+    "csv": "s3://siipredios/sii_extractor/CASABLANCA_5305/comuna=5305.csv",
+    "parquet_mb": 4.7,
+    "csv_mb": 8.4
+  },
+  {
+    "id": "5306",
+    "nombre": "Quintero",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/QUINTERO_5306/comuna=5306.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUINTERO_5306/comuna=5306.csv",
+    "parquet_mb": 2.7,
+    "csv_mb": 10.6
+  },
+  {
+    "id": "5307",
+    "nombre": "Puchuncaví",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/PUCHUNCAVI_5307/comuna=5307.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUCHUNCAVI_5307/comuna=5307.csv",
+    "parquet_mb": 4.7,
+    "csv_mb": 11.9
+  },
+  {
+    "id": "5308",
+    "nombre": "Juan Fernandez",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/JUAN_FERNANDEZ_5308/comuna=5308.parquet",
+    "csv": "s3://siipredios/sii_extractor/JUAN_FERNANDEZ_5308/comuna=5308.csv",
+    "parquet_mb": 0.2,
+    "csv_mb": 0.2
+  },
+  {
+    "id": "5309",
+    "nombre": "Concón",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/CONCON_5309/comuna=5309.parquet",
+    "csv": "s3://siipredios/sii_extractor/CONCON_5309/comuna=5309.csv",
+    "parquet_mb": 3.5,
+    "csv_mb": 24.5
+  },
+  {
+    "id": "5401",
+    "nombre": "San Antonio",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/SAN_ANTONIO_5401/comuna=5401.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_ANTONIO_5401/comuna=5401.csv",
+    "parquet_mb": 6.6,
+    "csv_mb": 18.3
+  },
+  {
+    "id": "5402",
+    "nombre": "Santo Domingo",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/SANTO_DOMINGO_5402/comuna=5402.parquet",
+    "csv": "s3://siipredios/sii_extractor/SANTO_DOMINGO_5402/comuna=5402.csv",
+    "parquet_mb": 3.8,
+    "csv_mb": 8.0
+  },
+  {
+    "id": "5403",
+    "nombre": "Cartagena",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/CARTAGENA_5403/comuna=5403.parquet",
+    "csv": "s3://siipredios/sii_extractor/CARTAGENA_5403/comuna=5403.csv",
+    "parquet_mb": 3.3,
+    "csv_mb": 6.8
+  },
+  {
+    "id": "5404",
+    "nombre": "El Tabo",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/EL_TABO_5404/comuna=5404.parquet",
+    "csv": "s3://siipredios/sii_extractor/EL_TABO_5404/comuna=5404.csv",
+    "parquet_mb": 2.6,
+    "csv_mb": 7.9
+  },
+  {
+    "id": "5405",
+    "nombre": "El Quisco",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/EL_QUISCO_5405/comuna=5405.parquet",
+    "csv": "s3://siipredios/sii_extractor/EL_QUISCO_5405/comuna=5405.csv",
+    "parquet_mb": 3.5,
+    "csv_mb": 8.8
+  },
+  {
+    "id": "5406",
+    "nombre": "Algarrobo",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/ALGARROBO_5406/comuna=5406.parquet",
+    "csv": "s3://siipredios/sii_extractor/ALGARROBO_5406/comuna=5406.csv",
+    "parquet_mb": 4.8,
+    "csv_mb": 15.8
+  },
+  {
+    "id": "5501",
+    "nombre": "Quillota",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/QUILLOTA_5501/comuna=5501.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUILLOTA_5501/comuna=5501.csv",
+    "parquet_mb": 7.8,
+    "csv_mb": 21.4
+  },
+  {
+    "id": "5502",
+    "nombre": "Nogales",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/NOGALES_5502/comuna=5502.parquet",
+    "csv": "s3://siipredios/sii_extractor/NOGALES_5502/comuna=5502.csv",
+    "parquet_mb": 2.0,
+    "csv_mb": 4.1
+  },
+  {
+    "id": "5503",
+    "nombre": "Hijuelas",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/HIJUELAS_5503/comuna=5503.parquet",
+    "csv": "s3://siipredios/sii_extractor/HIJUELAS_5503/comuna=5503.csv",
+    "parquet_mb": 2.1,
+    "csv_mb": 4.1
+  },
+  {
+    "id": "5504",
+    "nombre": "La Calera",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/CALERA_5504/comuna=5504.parquet",
+    "csv": "s3://siipredios/sii_extractor/CALERA_5504/comuna=5504.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 8.8
+  },
+  {
+    "id": "5505",
+    "nombre": "La Cruz",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/LA_CRUZ_5505/comuna=5505.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_CRUZ_5505/comuna=5505.csv",
+    "parquet_mb": 2.0,
+    "csv_mb": 5.3
+  },
+  {
+    "id": "5506",
+    "nombre": "Limache",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/LIMACHE_5506/comuna=5506.parquet",
+    "csv": "s3://siipredios/sii_extractor/LIMACHE_5506/comuna=5506.csv",
+    "parquet_mb": 5.3,
+    "csv_mb": 13.2
+  },
+  {
+    "id": "5507",
+    "nombre": "Olmué",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/OLMUE_5507/comuna=5507.parquet",
+    "csv": "s3://siipredios/sii_extractor/OLMUE_5507/comuna=5507.csv",
+    "parquet_mb": 3.2,
+    "csv_mb": 5.3
+  },
+  {
+    "id": "5601",
+    "nombre": "San Felipe",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/SAN_FELIPE_5601/comuna=5601.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_FELIPE_5601/comuna=5601.csv",
+    "parquet_mb": 5.6,
+    "csv_mb": 16.8
+  },
+  {
+    "id": "5602",
+    "nombre": "Panquehue",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/PANQUEHUE_5602/comuna=5602.parquet",
+    "csv": "s3://siipredios/sii_extractor/PANQUEHUE_5602/comuna=5602.csv",
+    "parquet_mb": 0.9,
+    "csv_mb": 1.6
+  },
+  {
+    "id": "5603",
+    "nombre": "Catemu",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/CATEMU_5603/comuna=5603.parquet",
+    "csv": "s3://siipredios/sii_extractor/CATEMU_5603/comuna=5603.csv",
+    "parquet_mb": 1.6,
+    "csv_mb": 3.3
+  },
+  {
+    "id": "5604",
+    "nombre": "Putaendo",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/PUTAENDO_5604/comuna=5604.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUTAENDO_5604/comuna=5604.csv",
+    "parquet_mb": 1.9,
+    "csv_mb": 4.0
+  },
+  {
+    "id": "5605",
+    "nombre": "Santa María",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/SANTA_MARIA_5605/comuna=5605.parquet",
+    "csv": "s3://siipredios/sii_extractor/SANTA_MARIA_5605/comuna=5605.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 3.5
+  },
+  {
+    "id": "5606",
+    "nombre": "Llaillay",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/LLAILLAY_5606/comuna=5606.parquet",
+    "csv": "s3://siipredios/sii_extractor/LLAILLAY_5606/comuna=5606.csv",
+    "parquet_mb": 1.9,
+    "csv_mb": 5.3
+  },
+  {
+    "id": "5701",
+    "nombre": "Los Andes",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/LOS_ANDES_5701/comuna=5701.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOS_ANDES_5701/comuna=5701.csv",
+    "parquet_mb": 5.3,
+    "csv_mb": 14.6
+  },
+  {
+    "id": "5702",
+    "nombre": "Calle Larga",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/CALLE_LARGA_5702/comuna=5702.parquet",
+    "csv": "s3://siipredios/sii_extractor/CALLE_LARGA_5702/comuna=5702.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 3.3
+  },
+  {
+    "id": "5703",
+    "nombre": "San Esteban",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/SAN_ESTEBAN_5703/comuna=5703.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_ESTEBAN_5703/comuna=5703.csv",
+    "parquet_mb": 2.2,
+    "csv_mb": 4.8
+  },
+  {
+    "id": "5704",
+    "nombre": "Rinconada",
+    "region": "Valparaíso",
+    "parquet": "s3://siipredios/sii_extractor/RINCONADA_5704/comuna=5704.parquet",
+    "csv": "s3://siipredios/sii_extractor/RINCONADA_5704/comuna=5704.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "6101",
+    "nombre": "Rancagua",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/RANCAGUA_6101/comuna=6101.parquet",
+    "csv": "s3://siipredios/sii_extractor/RANCAGUA_6101/comuna=6101.csv",
+    "parquet_mb": 14.9,
+    "csv_mb": 58.3
+  },
+  {
+    "id": "6102",
+    "nombre": "Machalí",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/MACHALI_6102/comuna=6102.parquet",
+    "csv": "s3://siipredios/sii_extractor/MACHALI_6102/comuna=6102.csv",
+    "parquet_mb": 8.6,
+    "csv_mb": 12.9
+  },
+  {
+    "id": "6103",
+    "nombre": "Graneros",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/GRANEROS_6103/comuna=6103.parquet",
+    "csv": "s3://siipredios/sii_extractor/GRANEROS_6103/comuna=6103.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 6.6
+  },
+  {
+    "id": "6104",
+    "nombre": "Mostazal",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/MOSTAZAL_6104/comuna=6104.parquet",
+    "csv": "s3://siipredios/sii_extractor/MOSTAZAL_6104/comuna=6104.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 5.7
+  },
+  {
+    "id": "6105",
+    "nombre": "Lo Miranda",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/DONIHUE_6105/comuna=6105.parquet",
+    "csv": "s3://siipredios/sii_extractor/DONIHUE_6105/comuna=6105.csv",
+    "parquet_mb": 1.7,
+    "csv_mb": 4.3
+  },
+  {
+    "id": "6106",
+    "nombre": "Coltauco",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/COLTAUCO_6106/comuna=6106.parquet",
+    "csv": "s3://siipredios/sii_extractor/COLTAUCO_6106/comuna=6106.csv",
+    "parquet_mb": 1.9,
+    "csv_mb": 4.6
+  },
+  {
+    "id": "6107",
+    "nombre": "Codegua",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/CODEGUA_6107/comuna=6107.parquet",
+    "csv": "s3://siipredios/sii_extractor/CODEGUA_6107/comuna=6107.csv",
+    "parquet_mb": 1.3,
+    "csv_mb": 2.6
+  },
+  {
+    "id": "6108",
+    "nombre": "Peumo",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/PEUMO_6108/comuna=6108.parquet",
+    "csv": "s3://siipredios/sii_extractor/PEUMO_6108/comuna=6108.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 2.7
+  },
+  {
+    "id": "6109",
+    "nombre": "Las Cabras",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/LAS_CABRAS_6109/comuna=6109.parquet",
+    "csv": "s3://siipredios/sii_extractor/LAS_CABRAS_6109/comuna=6109.csv",
+    "parquet_mb": 4.2,
+    "csv_mb": 7.9
+  },
+  {
+    "id": "6110",
+    "nombre": "San Vicente",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/SAN_VICENTE_6110/comuna=6110.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_VICENTE_6110/comuna=6110.csv",
+    "parquet_mb": 5.2,
+    "csv_mb": 11.4
+  },
+  {
+    "id": "6111",
+    "nombre": "Pichidegua",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/PICHIDEGUA_6111/comuna=6111.parquet",
+    "csv": "s3://siipredios/sii_extractor/PICHIDEGUA_6111/comuna=6111.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 4.9
+  },
+  {
+    "id": "6112",
+    "nombre": "Rengo",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/RENGO_6112/comuna=6112.parquet",
+    "csv": "s3://siipredios/sii_extractor/RENGO_6112/comuna=6112.csv",
+    "parquet_mb": 6.7,
+    "csv_mb": 13.6
+  },
+  {
+    "id": "6113",
+    "nombre": "Requínoa",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/REQUINOA_6113/comuna=6113.parquet",
+    "csv": "s3://siipredios/sii_extractor/REQUINOA_6113/comuna=6113.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 6.0
+  },
+  {
+    "id": "6114",
+    "nombre": "Olivar",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/OLIVAR_6114/comuna=6114.parquet",
+    "csv": "s3://siipredios/sii_extractor/OLIVAR_6114/comuna=6114.csv",
+    "parquet_mb": 1.1,
+    "csv_mb": 2.5
+  },
+  {
+    "id": "6115",
+    "nombre": "Malloa",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/MALLOA_6115/comuna=6115.parquet",
+    "csv": "s3://siipredios/sii_extractor/MALLOA_6115/comuna=6115.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 3.2
+  },
+  {
+    "id": "6116",
+    "nombre": "Coinco",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/COINCO_6116/comuna=6116.parquet",
+    "csv": "s3://siipredios/sii_extractor/COINCO_6116/comuna=6116.csv",
+    "parquet_mb": 1.1,
+    "csv_mb": 2.1
+  },
+  {
+    "id": "6117",
+    "nombre": "Quinta de Tilcoco",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/QUINTA_TILCOCO_6117/comuna=6117.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUINTA_TILCOCO_6117/comuna=6117.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 3.2
+  },
+  {
+    "id": "6201",
+    "nombre": "San Fernando",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/SAN_FERNANDO_6201/comuna=6201.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_FERNANDO_6201/comuna=6201.csv",
+    "parquet_mb": 14.4,
+    "csv_mb": 18.3
+  },
+  {
+    "id": "6202",
+    "nombre": "Chimbarongo",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/CHIMBARONGO_6202/comuna=6202.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHIMBARONGO_6202/comuna=6202.csv",
+    "parquet_mb": 3.5,
+    "csv_mb": 8.2
+  },
+  {
+    "id": "6203",
+    "nombre": "Nancagua",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/NANCAGUA_6203/comuna=6203.parquet",
+    "csv": "s3://siipredios/sii_extractor/NANCAGUA_6203/comuna=6203.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 3.9
+  },
+  {
+    "id": "6204",
+    "nombre": "Placilla",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/PLACILLA_6204/comuna=6204.parquet",
+    "csv": "s3://siipredios/sii_extractor/PLACILLA_6204/comuna=6204.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 2.2
+  },
+  {
+    "id": "6205",
+    "nombre": "Santa Cruz",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/SANTA_CRUZ_6205/comuna=6205.parquet",
+    "csv": "s3://siipredios/sii_extractor/SANTA_CRUZ_6205/comuna=6205.csv",
+    "parquet_mb": 4.6,
+    "csv_mb": 10.3
+  },
+  {
+    "id": "6206",
+    "nombre": "Lolol",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/LOLOL_6206/comuna=6206.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOLOL_6206/comuna=6206.csv",
+    "parquet_mb": 1.6,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "6207",
+    "nombre": "Palmilla",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/PALMILLA_6207/comuna=6207.parquet",
+    "csv": "s3://siipredios/sii_extractor/PALMILLA_6207/comuna=6207.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 3.3
+  },
+  {
+    "id": "6208",
+    "nombre": "Peralillo",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/PERALILLO_6208/comuna=6208.parquet",
+    "csv": "s3://siipredios/sii_extractor/PERALILLO_6208/comuna=6208.csv",
+    "parquet_mb": 1.7,
+    "csv_mb": 3.5
+  },
+  {
+    "id": "6209",
+    "nombre": "Chépica",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/CHEPICA_6209/comuna=6209.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHEPICA_6209/comuna=6209.csv",
+    "parquet_mb": 2.2,
+    "csv_mb": 4.5
+  },
+  {
+    "id": "6214",
+    "nombre": "Pumanque",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/PUMANQUE_6214/comuna=6214.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUMANQUE_6214/comuna=6214.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 2.3
+  },
+  {
+    "id": "6301",
+    "nombre": "Pichilemu",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/PICHILEMU_6301/comuna=6301.parquet",
+    "csv": "s3://siipredios/sii_extractor/PICHILEMU_6301/comuna=6301.csv",
+    "parquet_mb": 9.7,
+    "csv_mb": 9.7
+  },
+  {
+    "id": "6302",
+    "nombre": "Navidad",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/NAVIDAD_6302/comuna=6302.parquet",
+    "csv": "s3://siipredios/sii_extractor/NAVIDAD_6302/comuna=6302.csv",
+    "parquet_mb": 2.5,
+    "csv_mb": 4.7
+  },
+  {
+    "id": "6303",
+    "nombre": "Litueche",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/LITUECHE_6303/comuna=6303.parquet",
+    "csv": "s3://siipredios/sii_extractor/LITUECHE_6303/comuna=6303.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 5.6
+  },
+  {
+    "id": "6304",
+    "nombre": "La Estrella",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/LA_ESTRELLA_6304/comuna=6304.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_ESTRELLA_6304/comuna=6304.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 3.1
+  },
+  {
+    "id": "6305",
+    "nombre": "Marchihue",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/MARCHIGUE_6305/comuna=6305.parquet",
+    "csv": "s3://siipredios/sii_extractor/MARCHIGUE_6305/comuna=6305.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 4.3
+  },
+  {
+    "id": "6306",
+    "nombre": "Paredones",
+    "region": "O'Higgins",
+    "parquet": "s3://siipredios/sii_extractor/PAREDONES_6306/comuna=6306.parquet",
+    "csv": "s3://siipredios/sii_extractor/PAREDONES_6306/comuna=6306.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 5.8
+  },
+  {
+    "id": "7101",
+    "nombre": "Curicó",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/CURICO_7101/comuna=7101.parquet",
+    "csv": "s3://siipredios/sii_extractor/CURICO_7101/comuna=7101.csv",
+    "parquet_mb": 13.1,
+    "csv_mb": 37.6
+  },
+  {
+    "id": "7102",
+    "nombre": "Teno",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/TENO_7102/comuna=7102.parquet",
+    "csv": "s3://siipredios/sii_extractor/TENO_7102/comuna=7102.csv",
+    "parquet_mb": 4.1,
+    "csv_mb": 7.8
+  },
+  {
+    "id": "7103",
+    "nombre": "Romeral",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/ROMERAL_7103/comuna=7103.parquet",
+    "csv": "s3://siipredios/sii_extractor/ROMERAL_7103/comuna=7103.csv",
+    "parquet_mb": 2.5,
+    "csv_mb": 4.2
+  },
+  {
+    "id": "7104",
+    "nombre": "Rauco",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/RAUCO_7104/comuna=7104.parquet",
+    "csv": "s3://siipredios/sii_extractor/RAUCO_7104/comuna=7104.csv",
+    "parquet_mb": 1.6,
+    "csv_mb": 3.1
+  },
+  {
+    "id": "7105",
+    "nombre": "Licantén",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/LICANTEN_7105/comuna=7105.parquet",
+    "csv": "s3://siipredios/sii_extractor/LICANTEN_7105/comuna=7105.csv",
+    "parquet_mb": 1.6,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "7106",
+    "nombre": "Vichuquén",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/VICHUQUEN_7106/comuna=7106.parquet",
+    "csv": "s3://siipredios/sii_extractor/VICHUQUEN_7106/comuna=7106.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 3.7
+  },
+  {
+    "id": "7107",
+    "nombre": "Hualañé",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/HUALANE_7107/comuna=7107.parquet",
+    "csv": "s3://siipredios/sii_extractor/HUALANE_7107/comuna=7107.csv",
+    "parquet_mb": 2.6,
+    "csv_mb": 4.5
+  },
+  {
+    "id": "7108",
+    "nombre": "Molina",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/MOLINA_7108/comuna=7108.parquet",
+    "csv": "s3://siipredios/sii_extractor/MOLINA_7108/comuna=7108.csv",
+    "parquet_mb": 8.2,
+    "csv_mb": 11.2
+  },
+  {
+    "id": "7109",
+    "nombre": "Sagrada Familia",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/SAGRADA_FAMILIA_7109/comuna=7109.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAGRADA_FAMILIA_7109/comuna=7109.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 4.5
+  },
+  {
+    "id": "7201",
+    "nombre": "Talca",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/TALCA_7201/comuna=7201.parquet",
+    "csv": "s3://siipredios/sii_extractor/TALCA_7201/comuna=7201.csv",
+    "parquet_mb": 17.2,
+    "csv_mb": 59.9
+  },
+  {
+    "id": "7202",
+    "nombre": "San Clemente",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/SAN_CLEMENTE_7202/comuna=7202.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_CLEMENTE_7202/comuna=7202.csv",
+    "parquet_mb": 10.6,
+    "csv_mb": 14.0
+  },
+  {
+    "id": "7203",
+    "nombre": "Pelarco",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/PELARCO_7203/comuna=7203.parquet",
+    "csv": "s3://siipredios/sii_extractor/PELARCO_7203/comuna=7203.csv",
+    "parquet_mb": 1.8,
+    "csv_mb": 3.1
+  },
+  {
+    "id": "7204",
+    "nombre": "Río Claro",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/RIO_CLARO_7204/comuna=7204.parquet",
+    "csv": "s3://siipredios/sii_extractor/RIO_CLARO_7204/comuna=7204.csv",
+    "parquet_mb": 2.5,
+    "csv_mb": 4.0
+  },
+  {
+    "id": "7205",
+    "nombre": "Pencahue",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/PENCAHUE_7205/comuna=7205.parquet",
+    "csv": "s3://siipredios/sii_extractor/PENCAHUE_7205/comuna=7205.csv",
+    "parquet_mb": 2.6,
+    "csv_mb": 3.5
+  },
+  {
+    "id": "7206",
+    "nombre": "Maule",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/MAULE_7206/comuna=7206.parquet",
+    "csv": "s3://siipredios/sii_extractor/MAULE_7206/comuna=7206.csv",
+    "parquet_mb": 5.1,
+    "csv_mb": 12.8
+  },
+  {
+    "id": "7207",
+    "nombre": "Curepto",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/CUREPTO_7207/comuna=7207.parquet",
+    "csv": "s3://siipredios/sii_extractor/CUREPTO_7207/comuna=7207.csv",
+    "parquet_mb": 3.9,
+    "csv_mb": 5.1
+  },
+  {
+    "id": "7208",
+    "nombre": "Constitución",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/CONSTITUCION_7208/comuna=7208.parquet",
+    "csv": "s3://siipredios/sii_extractor/CONSTITUCION_7208/comuna=7208.csv",
+    "parquet_mb": 6.1,
+    "csv_mb": 12.8
+  },
+  {
+    "id": "7209",
+    "nombre": "Empedrado",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/EMPEDRADO_7209/comuna=7209.parquet",
+    "csv": "s3://siipredios/sii_extractor/EMPEDRADO_7209/comuna=7209.csv",
+    "parquet_mb": 1.8,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "7210",
+    "nombre": "San Rafael",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/SAN_RAFAEL_7210/comuna=7210.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_RAFAEL_7210/comuna=7210.csv",
+    "parquet_mb": 1.7,
+    "csv_mb": 3.1
+  },
+  {
+    "id": "7301",
+    "nombre": "Linares",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/LINARES_7301/comuna=7301.parquet",
+    "csv": "s3://siipredios/sii_extractor/LINARES_7301/comuna=7301.csv",
+    "parquet_mb": 11.2,
+    "csv_mb": 25.8
+  },
+  {
+    "id": "7302",
+    "nombre": "Yerbas Buenas",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/YERBAS_BUENAS_7302/comuna=7302.parquet",
+    "csv": "s3://siipredios/sii_extractor/YERBAS_BUENAS_7302/comuna=7302.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 5.1
+  },
+  {
+    "id": "7303",
+    "nombre": "Colbún",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/COLBUN_7303/comuna=7303.parquet",
+    "csv": "s3://siipredios/sii_extractor/COLBUN_7303/comuna=7303.csv",
+    "parquet_mb": 6.1,
+    "csv_mb": 6.4
+  },
+  {
+    "id": "7304",
+    "nombre": "Longaví",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/LONGAVI_7304/comuna=7304.parquet",
+    "csv": "s3://siipredios/sii_extractor/LONGAVI_7304/comuna=7304.csv",
+    "parquet_mb": 13.6,
+    "csv_mb": 10.2
+  },
+  {
+    "id": "7305",
+    "nombre": "Parral",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/PARRAL_7305/comuna=7305.parquet",
+    "csv": "s3://siipredios/sii_extractor/PARRAL_7305/comuna=7305.csv",
+    "parquet_mb": 6.0,
+    "csv_mb": 14.3
+  },
+  {
+    "id": "7306",
+    "nombre": "Retiro",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/RETIRO_7306/comuna=7306.parquet",
+    "csv": "s3://siipredios/sii_extractor/RETIRO_7306/comuna=7306.csv",
+    "parquet_mb": 4.6,
+    "csv_mb": 7.9
+  },
+  {
+    "id": "7309",
+    "nombre": "Villa Alegre",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/VILLA_ALEGRE_7309/comuna=7309.parquet",
+    "csv": "s3://siipredios/sii_extractor/VILLA_ALEGRE_7309/comuna=7309.csv",
+    "parquet_mb": 2.1,
+    "csv_mb": 4.9
+  },
+  {
+    "id": "7310",
+    "nombre": "San Javier",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/SAN_JAVIER_7310/comuna=7310.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_JAVIER_7310/comuna=7310.csv",
+    "parquet_mb": 7.1,
+    "csv_mb": 15.3
+  },
+  {
+    "id": "7401",
+    "nombre": "Cauquenes",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/CAUQUENES_7401/comuna=7401.parquet",
+    "csv": "s3://siipredios/sii_extractor/CAUQUENES_7401/comuna=7401.csv",
+    "parquet_mb": 8.7,
+    "csv_mb": 17.5
+  },
+  {
+    "id": "7402",
+    "nombre": "Pelluhue",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/PELLUHUE_7402/comuna=7402.parquet",
+    "csv": "s3://siipredios/sii_extractor/PELLUHUE_7402/comuna=7402.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 5.9
+  },
+  {
+    "id": "7403",
+    "nombre": "Chanco",
+    "region": "Maule",
+    "parquet": "s3://siipredios/sii_extractor/CHANCO_7403/comuna=7403.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHANCO_7403/comuna=7403.csv",
+    "parquet_mb": 2.1,
+    "csv_mb": 3.7
+  },
+  {
+    "id": "8101",
+    "nombre": "Chillán",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/CHILLAN_8101/comuna=8101.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHILLAN_8101/comuna=8101.csv",
+    "parquet_mb": 15.3,
+    "csv_mb": 48.2
+  },
+  {
+    "id": "8102",
+    "nombre": "Pinto",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/PINTO_8102/comuna=8102.parquet",
+    "csv": "s3://siipredios/sii_extractor/PINTO_8102/comuna=8102.csv",
+    "parquet_mb": 4.3,
+    "csv_mb": 5.6
+  },
+  {
+    "id": "8103",
+    "nombre": "Coihueco",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/COIHUECO_8103/comuna=8103.parquet",
+    "csv": "s3://siipredios/sii_extractor/COIHUECO_8103/comuna=8103.csv",
+    "parquet_mb": 6.0,
+    "csv_mb": 7.1
+  },
+  {
+    "id": "8104",
+    "nombre": "Quirihue",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/QUIRIHUE_8104/comuna=8104.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUIRIHUE_8104/comuna=8104.csv",
+    "parquet_mb": 2.2,
+    "csv_mb": 4.4
+  },
+  {
+    "id": "8105",
+    "nombre": "Ninhue",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/NINHUE_8105/comuna=8105.parquet",
+    "csv": "s3://siipredios/sii_extractor/NINHUE_8105/comuna=8105.csv",
+    "parquet_mb": 1.7,
+    "csv_mb": 2.7
+  },
+  {
+    "id": "8106",
+    "nombre": "Portezuelo",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/PORTEZUELO_8106/comuna=8106.parquet",
+    "csv": "s3://siipredios/sii_extractor/PORTEZUELO_8106/comuna=8106.csv",
+    "parquet_mb": 1.3,
+    "csv_mb": 2.1
+  },
+  {
+    "id": "8107",
+    "nombre": "Cobquecura",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/COBQUECURA_8107/comuna=8107.parquet",
+    "csv": "s3://siipredios/sii_extractor/COBQUECURA_8107/comuna=8107.csv",
+    "parquet_mb": 2.6,
+    "csv_mb": 3.6
+  },
+  {
+    "id": "8109",
+    "nombre": "San Carlos",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/SAN_CARLOS_8109/comuna=8109.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_CARLOS_8109/comuna=8109.csv",
+    "parquet_mb": 6.7,
+    "csv_mb": 15.7
+  },
+  {
+    "id": "8110",
+    "nombre": "Ñiquén",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/NIQUEN_8110/comuna=8110.parquet",
+    "csv": "s3://siipredios/sii_extractor/NIQUEN_8110/comuna=8110.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 4.3
+  },
+  {
+    "id": "8111",
+    "nombre": "San Fabián",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/SAN_FABIAN_8111/comuna=8111.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_FABIAN_8111/comuna=8111.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 1.8
+  },
+  {
+    "id": "8112",
+    "nombre": "San Nicolás",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/SAN_NICOLAS_8112/comuna=8112.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_NICOLAS_8112/comuna=8112.csv",
+    "parquet_mb": 3.1,
+    "csv_mb": 5.2
+  },
+  {
+    "id": "8113",
+    "nombre": "Bulnes",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/BULNES_8113/comuna=8113.parquet",
+    "csv": "s3://siipredios/sii_extractor/BULNES_8113/comuna=8113.csv",
+    "parquet_mb": 3.5,
+    "csv_mb": 7.1
+  },
+  {
+    "id": "8114",
+    "nombre": "San Ignacio",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/SAN_IGNACIO_8114/comuna=8114.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_IGNACIO_8114/comuna=8114.csv",
+    "parquet_mb": 3.0,
+    "csv_mb": 6.2
+  },
+  {
+    "id": "8115",
+    "nombre": "Quillón",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/QUILLON_8115/comuna=8115.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUILLON_8115/comuna=8115.csv",
+    "parquet_mb": 3.8,
+    "csv_mb": 8.5
+  },
+  {
+    "id": "8116",
+    "nombre": "Yungay",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/YUNGAY_8116/comuna=8116.parquet",
+    "csv": "s3://siipredios/sii_extractor/YUNGAY_8116/comuna=8116.csv",
+    "parquet_mb": 3.2,
+    "csv_mb": 5.8
+  },
+  {
+    "id": "8117",
+    "nombre": "Pemuco",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/PEMUCO_8117/comuna=8117.parquet",
+    "csv": "s3://siipredios/sii_extractor/PEMUCO_8117/comuna=8117.csv",
+    "parquet_mb": 1.7,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "8118",
+    "nombre": "El Carmen",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/EL_CARMEN_8118/comuna=8118.parquet",
+    "csv": "s3://siipredios/sii_extractor/EL_CARMEN_8118/comuna=8118.csv",
+    "parquet_mb": 2.7,
+    "csv_mb": 4.5
+  },
+  {
+    "id": "8119",
+    "nombre": "Ránquil",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/RANQUIL_8119/comuna=8119.parquet",
+    "csv": "s3://siipredios/sii_extractor/RANQUIL_8119/comuna=8119.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 2.3
+  },
+  {
+    "id": "8120",
+    "nombre": "Coelemu",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/COELEMU_8120/comuna=8120.parquet",
+    "csv": "s3://siipredios/sii_extractor/COELEMU_8120/comuna=8120.csv",
+    "parquet_mb": 1.9,
+    "csv_mb": 3.8
+  },
+  {
+    "id": "8121",
+    "nombre": "Chillán Viejo",
+    "region": "Ñuble",
+    "parquet": "s3://siipredios/sii_extractor/CHILLAN_VIEJO_8121/comuna=8121.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHILLAN_VIEJO_8121/comuna=8121.csv",
+    "parquet_mb": 2.9,
+    "csv_mb": 7.5
+  },
+  {
+    "id": "8201",
+    "nombre": "Concepción",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/CONCEPCION_8201/comuna=8201.parquet",
+    "csv": "s3://siipredios/sii_extractor/CONCEPCION_8201/comuna=8201.csv",
+    "parquet_mb": 12.9,
+    "csv_mb": 68.0
+  },
+  {
+    "id": "8202",
+    "nombre": "Penco",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/PENCO_8202/comuna=8202.parquet",
+    "csv": "s3://siipredios/sii_extractor/PENCO_8202/comuna=8202.csv",
+    "parquet_mb": 2.9,
+    "csv_mb": 8.3
+  },
+  {
+    "id": "8203",
+    "nombre": "Hualqui",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/HUALQUI_8203/comuna=8203.parquet",
+    "csv": "s3://siipredios/sii_extractor/HUALQUI_8203/comuna=8203.csv",
+    "parquet_mb": 3.5,
+    "csv_mb": 6.7
+  },
+  {
+    "id": "8204",
+    "nombre": "Florida",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/FLORIDA_8204/comuna=8204.parquet",
+    "csv": "s3://siipredios/sii_extractor/FLORIDA_8204/comuna=8204.csv",
+    "parquet_mb": 3.5,
+    "csv_mb": 5.5
+  },
+  {
+    "id": "8205",
+    "nombre": "Tomé",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/TOME_8205/comuna=8205.parquet",
+    "csv": "s3://siipredios/sii_extractor/TOME_8205/comuna=8205.csv",
+    "parquet_mb": 6.6,
+    "csv_mb": 13.9
+  },
+  {
+    "id": "8206",
+    "nombre": "Talcahuano",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/TALCAHUANO_8206/comuna=8206.parquet",
+    "csv": "s3://siipredios/sii_extractor/TALCAHUANO_8206/comuna=8206.csv",
+    "parquet_mb": 7.8,
+    "csv_mb": 26.0
+  },
+  {
+    "id": "8207",
+    "nombre": "Coronel",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/CORONEL_8207/comuna=8207.parquet",
+    "csv": "s3://siipredios/sii_extractor/CORONEL_8207/comuna=8207.csv",
+    "parquet_mb": 9.0,
+    "csv_mb": 25.3
+  },
+  {
+    "id": "8208",
+    "nombre": "Lota",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/LOTA_8208/comuna=8208.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOTA_8208/comuna=8208.csv",
+    "parquet_mb": 3.0,
+    "csv_mb": 7.1
+  },
+  {
+    "id": "8209",
+    "nombre": "Santa Juana",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/SANTA_JUANA_8209/comuna=8209.parquet",
+    "csv": "s3://siipredios/sii_extractor/SANTA_JUANA_8209/comuna=8209.csv",
+    "parquet_mb": 4.1,
+    "csv_mb": 6.2
+  },
+  {
+    "id": "8210",
+    "nombre": "San Pedro de la Paz",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/SAN_PEDRO_LA_PAZ_8210/comuna=8210.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_PEDRO_LA_PAZ_8210/comuna=8210.csv",
+    "parquet_mb": 8.2,
+    "csv_mb": 35.9
+  },
+  {
+    "id": "8211",
+    "nombre": "Chiguayante",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/CHIGUAYANTE_8211/comuna=8211.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHIGUAYANTE_8211/comuna=8211.csv",
+    "parquet_mb": 4.6,
+    "csv_mb": 16.3
+  },
+  {
+    "id": "8212",
+    "nombre": "Hualpén",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/HUALPEN_8212/comuna=8212.parquet",
+    "csv": "s3://siipredios/sii_extractor/HUALPEN_8212/comuna=8212.csv",
+    "parquet_mb": 4.5,
+    "csv_mb": 16.7
+  },
+  {
+    "id": "8301",
+    "nombre": "Arauco",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/ARAUCO_8301/comuna=8301.parquet",
+    "csv": "s3://siipredios/sii_extractor/ARAUCO_8301/comuna=8301.csv",
+    "parquet_mb": 4.8,
+    "csv_mb": 8.5
+  },
+  {
+    "id": "8302",
+    "nombre": "Curanilahue",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/CURANILAHUE_8302/comuna=8302.parquet",
+    "csv": "s3://siipredios/sii_extractor/CURANILAHUE_8302/comuna=8302.csv",
+    "parquet_mb": 3.1,
+    "csv_mb": 5.5
+  },
+  {
+    "id": "8303",
+    "nombre": "Lebu",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/LEBU_8303/comuna=8303.parquet",
+    "csv": "s3://siipredios/sii_extractor/LEBU_8303/comuna=8303.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 5.3
+  },
+  {
+    "id": "8304",
+    "nombre": "Los Álamos",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/LOS_ALAMOS_8304/comuna=8304.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOS_ALAMOS_8304/comuna=8304.csv",
+    "parquet_mb": 4.5,
+    "csv_mb": 4.8
+  },
+  {
+    "id": "8305",
+    "nombre": "Cañete",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/CANETE_8305/comuna=8305.parquet",
+    "csv": "s3://siipredios/sii_extractor/CANETE_8305/comuna=8305.csv",
+    "parquet_mb": 4.5,
+    "csv_mb": 7.9
+  },
+  {
+    "id": "8306",
+    "nombre": "Contulmo",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/CONTULMO_8306/comuna=8306.parquet",
+    "csv": "s3://siipredios/sii_extractor/CONTULMO_8306/comuna=8306.csv",
+    "parquet_mb": 1.9,
+    "csv_mb": 2.3
+  },
+  {
+    "id": "8307",
+    "nombre": "Tirúa",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/TIRUA_8307/comuna=8307.parquet",
+    "csv": "s3://siipredios/sii_extractor/TIRUA_8307/comuna=8307.csv",
+    "parquet_mb": 2.2,
+    "csv_mb": 2.6
+  },
+  {
+    "id": "8401",
+    "nombre": "Los Ángeles",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/LOS_ANGELES_8401/comuna=8401.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOS_ANGELES_8401/comuna=8401.csv",
+    "parquet_mb": 19.1,
+    "csv_mb": 52.4
+  },
+  {
+    "id": "8402",
+    "nombre": "Santa Bárbara",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/SANTA_BARBARA_8402/comuna=8402.parquet",
+    "csv": "s3://siipredios/sii_extractor/SANTA_BARBARA_8402/comuna=8402.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 4.1
+  },
+  {
+    "id": "8403",
+    "nombre": "Laja",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/LAJA_8403/comuna=8403.parquet",
+    "csv": "s3://siipredios/sii_extractor/LAJA_8403/comuna=8403.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 5.6
+  },
+  {
+    "id": "8404",
+    "nombre": "Quilleco",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/QUILLECO_8404/comuna=8404.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUILLECO_8404/comuna=8404.csv",
+    "parquet_mb": 1.7,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "8405",
+    "nombre": "Nacimiento",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/NACIMIENTO_8405/comuna=8405.parquet",
+    "csv": "s3://siipredios/sii_extractor/NACIMIENTO_8405/comuna=8405.csv",
+    "parquet_mb": 4.3,
+    "csv_mb": 7.1
+  },
+  {
+    "id": "8406",
+    "nombre": "Negrete",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/NEGRETE_8406/comuna=8406.parquet",
+    "csv": "s3://siipredios/sii_extractor/NEGRETE_8406/comuna=8406.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 2.4
+  },
+  {
+    "id": "8407",
+    "nombre": "Mulchén",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/MULCHEN_8407/comuna=8407.parquet",
+    "csv": "s3://siipredios/sii_extractor/MULCHEN_8407/comuna=8407.csv",
+    "parquet_mb": 4.1,
+    "csv_mb": 6.5
+  },
+  {
+    "id": "8408",
+    "nombre": "Quilaco",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/QUILACO_8408/comuna=8408.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUILACO_8408/comuna=8408.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 1.7
+  },
+  {
+    "id": "8409",
+    "nombre": "Yumbel",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/YUMBEL_8409/comuna=8409.parquet",
+    "csv": "s3://siipredios/sii_extractor/YUMBEL_8409/comuna=8409.csv",
+    "parquet_mb": 5.0,
+    "csv_mb": 9.6
+  },
+  {
+    "id": "8410",
+    "nombre": "Cabrero",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/CABRERO_8410/comuna=8410.parquet",
+    "csv": "s3://siipredios/sii_extractor/CABRERO_8410/comuna=8410.csv",
+    "parquet_mb": 3.5,
+    "csv_mb": 8.0
+  },
+  {
+    "id": "8411",
+    "nombre": "San Rosendo",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/SAN_ROSENDO_8411/comuna=8411.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_ROSENDO_8411/comuna=8411.csv",
+    "parquet_mb": 0.6,
+    "csv_mb": 1.1
+  },
+  {
+    "id": "8412",
+    "nombre": "Tucapel",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/TUCAPEL_8412/comuna=8412.parquet",
+    "csv": "s3://siipredios/sii_extractor/TUCAPEL_8412/comuna=8412.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 5.0
+  },
+  {
+    "id": "8413",
+    "nombre": "Antuco",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/ANTUCO_8413/comuna=8413.parquet",
+    "csv": "s3://siipredios/sii_extractor/ANTUCO_8413/comuna=8413.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 1.7
+  },
+  {
+    "id": "8414",
+    "nombre": "Alto Biobío",
+    "region": "Biobío",
+    "parquet": "s3://siipredios/sii_extractor/ALTO_BIOBIO_8414/comuna=8414.parquet",
+    "csv": "s3://siipredios/sii_extractor/ALTO_BIOBIO_8414/comuna=8414.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 0.8
+  },
+  {
+    "id": "9101",
+    "nombre": "Angol",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/ANGOL_9101/comuna=9101.parquet",
+    "csv": "s3://siipredios/sii_extractor/ANGOL_9101/comuna=9101.csv",
+    "parquet_mb": 6.9,
+    "csv_mb": 13.0
+  },
+  {
+    "id": "9102",
+    "nombre": "Purén",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/PUREN_9102/comuna=9102.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUREN_9102/comuna=9102.csv",
+    "parquet_mb": 2.2,
+    "csv_mb": 3.3
+  },
+  {
+    "id": "9103",
+    "nombre": "Los Sauces",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/LOS_SAUCES_9103/comuna=9103.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOS_SAUCES_9103/comuna=9103.csv",
+    "parquet_mb": 1.8,
+    "csv_mb": 2.4
+  },
+  {
+    "id": "9104",
+    "nombre": "Renaico",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/RENAICO_9104/comuna=9104.parquet",
+    "csv": "s3://siipredios/sii_extractor/RENAICO_9104/comuna=9104.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 2.6
+  },
+  {
+    "id": "9105",
+    "nombre": "Collipulli",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/COLLIPULLI_9105/comuna=9105.parquet",
+    "csv": "s3://siipredios/sii_extractor/COLLIPULLI_9105/comuna=9105.csv",
+    "parquet_mb": 3.1,
+    "csv_mb": 5.6
+  },
+  {
+    "id": "9106",
+    "nombre": "Ercilla",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/ERCILLA_9106/comuna=9106.parquet",
+    "csv": "s3://siipredios/sii_extractor/ERCILLA_9106/comuna=9106.csv",
+    "parquet_mb": 1.4,
+    "csv_mb": 2.1
+  },
+  {
+    "id": "9107",
+    "nombre": "Traiguén",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/TRAIGUEN_9107/comuna=9107.parquet",
+    "csv": "s3://siipredios/sii_extractor/TRAIGUEN_9107/comuna=9107.csv",
+    "parquet_mb": 2.6,
+    "csv_mb": 4.6
+  },
+  {
+    "id": "9108",
+    "nombre": "Lumaco",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/LUMACO_9108/comuna=9108.parquet",
+    "csv": "s3://siipredios/sii_extractor/LUMACO_9108/comuna=9108.csv",
+    "parquet_mb": 2.9,
+    "csv_mb": 3.0
+  },
+  {
+    "id": "9109",
+    "nombre": "Victoria",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/VICTORIA_9109/comuna=9109.parquet",
+    "csv": "s3://siipredios/sii_extractor/VICTORIA_9109/comuna=9109.csv",
+    "parquet_mb": 4.1,
+    "csv_mb": 8.4
+  },
+  {
+    "id": "9110",
+    "nombre": "Curacautín",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/CURACAUTIN_9110/comuna=9110.parquet",
+    "csv": "s3://siipredios/sii_extractor/CURACAUTIN_9110/comuna=9110.csv",
+    "parquet_mb": 3.7,
+    "csv_mb": 6.8
+  },
+  {
+    "id": "9111",
+    "nombre": "Lonquimay",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/LONQUIMAY_9111/comuna=9111.parquet",
+    "csv": "s3://siipredios/sii_extractor/LONQUIMAY_9111/comuna=9111.csv",
+    "parquet_mb": 3.2,
+    "csv_mb": 3.7
+  },
+  {
+    "id": "9201",
+    "nombre": "Temuco",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/TEMUCO_9201/comuna=9201.parquet",
+    "csv": "s3://siipredios/sii_extractor/TEMUCO_9201/comuna=9201.csv",
+    "parquet_mb": 20.8,
+    "csv_mb": 77.9
+  },
+  {
+    "id": "9202",
+    "nombre": "Vilcún",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/VILCUN_9202/comuna=9202.parquet",
+    "csv": "s3://siipredios/sii_extractor/VILCUN_9202/comuna=9202.csv",
+    "parquet_mb": 4.6,
+    "csv_mb": 8.8
+  },
+  {
+    "id": "9203",
+    "nombre": "Freire",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/FREIRE_9203/comuna=9203.parquet",
+    "csv": "s3://siipredios/sii_extractor/FREIRE_9203/comuna=9203.csv",
+    "parquet_mb": 4.0,
+    "csv_mb": 7.0
+  },
+  {
+    "id": "9204",
+    "nombre": "Cunco",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/CUNCO_9204/comuna=9204.parquet",
+    "csv": "s3://siipredios/sii_extractor/CUNCO_9204/comuna=9204.csv",
+    "parquet_mb": 4.2,
+    "csv_mb": 6.9
+  },
+  {
+    "id": "9205",
+    "nombre": "Lautaro",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/LAUTARO_9205/comuna=9205.parquet",
+    "csv": "s3://siipredios/sii_extractor/LAUTARO_9205/comuna=9205.csv",
+    "parquet_mb": 4.9,
+    "csv_mb": 10.7
+  },
+  {
+    "id": "9206",
+    "nombre": "Perquenco",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/PERQUENCO_9206/comuna=9206.parquet",
+    "csv": "s3://siipredios/sii_extractor/PERQUENCO_9206/comuna=9206.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 2.3
+  },
+  {
+    "id": "9207",
+    "nombre": "Galvarino",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/GALVARINO_9207/comuna=9207.parquet",
+    "csv": "s3://siipredios/sii_extractor/GALVARINO_9207/comuna=9207.csv",
+    "parquet_mb": 2.7,
+    "csv_mb": 3.8
+  },
+  {
+    "id": "9208",
+    "nombre": "Nueva Imperial",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/NUEVA_IMPERIAL_9208/comuna=9208.parquet",
+    "csv": "s3://siipredios/sii_extractor/NUEVA_IMPERIAL_9208/comuna=9208.csv",
+    "parquet_mb": 5.0,
+    "csv_mb": 9.3
+  },
+  {
+    "id": "9209",
+    "nombre": "Carahue",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/CARAHUE_9209/comuna=9209.parquet",
+    "csv": "s3://siipredios/sii_extractor/CARAHUE_9209/comuna=9209.csv",
+    "parquet_mb": 4.9,
+    "csv_mb": 7.5
+  },
+  {
+    "id": "9210",
+    "nombre": "Saavedra",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/SAAVEDRA_9210/comuna=9210.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAAVEDRA_9210/comuna=9210.csv",
+    "parquet_mb": 2.7,
+    "csv_mb": 3.6
+  },
+  {
+    "id": "9211",
+    "nombre": "Pitrufquén",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/PITRUFQUEN_9211/comuna=9211.parquet",
+    "csv": "s3://siipredios/sii_extractor/PITRUFQUEN_9211/comuna=9211.csv",
+    "parquet_mb": 3.7,
+    "csv_mb": 7.8
+  },
+  {
+    "id": "9212",
+    "nombre": "Gorbea",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/GORBEA_9212/comuna=9212.parquet",
+    "csv": "s3://siipredios/sii_extractor/GORBEA_9212/comuna=9212.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 4.7
+  },
+  {
+    "id": "9213",
+    "nombre": "Toltén",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/TOLTEN_9213/comuna=9213.parquet",
+    "csv": "s3://siipredios/sii_extractor/TOLTEN_9213/comuna=9213.csv",
+    "parquet_mb": 2.1,
+    "csv_mb": 3.0
+  },
+  {
+    "id": "9214",
+    "nombre": "Loncoche",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/LONCOCHE_9214/comuna=9214.parquet",
+    "csv": "s3://siipredios/sii_extractor/LONCOCHE_9214/comuna=9214.csv",
+    "parquet_mb": 4.9,
+    "csv_mb": 8.1
+  },
+  {
+    "id": "9215",
+    "nombre": "Villarrica",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/VILLARRICA_9215/comuna=9215.parquet",
+    "csv": "s3://siipredios/sii_extractor/VILLARRICA_9215/comuna=9215.csv",
+    "parquet_mb": 10.2,
+    "csv_mb": 23.7
+  },
+  {
+    "id": "9216",
+    "nombre": "Pucón",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/PUCON_9216/comuna=9216.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUCON_9216/comuna=9216.csv",
+    "parquet_mb": 7.3,
+    "csv_mb": 17.8
+  },
+  {
+    "id": "9217",
+    "nombre": "Melipeuco",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/MELIPEUCO_9217/comuna=9217.parquet",
+    "csv": "s3://siipredios/sii_extractor/MELIPEUCO_9217/comuna=9217.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 2.2
+  },
+  {
+    "id": "9218",
+    "nombre": "Curarrehue",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/CURARREHUE_9218/comuna=9218.parquet",
+    "csv": "s3://siipredios/sii_extractor/CURARREHUE_9218/comuna=9218.csv",
+    "parquet_mb": 2.6,
+    "csv_mb": 2.9
+  },
+  {
+    "id": "9219",
+    "nombre": "Teodoro Schmidt",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/TEODORO_SCHMIDT_9219/comuna=9219.parquet",
+    "csv": "s3://siipredios/sii_extractor/TEODORO_SCHMIDT_9219/comuna=9219.csv",
+    "parquet_mb": 3.0,
+    "csv_mb": 5.0
+  },
+  {
+    "id": "9220",
+    "nombre": "Padre Las Casas",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/PADRE_LAS_CASAS_9220/comuna=9220.parquet",
+    "csv": "s3://siipredios/sii_extractor/PADRE_LAS_CASAS_9220/comuna=9220.csv",
+    "parquet_mb": 7.1,
+    "csv_mb": 16.2
+  },
+  {
+    "id": "9221",
+    "nombre": "Cholchol",
+    "region": "Araucanía",
+    "parquet": "s3://siipredios/sii_extractor/CHOLCHOL_9221/comuna=9221.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHOLCHOL_9221/comuna=9221.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 3.8
+  },
+  {
+    "id": "10101",
+    "nombre": "Valdivia",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/VALDIVIA_10101/comuna=10101.parquet",
+    "csv": "s3://siipredios/sii_extractor/VALDIVIA_10101/comuna=10101.csv",
+    "parquet_mb": 13.2,
+    "csv_mb": 34.6
+  },
+  {
+    "id": "10102",
+    "nombre": "Mariquina",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/MARIQUINA_10102/comuna=10102.parquet",
+    "csv": "s3://siipredios/sii_extractor/MARIQUINA_10102/comuna=10102.csv",
+    "parquet_mb": 3.7,
+    "csv_mb": 5.7
+  },
+  {
+    "id": "10103",
+    "nombre": "Lanco",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/LANCO_10103/comuna=10103.parquet",
+    "csv": "s3://siipredios/sii_extractor/LANCO_10103/comuna=10103.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 4.1
+  },
+  {
+    "id": "10104",
+    "nombre": "Los Lagos",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/LOS_LAGOS_10104/comuna=10104.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOS_LAGOS_10104/comuna=10104.csv",
+    "parquet_mb": 4.3,
+    "csv_mb": 5.0
+  },
+  {
+    "id": "10105",
+    "nombre": "Futrono",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/FUTRONO_10105/comuna=10105.parquet",
+    "csv": "s3://siipredios/sii_extractor/FUTRONO_10105/comuna=10105.csv",
+    "parquet_mb": 2.7,
+    "csv_mb": 4.1
+  },
+  {
+    "id": "10106",
+    "nombre": "Corral",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/CORRAL_10106/comuna=10106.parquet",
+    "csv": "s3://siipredios/sii_extractor/CORRAL_10106/comuna=10106.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 1.7
+  },
+  {
+    "id": "10107",
+    "nombre": "Máfil",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/MAFIL_10107/comuna=10107.parquet",
+    "csv": "s3://siipredios/sii_extractor/MAFIL_10107/comuna=10107.csv",
+    "parquet_mb": 1.3,
+    "csv_mb": 1.9
+  },
+  {
+    "id": "10108",
+    "nombre": "Panguipulli",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/PANGUIPULLI_10108/comuna=10108.parquet",
+    "csv": "s3://siipredios/sii_extractor/PANGUIPULLI_10108/comuna=10108.csv",
+    "parquet_mb": 6.5,
+    "csv_mb": 10.1
+  },
+  {
+    "id": "10109",
+    "nombre": "La Unión",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/LA_UNION_10109/comuna=10109.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_UNION_10109/comuna=10109.csv",
+    "parquet_mb": 6.1,
+    "csv_mb": 10.4
+  },
+  {
+    "id": "10110",
+    "nombre": "Paillaco",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/PAILLACO_10110/comuna=10110.parquet",
+    "csv": "s3://siipredios/sii_extractor/PAILLACO_10110/comuna=10110.csv",
+    "parquet_mb": 2.9,
+    "csv_mb": 4.8
+  },
+  {
+    "id": "10111",
+    "nombre": "Río Bueno",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/RIO_BUENO_10111/comuna=10111.parquet",
+    "csv": "s3://siipredios/sii_extractor/RIO_BUENO_10111/comuna=10111.csv",
+    "parquet_mb": 5.1,
+    "csv_mb": 9.0
+  },
+  {
+    "id": "10112",
+    "nombre": "Lago Ranco",
+    "region": "Los Ríos",
+    "parquet": "s3://siipredios/sii_extractor/LAGO_RANCO_10112/comuna=10112.parquet",
+    "csv": "s3://siipredios/sii_extractor/LAGO_RANCO_10112/comuna=10112.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 3.8
+  },
+  {
+    "id": "10201",
+    "nombre": "Osorno",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/OSORNO_10201/comuna=10201.parquet",
+    "csv": "s3://siipredios/sii_extractor/OSORNO_10201/comuna=10201.csv",
+    "parquet_mb": 12.9,
+    "csv_mb": 35.9
+  },
+  {
+    "id": "10202",
+    "nombre": "San Pablo",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/SAN_PABLO_10202/comuna=10202.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_PABLO_10202/comuna=10202.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 3.0
+  },
+  {
+    "id": "10203",
+    "nombre": "Puerto Octay",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/PUERTO_OCTAY_10203/comuna=10203.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUERTO_OCTAY_10203/comuna=10203.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 2.7
+  },
+  {
+    "id": "10204",
+    "nombre": "Puyehue",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/PUYEHUE_10204/comuna=10204.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUYEHUE_10204/comuna=10204.csv",
+    "parquet_mb": 5.9,
+    "csv_mb": 4.0
+  },
+  {
+    "id": "10205",
+    "nombre": "Río Negro",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/RIO_NEGRO_10205/comuna=10205.parquet",
+    "csv": "s3://siipredios/sii_extractor/RIO_NEGRO_10205/comuna=10205.csv",
+    "parquet_mb": 3.1,
+    "csv_mb": 3.7
+  },
+  {
+    "id": "10206",
+    "nombre": "Purranque",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/PURRANQUE_10206/comuna=10206.parquet",
+    "csv": "s3://siipredios/sii_extractor/PURRANQUE_10206/comuna=10206.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 4.6
+  },
+  {
+    "id": "10207",
+    "nombre": "San Juan de la Costa",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/SAN_JUAN_LA_COSTA_10207/comuna=10207.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_JUAN_LA_COSTA_10207/comuna=10207.csv",
+    "parquet_mb": 0.9,
+    "csv_mb": 2.8
+  },
+  {
+    "id": "10301",
+    "nombre": "Puerto Montt",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/PUERTO_MONTT_10301/comuna=10301.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUERTO_MONTT_10301/comuna=10301.csv",
+    "parquet_mb": 24.4,
+    "csv_mb": 62.1
+  },
+  {
+    "id": "10302",
+    "nombre": "Cochamó",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/COCHAMO_10302/comuna=10302.parquet",
+    "csv": "s3://siipredios/sii_extractor/COCHAMO_10302/comuna=10302.csv",
+    "parquet_mb": 2.0,
+    "csv_mb": 2.4
+  },
+  {
+    "id": "10303",
+    "nombre": "Puerto Varas",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/PUERTO_VARAS_10303/comuna=10303.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUERTO_VARAS_10303/comuna=10303.csv",
+    "parquet_mb": 21.8,
+    "csv_mb": 19.0
+  },
+  {
+    "id": "10304",
+    "nombre": "Fresia",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/FRESIA_10304/comuna=10304.parquet",
+    "csv": "s3://siipredios/sii_extractor/FRESIA_10304/comuna=10304.csv",
+    "parquet_mb": 2.4,
+    "csv_mb": 4.0
+  },
+  {
+    "id": "10305",
+    "nombre": "Frutillar",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/FRUTILLAR_10305/comuna=10305.parquet",
+    "csv": "s3://siipredios/sii_extractor/FRUTILLAR_10305/comuna=10305.csv",
+    "parquet_mb": 3.6,
+    "csv_mb": 7.6
+  },
+  {
+    "id": "10306",
+    "nombre": "Llanquihue",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/LLANQUIHUE_10306/comuna=10306.parquet",
+    "csv": "s3://siipredios/sii_extractor/LLANQUIHUE_10306/comuna=10306.csv",
+    "parquet_mb": 2.0,
+    "csv_mb": 4.3
+  },
+  {
+    "id": "10307",
+    "nombre": "Maullín",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/MAULLIN_10307/comuna=10307.parquet",
+    "csv": "s3://siipredios/sii_extractor/MAULLIN_10307/comuna=10307.csv",
+    "parquet_mb": 3.6,
+    "csv_mb": 5.6
+  },
+  {
+    "id": "10308",
+    "nombre": "Los Muermos",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/LOS_MUERMOS_10308/comuna=10308.parquet",
+    "csv": "s3://siipredios/sii_extractor/LOS_MUERMOS_10308/comuna=10308.csv",
+    "parquet_mb": 4.3,
+    "csv_mb": 6.3
+  },
+  {
+    "id": "10309",
+    "nombre": "Calbuco",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/CALBUCO_10309/comuna=10309.parquet",
+    "csv": "s3://siipredios/sii_extractor/CALBUCO_10309/comuna=10309.csv",
+    "parquet_mb": 4.3,
+    "csv_mb": 7.5
+  },
+  {
+    "id": "10401",
+    "nombre": "Castro",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/CASTRO_10401/comuna=10401.parquet",
+    "csv": "s3://siipredios/sii_extractor/CASTRO_10401/comuna=10401.csv",
+    "parquet_mb": 5.5,
+    "csv_mb": 11.2
+  },
+  {
+    "id": "10402",
+    "nombre": "Chonchi",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/CHONCHI_10402/comuna=10402.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHONCHI_10402/comuna=10402.csv",
+    "parquet_mb": 4.0,
+    "csv_mb": 6.4
+  },
+  {
+    "id": "10403",
+    "nombre": "Queilén",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/QUEILEN_10403/comuna=10403.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUEILEN_10403/comuna=10403.csv",
+    "parquet_mb": 1.6,
+    "csv_mb": 2.5
+  },
+  {
+    "id": "10404",
+    "nombre": "Quellón",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/QUELLON_10404/comuna=10404.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUELLON_10404/comuna=10404.csv",
+    "parquet_mb": 5.4,
+    "csv_mb": 5.8
+  },
+  {
+    "id": "10405",
+    "nombre": "Puqueldón",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/PUQUELDON_10405/comuna=10405.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUQUELDON_10405/comuna=10405.csv",
+    "parquet_mb": 1.0,
+    "csv_mb": 1.4
+  },
+  {
+    "id": "10406",
+    "nombre": "Ancud",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/ANCUD_10406/comuna=10406.parquet",
+    "csv": "s3://siipredios/sii_extractor/ANCUD_10406/comuna=10406.csv",
+    "parquet_mb": 8.7,
+    "csv_mb": 15.4
+  },
+  {
+    "id": "10407",
+    "nombre": "Quemchi",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/QUEMCHI_10407/comuna=10407.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUEMCHI_10407/comuna=10407.csv",
+    "parquet_mb": 2.2,
+    "csv_mb": 2.8
+  },
+  {
+    "id": "10408",
+    "nombre": "Dalcahue",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/DALCAHUE_10408/comuna=10408.parquet",
+    "csv": "s3://siipredios/sii_extractor/DALCAHUE_10408/comuna=10408.csv",
+    "parquet_mb": 3.0,
+    "csv_mb": 4.7
+  },
+  {
+    "id": "10410",
+    "nombre": "Curaco de Vélez",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/CURACO_DE_VELEZ_10410/comuna=10410.parquet",
+    "csv": "s3://siipredios/sii_extractor/CURACO_DE_VELEZ_10410/comuna=10410.csv",
+    "parquet_mb": 0.9,
+    "csv_mb": 1.5
+  },
+  {
+    "id": "10415",
+    "nombre": "Quinchao",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/QUINCHAO_10415/comuna=10415.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUINCHAO_10415/comuna=10415.csv",
+    "parquet_mb": 1.2,
+    "csv_mb": 2.3
+  },
+  {
+    "id": "10501",
+    "nombre": "Chaitén",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/CHAITEN_10501/comuna=10501.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHAITEN_10501/comuna=10501.csv",
+    "parquet_mb": 6.2,
+    "csv_mb": 2.1
+  },
+  {
+    "id": "10502",
+    "nombre": "Futaleufú",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/HUALAIHUE_10502/comuna=10502.parquet",
+    "csv": "s3://siipredios/sii_extractor/HUALAIHUE_10502/comuna=10502.csv",
+    "parquet_mb": 2.0,
+    "csv_mb": 2.6
+  },
+  {
+    "id": "10503",
+    "nombre": "Hualaihué",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/FUTALEUFU_10503/comuna=10503.parquet",
+    "csv": "s3://siipredios/sii_extractor/FUTALEUFU_10503/comuna=10503.csv",
+    "parquet_mb": 1.1,
+    "csv_mb": 1.2
+  },
+  {
+    "id": "10504",
+    "nombre": "Palena",
+    "region": "Los Lagos",
+    "parquet": "s3://siipredios/sii_extractor/PALENA_10504/comuna=10504.parquet",
+    "csv": "s3://siipredios/sii_extractor/PALENA_10504/comuna=10504.csv",
+    "parquet_mb": 0.9,
+    "csv_mb": 0.8
+  },
+  {
+    "id": "11101",
+    "nombre": "Coyhaique",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/AYSEN_11101/comuna=11101.parquet",
+    "csv": "s3://siipredios/sii_extractor/AYSEN_11101/comuna=11101.csv",
+    "parquet_mb": 7.1,
+    "csv_mb": 3.6
+  },
+  {
+    "id": "11102",
+    "nombre": "Cisnes",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/CISNES_11102/comuna=11102.parquet",
+    "csv": "s3://siipredios/sii_extractor/CISNES_11102/comuna=11102.csv",
+    "parquet_mb": 5.0,
+    "csv_mb": 2.0
+  },
+  {
+    "id": "11104",
+    "nombre": "Guaitecas",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/GUAITECAS_11104/comuna=11104.parquet",
+    "csv": "s3://siipredios/sii_extractor/GUAITECAS_11104/comuna=11104.csv",
+    "parquet_mb": 0.6,
+    "csv_mb": 0.3
+  },
+  {
+    "id": "11201",
+    "nombre": "Aysén",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/CHILE_CHICO_11201/comuna=11201.parquet",
+    "csv": "s3://siipredios/sii_extractor/CHILE_CHICO_11201/comuna=11201.csv",
+    "parquet_mb": 2.2,
+    "csv_mb": 2.3
+  },
+  {
+    "id": "11203",
+    "nombre": "Río Ibáñez",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/RIO_IBANEZ_11203/comuna=11203.parquet",
+    "csv": "s3://siipredios/sii_extractor/RIO_IBANEZ_11203/comuna=11203.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 1.7
+  },
+  {
+    "id": "11301",
+    "nombre": "Cochrane",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/COCHRANE_11301/comuna=11301.parquet",
+    "csv": "s3://siipredios/sii_extractor/COCHRANE_11301/comuna=11301.csv",
+    "parquet_mb": 2.2,
+    "csv_mb": 1.3
+  },
+  {
+    "id": "11302",
+    "nombre": "O'Higgins",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/O'HIGGINS_11302/comuna=11302.parquet",
+    "csv": "s3://siipredios/sii_extractor/O'HIGGINS_11302/comuna=11302.csv",
+    "parquet_mb": 0.1,
+    "csv_mb": 0.2
+  },
+  {
+    "id": "11303",
+    "nombre": "Tortel",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/TORTEL_11303/comuna=11303.parquet",
+    "csv": "s3://siipredios/sii_extractor/TORTEL_11303/comuna=11303.csv",
+    "parquet_mb": 4.9,
+    "csv_mb": 0.0
+  },
+  {
+    "id": "11401",
+    "nombre": "Chile Chico",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/COYHAIQUE_11401/comuna=11401.parquet",
+    "csv": "s3://siipredios/sii_extractor/COYHAIQUE_11401/comuna=11401.csv",
+    "parquet_mb": 8.9,
+    "csv_mb": 16.2
+  },
+  {
+    "id": "11402",
+    "nombre": "Lago Verde",
+    "region": "Aysén",
+    "parquet": "s3://siipredios/sii_extractor/LAGO_VERDE_11402/comuna=11402.parquet",
+    "csv": "s3://siipredios/sii_extractor/LAGO_VERDE_11402/comuna=11402.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 0.7
+  },
+  {
+    "id": "12101",
+    "nombre": "Puerto Natales",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/NATALES_12101/comuna=12101.parquet",
+    "csv": "s3://siipredios/sii_extractor/NATALES_12101/comuna=12101.csv",
+    "parquet_mb": 1.7,
+    "csv_mb": 3.3
+  },
+  {
+    "id": "12103",
+    "nombre": "Torres del Paine",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/UNKNOWN_12103_12103/comuna=12103.parquet",
+    "csv": "s3://siipredios/sii_extractor/UNKNOWN_12103_12103/comuna=12103.csv",
+    "parquet_mb": 1.1,
+    "csv_mb": 0.1
+  },
+  {
+    "id": "12202",
+    "nombre": "Río Verde",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/RIO_VERDE_12202/comuna=12202.parquet",
+    "csv": "s3://siipredios/sii_extractor/RIO_VERDE_12202/comuna=12202.csv",
+    "parquet_mb": 1.1,
+    "csv_mb": 0.0
+  },
+  {
+    "id": "12204",
+    "nombre": "San Gregorio",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/SAN_GREGORIO_12204/comuna=12204.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_GREGORIO_12204/comuna=12204.csv",
+    "parquet_mb": 0.8,
+    "csv_mb": 0.0
+  },
+  {
+    "id": "12205",
+    "nombre": "Punta Arenas",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/PUNTA_ARENAS_12205/comuna=12205.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUNTA_ARENAS_12205/comuna=12205.csv",
+    "parquet_mb": 12.7,
+    "csv_mb": 28.9
+  },
+  {
+    "id": "12206",
+    "nombre": "Laguna Blanca",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/LAGUNA_BLANCA_12206/comuna=12206.parquet",
+    "csv": "s3://siipredios/sii_extractor/LAGUNA_BLANCA_12206/comuna=12206.csv",
+    "parquet_mb": 0.4,
+    "csv_mb": 0.0
+  },
+  {
+    "id": "12301",
+    "nombre": "Porvenir",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/PORVENIR_12301/comuna=12301.parquet",
+    "csv": "s3://siipredios/sii_extractor/PORVENIR_12301/comuna=12301.csv",
+    "parquet_mb": 1.8,
+    "csv_mb": 1.8
+  },
+  {
+    "id": "12302",
+    "nombre": "Primavera",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/PRIMAVERA_12302/comuna=12302.parquet",
+    "csv": "s3://siipredios/sii_extractor/PRIMAVERA_12302/comuna=12302.csv",
+    "parquet_mb": 0.4,
+    "csv_mb": 0.1
+  },
+  {
+    "id": "12304",
+    "nombre": "Timaukel",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/TIMAUKEL_12304/comuna=12304.parquet",
+    "csv": "s3://siipredios/sii_extractor/TIMAUKEL_12304/comuna=12304.csv",
+    "parquet_mb": 1.1,
+    "csv_mb": 0.0
+  },
+  {
+    "id": "12401",
+    "nombre": "Puerto Williams",
+    "region": "Magallanes",
+    "parquet": "s3://siipredios/sii_extractor/CABO_DE_HORNOS_12401/comuna=12401.parquet",
+    "csv": "s3://siipredios/sii_extractor/CABO_DE_HORNOS_12401/comuna=12401.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 0.4
+  },
+  {
+    "id": "13101",
+    "nombre": "Santiago",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SANTIAGO_CENTRO_13101/comuna=13101.parquet",
+    "csv": "s3://siipredios/sii_extractor/SANTIAGO_CENTRO_13101/comuna=13101.csv",
+    "parquet_mb": 9.3,
+    "csv_mb": 128.1
+  },
+  {
+    "id": "13134",
+    "nombre": "Santiago",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SANTIAGO_OESTE_13134/comuna=13134.parquet",
+    "csv": "s3://siipredios/sii_extractor/SANTIAGO_OESTE_13134/comuna=13134.csv",
+    "parquet_mb": 4.3,
+    "csv_mb": 29.9
+  },
+  {
+    "id": "13135",
+    "nombre": "Santiago",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SANTIAGO_SUR_13135/comuna=13135.parquet",
+    "csv": "s3://siipredios/sii_extractor/SANTIAGO_SUR_13135/comuna=13135.csv",
+    "parquet_mb": 5.2,
+    "csv_mb": 38.8
+  },
+  {
+    "id": "13159",
+    "nombre": "Recoleta",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/RECOLETA_13159/comuna=13159.parquet",
+    "csv": "s3://siipredios/sii_extractor/RECOLETA_13159/comuna=13159.csv",
+    "parquet_mb": 6.4,
+    "csv_mb": 27.5
+  },
+  {
+    "id": "13167",
+    "nombre": "Independencia",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/INDEPENDENCIA_13167/comuna=13167.parquet",
+    "csv": "s3://siipredios/sii_extractor/INDEPENDENCIA_13167/comuna=13167.csv",
+    "parquet_mb": 4.1,
+    "csv_mb": 28.9
+  },
+  {
+    "id": "14107",
+    "nombre": "Quinta Normal",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/QUINTA_NORMAL_14107/comuna=14107.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUINTA_NORMAL_14107/comuna=14107.csv",
+    "parquet_mb": 5.1,
+    "csv_mb": 23.5
+  },
+  {
+    "id": "14109",
+    "nombre": "Maipú",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/MAIPU_14109/comuna=14109.parquet",
+    "csv": "s3://siipredios/sii_extractor/MAIPU_14109/comuna=14109.csv",
+    "parquet_mb": 22.2,
+    "csv_mb": 89.3
+  },
+  {
+    "id": "14111",
+    "nombre": "Pudahuel",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PUDAHUEL_14111/comuna=14111.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUDAHUEL_14111/comuna=14111.csv",
+    "parquet_mb": 9.2,
+    "csv_mb": 36.6
+  },
+  {
+    "id": "14113",
+    "nombre": "Renca",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/RENCA_14113/comuna=14113.parquet",
+    "csv": "s3://siipredios/sii_extractor/RENCA_14113/comuna=14113.csv",
+    "parquet_mb": 6.0,
+    "csv_mb": 22.5
+  },
+  {
+    "id": "14114",
+    "nombre": "Quilicura",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/QUILICURA_14114/comuna=14114.parquet",
+    "csv": "s3://siipredios/sii_extractor/QUILICURA_14114/comuna=14114.csv",
+    "parquet_mb": 8.4,
+    "csv_mb": 35.7
+  },
+  {
+    "id": "14127",
+    "nombre": "Conchalí",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/CONCHALI_14127/comuna=14127.parquet",
+    "csv": "s3://siipredios/sii_extractor/CONCHALI_14127/comuna=14127.csv",
+    "parquet_mb": 5.1,
+    "csv_mb": 17.8
+  },
+  {
+    "id": "14155",
+    "nombre": "Lo Prado",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LO_PRADO_14155/comuna=14155.parquet",
+    "csv": "s3://siipredios/sii_extractor/LO_PRADO_14155/comuna=14155.csv",
+    "parquet_mb": 3.2,
+    "csv_mb": 12.3
+  },
+  {
+    "id": "14156",
+    "nombre": "Cerro Navia",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/CERRO_NAVIA_14156/comuna=14156.parquet",
+    "csv": "s3://siipredios/sii_extractor/CERRO_NAVIA_14156/comuna=14156.csv",
+    "parquet_mb": 4.7,
+    "csv_mb": 16.3
+  },
+  {
+    "id": "14157",
+    "nombre": "Estación Central",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/ESTACION_CENTRAL_14157/comuna=14157.parquet",
+    "csv": "s3://siipredios/sii_extractor/ESTACION_CENTRAL_14157/comuna=14157.csv",
+    "parquet_mb": 6.6,
+    "csv_mb": 48.2
+  },
+  {
+    "id": "14158",
+    "nombre": "Huechuraba",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/HUECHURABA_14158/comuna=14158.parquet",
+    "csv": "s3://siipredios/sii_extractor/HUECHURABA_14158/comuna=14158.csv",
+    "parquet_mb": 4.9,
+    "csv_mb": 23.0
+  },
+  {
+    "id": "14166",
+    "nombre": "Cerrillos",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/CERRILLOS_14166/comuna=14166.parquet",
+    "csv": "s3://siipredios/sii_extractor/CERRILLOS_14166/comuna=14166.csv",
+    "parquet_mb": 3.7,
+    "csv_mb": 16.2
+  },
+  {
+    "id": "14201",
+    "nombre": "Colina",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/COLINA_14201/comuna=14201.parquet",
+    "csv": "s3://siipredios/sii_extractor/COLINA_14201/comuna=14201.csv",
+    "parquet_mb": 10.8,
+    "csv_mb": 30.5
+  },
+  {
+    "id": "14202",
+    "nombre": "Lampa",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LAMPA_14202/comuna=14202.parquet",
+    "csv": "s3://siipredios/sii_extractor/LAMPA_14202/comuna=14202.csv",
+    "parquet_mb": 7.5,
+    "csv_mb": 21.8
+  },
+  {
+    "id": "14203",
+    "nombre": "Tiltil",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/TILTIL_14203/comuna=14203.parquet",
+    "csv": "s3://siipredios/sii_extractor/TILTIL_14203/comuna=14203.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 3.4
+  },
+  {
+    "id": "14501",
+    "nombre": "Talagante",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/TALAGANTE_14501/comuna=14501.parquet",
+    "csv": "s3://siipredios/sii_extractor/TALAGANTE_14501/comuna=14501.csv",
+    "parquet_mb": 4.6,
+    "csv_mb": 13.1
+  },
+  {
+    "id": "14502",
+    "nombre": "Isla de Maipo",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/ISLA_DE_MAIPO_14502/comuna=14502.parquet",
+    "csv": "s3://siipredios/sii_extractor/ISLA_DE_MAIPO_14502/comuna=14502.csv",
+    "parquet_mb": 2.8,
+    "csv_mb": 6.9
+  },
+  {
+    "id": "14503",
+    "nombre": "El Monte",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/EL_MONTE_14503/comuna=14503.parquet",
+    "csv": "s3://siipredios/sii_extractor/EL_MONTE_14503/comuna=14503.csv",
+    "parquet_mb": 2.1,
+    "csv_mb": 6.0
+  },
+  {
+    "id": "14504",
+    "nombre": "Peñaflor",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PENAFLOR_14504/comuna=14504.parquet",
+    "csv": "s3://siipredios/sii_extractor/PENAFLOR_14504/comuna=14504.csv",
+    "parquet_mb": 5.2,
+    "csv_mb": 16.0
+  },
+  {
+    "id": "14505",
+    "nombre": "Padre Hurtado",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PADRE_HURTADO_14505/comuna=14505.parquet",
+    "csv": "s3://siipredios/sii_extractor/PADRE_HURTADO_14505/comuna=14505.csv",
+    "parquet_mb": 4.7,
+    "csv_mb": 15.1
+  },
+  {
+    "id": "14601",
+    "nombre": "Melipilla",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/MELIPILLA_14601/comuna=14601.parquet",
+    "csv": "s3://siipredios/sii_extractor/MELIPILLA_14601/comuna=14601.csv",
+    "parquet_mb": 10.0,
+    "csv_mb": 25.8
+  },
+  {
+    "id": "14602",
+    "nombre": "María Pinto",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/MARIA_PINTO_14602/comuna=14602.parquet",
+    "csv": "s3://siipredios/sii_extractor/MARIA_PINTO_14602/comuna=14602.csv",
+    "parquet_mb": 1.6,
+    "csv_mb": 2.8
+  },
+  {
+    "id": "14603",
+    "nombre": "Curacaví",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/CURACAVI_14603/comuna=14603.parquet",
+    "csv": "s3://siipredios/sii_extractor/CURACAVI_14603/comuna=14603.csv",
+    "parquet_mb": 4.6,
+    "csv_mb": 8.2
+  },
+  {
+    "id": "14604",
+    "nombre": "San Pedro",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SAN_PEDRO_14604/comuna=14604.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_PEDRO_14604/comuna=14604.csv",
+    "parquet_mb": 1.6,
+    "csv_mb": 2.5
+  },
+  {
+    "id": "14605",
+    "nombre": "Alhué",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/ALHUE_14605/comuna=14605.parquet",
+    "csv": "s3://siipredios/sii_extractor/ALHUE_14605/comuna=14605.csv",
+    "parquet_mb": 0.9,
+    "csv_mb": 1.1
+  },
+  {
+    "id": "15103",
+    "nombre": "Providencia",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PROVIDENCIA_15103/comuna=15103.parquet",
+    "csv": "s3://siipredios/sii_extractor/PROVIDENCIA_15103/comuna=15103.csv",
+    "parquet_mb": 9.9,
+    "csv_mb": 102.9
+  },
+  {
+    "id": "15105",
+    "nombre": "Ñuñoa",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/NUNOA_15105/comuna=15105.parquet",
+    "csv": "s3://siipredios/sii_extractor/NUNOA_15105/comuna=15105.csv",
+    "parquet_mb": 12.0,
+    "csv_mb": 121.6
+  },
+  {
+    "id": "15108",
+    "nombre": "Las Condes",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LAS_CONDES_15108/comuna=15108.parquet",
+    "csv": "s3://siipredios/sii_extractor/LAS_CONDES_15108/comuna=15108.csv",
+    "parquet_mb": 18.9,
+    "csv_mb": 193.6
+  },
+  {
+    "id": "15128",
+    "nombre": "La Florida",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LA_FLORIDA_15128/comuna=15128.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_FLORIDA_15128/comuna=15128.csv",
+    "parquet_mb": 17.6,
+    "csv_mb": 91.4
+  },
+  {
+    "id": "15132",
+    "nombre": "La Reina",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LA_REINA_15132/comuna=15132.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_REINA_15132/comuna=15132.csv",
+    "parquet_mb": 4.8,
+    "csv_mb": 20.5
+  },
+  {
+    "id": "15151",
+    "nombre": "Macul",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/MACUL_15151/comuna=15151.parquet",
+    "csv": "s3://siipredios/sii_extractor/MACUL_15151/comuna=15151.csv",
+    "parquet_mb": 5.6,
+    "csv_mb": 36.3
+  },
+  {
+    "id": "15152",
+    "nombre": "Peñalolén",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PENALOLEN_15152/comuna=15152.parquet",
+    "csv": "s3://siipredios/sii_extractor/PENALOLEN_15152/comuna=15152.csv",
+    "parquet_mb": 9.7,
+    "csv_mb": 35.3
+  },
+  {
+    "id": "15160",
+    "nombre": "Vitacura",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/VITACURA_15160/comuna=15160.parquet",
+    "csv": "s3://siipredios/sii_extractor/VITACURA_15160/comuna=15160.csv",
+    "parquet_mb": 6.7,
+    "csv_mb": 54.8
+  },
+  {
+    "id": "15161",
+    "nombre": "Lo Barnechea",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LO_BARNECHEA_15161/comuna=15161.parquet",
+    "csv": "s3://siipredios/sii_extractor/LO_BARNECHEA_15161/comuna=15161.csv",
+    "parquet_mb": 19.3,
+    "csv_mb": 37.8
+  },
+  {
+    "id": "16106",
+    "nombre": "San Miguel",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SAN_MIGUEL_16106/comuna=16106.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_MIGUEL_16106/comuna=16106.csv",
+    "parquet_mb": 6.2,
+    "csv_mb": 55.9
+  },
+  {
+    "id": "16110",
+    "nombre": "La Cisterna",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LA_CISTERNA_16110/comuna=16110.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_CISTERNA_16110/comuna=16110.csv",
+    "parquet_mb": 4.9,
+    "csv_mb": 27.6
+  },
+  {
+    "id": "16131",
+    "nombre": "La Granja",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LA_GRANJA_16131/comuna=16131.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_GRANJA_16131/comuna=16131.csv",
+    "parquet_mb": 4.6,
+    "csv_mb": 15.7
+  },
+  {
+    "id": "16153",
+    "nombre": "San Ramón",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SAN_RAMON_16153/comuna=16153.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_RAMON_16153/comuna=16153.csv",
+    "parquet_mb": 3.1,
+    "csv_mb": 10.0
+  },
+  {
+    "id": "16154",
+    "nombre": "La Pintana",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LA_PINTANA_16154/comuna=16154.parquet",
+    "csv": "s3://siipredios/sii_extractor/LA_PINTANA_16154/comuna=16154.csv",
+    "parquet_mb": 7.1,
+    "csv_mb": 26.1
+  },
+  {
+    "id": "16162",
+    "nombre": "Pedro Aguirre Cerda",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PEDRO_AGUIRRE_CERDA_16162/comuna=16162.parquet",
+    "csv": "s3://siipredios/sii_extractor/PEDRO_AGUIRRE_CERDA_16162/comuna=16162.csv",
+    "parquet_mb": 4.5,
+    "csv_mb": 15.0
+  },
+  {
+    "id": "16163",
+    "nombre": "San Joaquín",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SAN_JOAQUIN_16163/comuna=16163.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_JOAQUIN_16163/comuna=16163.csv",
+    "parquet_mb": 4.4,
+    "csv_mb": 19.4
+  },
+  {
+    "id": "16164",
+    "nombre": "Lo Espejo",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/LO_ESPEJO_16164/comuna=16164.parquet",
+    "csv": "s3://siipredios/sii_extractor/LO_ESPEJO_16164/comuna=16164.csv",
+    "parquet_mb": 3.7,
+    "csv_mb": 12.0
+  },
+  {
+    "id": "16165",
+    "nombre": "El Bosque",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/EL_BOSQUE_16165/comuna=16165.parquet",
+    "csv": "s3://siipredios/sii_extractor/EL_BOSQUE_16165/comuna=16165.csv",
+    "parquet_mb": 6.3,
+    "csv_mb": 22.2
+  },
+  {
+    "id": "16301",
+    "nombre": "Puente Alto",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PUENTE_ALTO_16301/comuna=16301.parquet",
+    "csv": "s3://siipredios/sii_extractor/PUENTE_ALTO_16301/comuna=16301.csv",
+    "parquet_mb": 24.9,
+    "csv_mb": 97.1
+  },
+  {
+    "id": "16302",
+    "nombre": "Pirque",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PIRQUE_16302/comuna=16302.parquet",
+    "csv": "s3://siipredios/sii_extractor/PIRQUE_16302/comuna=16302.csv",
+    "parquet_mb": 2.3,
+    "csv_mb": 4.4
+  },
+  {
+    "id": "16303",
+    "nombre": "San José de Maipo",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SAN_JOSE_DE_MAIPO_16303/comuna=16303.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_JOSE_DE_MAIPO_16303/comuna=16303.csv",
+    "parquet_mb": 1.5,
+    "csv_mb": 3.3
+  },
+  {
+    "id": "16401",
+    "nombre": "San Bernardo",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/SAN_BERNARDO_16401/comuna=16401.parquet",
+    "csv": "s3://siipredios/sii_extractor/SAN_BERNARDO_16401/comuna=16401.csv",
+    "parquet_mb": 13.2,
+    "csv_mb": 51.5
+  },
+  {
+    "id": "16402",
+    "nombre": "Calera de Tango",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/CALERA_DE_TANGO_16402/comuna=16402.parquet",
+    "csv": "s3://siipredios/sii_extractor/CALERA_DE_TANGO_16402/comuna=16402.csv",
+    "parquet_mb": 1.8,
+    "csv_mb": 4.1
+  },
+  {
+    "id": "16403",
+    "nombre": "Buin",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/BUIN_16403/comuna=16403.parquet",
+    "csv": "s3://siipredios/sii_extractor/BUIN_16403/comuna=16403.csv",
+    "parquet_mb": 7.0,
+    "csv_mb": 20.6
+  },
+  {
+    "id": "16404",
+    "nombre": "Paine",
+    "region": "Metropolitana",
+    "parquet": "s3://siipredios/sii_extractor/PAINE_16404/comuna=16404.parquet",
+    "csv": "s3://siipredios/sii_extractor/PAINE_16404/comuna=16404.csv",
+    "parquet_mb": 6.3,
+    "csv_mb": 13.5
+  }
+]

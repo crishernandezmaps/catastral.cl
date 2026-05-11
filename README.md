@@ -43,10 +43,11 @@ El pipeline actual elimina el GeoTIFF intermedio. Descarga solo supercells (1024
 | Metrica | Valor |
 |---------|-------|
 | Total predios CSV | 9,500,000+ |
-| Comunas cubiertas | 346 |
+| Comunas cubiertas | 345 (de 346, excl. Trehuaco) |
 | Variables | ~90 |
 | Precision geometrica | ~30 cm |
 | Periodo | 2do semestre 2025 |
+| Indice de comunas | [`comunas_sii.json`](comunas_sii.json) |
 
 ### Dos capas por comuna
 
