@@ -28,6 +28,12 @@ Thumbs.db
 *.gpkg
 *.tif
 *.geojson
+*.mp4
+*.png
+
+# Raw data / videos (no versionar — usar S3 o local)
+video_demo/
+data_transacciones/
 
 # Temp
 *.log

@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Tour 3D Ñuñoa — Avalúo Fiscal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; background: #0a0a14; overflow: hidden; }
+#map { width: 100vw; height: 100vh; }
+
+.panel {
+    position: absolute;
+    background: rgba(10, 10, 20, 0.88);
+    color: #d0d0d0;
+    border-radius: 10px;
+    padding: 16px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.08);
+    font-size: 12px;
+    line-height: 1.6;
+    pointer-events: auto;
+}
+
+/* -- Panel controles (arriba izquierda) -- */
+#controls {
+    top: 16px; left: 16px;
+    max-width: 300px;
+    z-index: 10;
+}
+#controls h2 {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+}
+#controls .subtitle {
+    color: #888;
+    font-size: 11px;
+    margin-bottom: 12px;
+}
+.keys-grid {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 2px 10px;
+    margin-bottom: 12px;
+}
+.keys-grid .k { color: #aaa; }
+.keys-grid kbd {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 3px;
+    padding: 0 5px;
+    font-family: inherit;
+    font-size: 11px;
+    color: #ccc;
+}
+.btn-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.btn {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: #ccc;
+    padding: 7px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 11px;
+    transition: all 0.15s;
+}
+.btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
+.btn.active { background: rgba(100, 180, 255, 0.2); border-color: rgba(100, 180, 255, 0.4); color: #8cf; }
+#stats {
+    margin-top: 10px;
+    font-size: 11px;
+    color: #666;
+}
+
+/* -- Panel info predio (abajo izquierda) -- */
+#info {
+    bottom: 16px; left: 16px;
+    min-width: 260px;
+    display: none;
+    z-index: 10;
+    transition: opacity 0.2s;
+}
+#info .avaluo-val {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    margin: 4px 0;
+}
+#info .label {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+#info .detail {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 2px;
+}
+
+/* -- Leyenda (abajo derecha) -- */
+#legend {
+    bottom: 16px; right: 16px;
+    z-index: 10;
+    text-align: center;
+}
+#legend .bar {
+    width: 200px;
+    height: 14px;
+    border-radius: 7px;
+    background: linear-gradient(to right, #1a9850, #66bd63, #a6d96a, #d9ef8b, #fee08b, #fdae61, #f46d43, #d73027);
+    margin: 6px 0;
+}
+#legend .labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #888;
+}
+
+/* -- Velocímetro (abajo centro) -- */
+#speedometer {
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    text-align: center;
+    min-width: 120px;
+}
+#speed-val {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+#speed-unit {
+    font-size: 10px;
+    color: #666;
+    text-transform: uppercase;
+}
+#speed-mode {
+    font-size: 11px;
+    color: #8cf;
+    margin-top: 2px;
+}
+
+/* -- Pantalla de carga / drop zone -- */
+#splash {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(10, 10, 20, 0.95);
+    color: #fff;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+#splash.hidden { opacity: 0; pointer-events: none; }
+#splash h1 { font-size: 32px; margin-bottom: 8px; }
+#splash .sub { color: #888; font-size: 14px; margin-bottom: 30px; }
+#splash .drop-area {
+    width: 400px;
+    height: 180px;
+    border: 2px dashed rgba(255,255,255,0.2);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#splash .drop-area:hover,
+#splash .drop-area.dragover {
+    border-color: rgba(100, 180, 255, 0.5);
+    background: rgba(100, 180, 255, 0.05);
+}
+#splash .drop-area .icon { font-size: 48px; margin-bottom: 10px; opacity: 0.5; }
+#splash .drop-area p { color: #aaa; font-size: 13px; }
+#splash .drop-area .hint { color: #666; font-size: 11px; margin-top: 6px; }
+#splash .or { color: #555; margin: 16px 0; font-size: 12px; }
+#splash .demo-btn {
+    background: linear-gradient(135deg, rgba(100,180,255,0.15), rgba(100,180,255,0.05));
+    border: 1px solid rgba(100,180,255,0.3);
+    color: #8cf;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 13px;
+}
+#splash .demo-btn:hover { background: rgba(100,180,255,0.2); }
+
+/* -- Loading bar -- */
+#loading-bar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    z-index: 200;
+    display: none;
+}
+#loading-bar .progress {
+    height: 100%;
+    background: linear-gradient(90deg, #1a9850, #fee08b, #d73027);
+    width: 0%;
+    transition: width 0.3s;
+}
+
+/* Ocultar controles de MapLibre por defecto */
+.maplibregl-ctrl-bottom-left,
+.maplibregl-ctrl-bottom-right { display: none; }
+</style>
+</head>
+<body>
+
+<div id="loading-bar"><div class="progress" id="progress"></div></div>
+
+<div id="splash" class="hidden"></div>
+
+<div id="map"></div>
+
+<div class="panel" id="controls">
+    <h2>Tour 3D Nunoa</h2>
+    <p class="subtitle">Area Homogenea (AH) como color</p>
+    <div class="keys-grid">
+        <span class="k"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span> <span>Mover</span>
+        <span class="k"><kbd>Shift</kbd></span> <span>Rapido</span>
+        <span class="k"><kbd>Q</kbd> <kbd>E</kbd></span> <span>Inclinar vista</span>
+        <span class="k"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd></span> <span>Velocidad</span>
+        <span class="k">Mouse</span> <span>Rotar (clic + arrastrar)</span>
+        <span class="k">Scroll</span> <span>Zoom</span>
+    </div>
+    <div class="btn-row">
+        <button class="btn" id="tour-btn">Auto-Tour</button>
+        <button class="btn" id="walk-btn">Caminar</button>
+        <button class="btn" id="drive-btn">Auto</button>
+        <button class="btn" id="fly-btn">Vuelo</button>
+        <button class="btn" id="reset-btn">Reset</button>
+    </div>
+    <div id="stats"></div>
+</div>
+
+<div class="panel" id="info">
+    <div class="label">Area Homogenea</div>
+    <div class="avaluo-val" id="info-avaluo"></div>
+    <div class="detail" id="info-detail"></div>
+</div>
+
+<div class="panel" id="legend">
+    <div class="label" style="text-align:center">79 Areas Homogeneas &middot; 1 color = 1 AH</div>
+</div>
+
+<div class="panel" id="speedometer">
+    <div id="speed-val">0</div>
+    <div id="speed-unit">km/h</div>
+    <div id="speed-mode">caminata</div>
+</div>
+
+<script>
+// ============================================================
+// CONFIG
+// ============================================================
+const NUNOA_CENTER = [-70.5956, -33.4563]; // Plaza Nunoa
+const INITIAL_VIEW = {
+    center: NUNOA_CENTER,
+    zoom: 17.5,
+    pitch: 80,
+    bearing: -20
+};
+
+// Velocidades en grados/frame (~60fps)
+const SPEEDS = {
+    walk:  { normal: 0.000008,  fast: 0.000025,  label: 'Caminata',  kmh: 5 },
+    drive: { normal: 0.000040,  fast: 0.000120,  label: 'Auto',      kmh: 40 },
+    fly:   { normal: 0.000150,  fast: 0.000400,  label: 'Vuelo',     kmh: 150 }
+};
+
+// Tour automático por calles principales de Nunoa
+const TOUR_WAYPOINTS = [
+    { center: [-70.5956, -33.4563], bearing: -20,  zoom: 16.5, pitch: 55, duration: 3000, label: 'Plaza Nunoa' },
+    { center: [-70.5990, -33.4555], bearing: 80,   zoom: 16.8, pitch: 50, duration: 8000, label: 'Irarrazaval poniente' },
+    { center: [-70.6050, -33.4550], bearing: 90,   zoom: 16.5, pitch: 55, duration: 8000, label: 'Av. Irarrazaval' },
+    { center: [-70.6098, -33.4570], bearing: 160,  zoom: 17.0, pitch: 50, duration: 6000, label: 'Pedro de Valdivia' },
+    { center: [-70.6080, -33.4620], bearing: 180,  zoom: 16.5, pitch: 55, duration: 8000, label: 'Sur por Pedro de Valdivia' },
+    { center: [-70.6020, -33.4640], bearing: -90,  zoom: 16.8, pitch: 50, duration: 7000, label: 'Av. Grecia' },
+    { center: [-70.5940, -33.4610], bearing: -45,  zoom: 16.5, pitch: 55, duration: 8000, label: 'Hacia el oriente' },
+    { center: [-70.5880, -33.4580], bearing: 0,    zoom: 16.8, pitch: 50, duration: 7000, label: 'Barrio residencial' },
+    { center: [-70.5920, -33.4530], bearing: -60,  zoom: 16.5, pitch: 55, duration: 7000, label: 'Norte de Nunoa' },
+    { center: [-70.5956, -33.4563], bearing: -20,  zoom: 16.5, pitch: 55, duration: 6000, label: 'Volviendo a Plaza Nunoa' },
+];
+
+// Colores por avalúo (step expression para MapLibre)
+// Formato step: ['step', input, default_output, stop1, output1, stop2, output2, ...]
+const COLOR_STOPS = [
+    '#1a9850',           // default: avalúo < 2M (verde)
+    2000000,   '#66bd63',
+    5000000,   '#a6d96a',
+    10000000,  '#d9ef8b',
+    30000000,  '#fee08b',
+    80000000,  '#fdae61',
+    200000000, '#f46d43',
+    500000000, '#d73027',
+    2000000000,'#a50026'
+];
+
+// ============================================================
+// STATE
+// ============================================================
+let currentSpeed = SPEEDS.walk;
+let touring = false;
+let tourIndex = 0;
+let dataLoaded = false;
+const keysDown = new Set();
+let lastCenter = null;
+let lastTime = Date.now();
+
+// ============================================================
+// MAP INIT
+// ============================================================
+const map = new maplibregl.Map({
+    container: 'map',
+    style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+    ...INITIAL_VIEW,
+    antialias: true,
+    maxPitch: 85
+});
+
+map.addControl(new maplibregl.NavigationControl({ showCompass: true, showZoom: false }), 'top-right');
+
+// ============================================================
+// DATA LOADING
+// ============================================================
+
+function showProgress(pct) {
+    const bar = document.getElementById('loading-bar');
+    const progress = document.getElementById('progress');
+    bar.style.display = 'block';
+    progress.style.width = pct + '%';
+    if (pct >= 100) setTimeout(() => bar.style.display = 'none', 500);
+}
+
+function loadGeoJSON(data) {
+    showProgress(60);
+
+    // Validar
+    if (!data.features || data.features.length === 0) {
+        alert('El archivo no contiene features GeoJSON válidos.');
+        return;
+    }
+
+    // Stats
+    const features = data.features;
+    const ahVals = features.map(f => f.properties?.ah || '').filter(v => v !== '');
+    const total = features.length;
+    const conDato = ahVals.length;
+    const ahUnicos = new Set(ahVals).size;
+
+    console.log(`Cargando ${total} poligonos, ${conDato} con AH, ${ahUnicos} AH unicas`);
+
+    showProgress(80);
+
+    // Agregar source y layers
+    if (map.getSource('predios')) {
+        map.getSource('predios').setData(data);
+    } else {
+        map.addSource('predios', {
+            type: 'geojson',
+            data: data,
+            generateId: true
+        });
+
+        // Capa principal: extrusión 3D
+        map.addLayer({
+            id: 'predios-3d',
+            type: 'fill-extrusion',
+            source: 'predios',
+            paint: {
+                'fill-extrusion-color': [
+                    'match', ['get', 'ah'],
+                    'CAB401','#d22c2c','CAM400','#41e671','CMM022','#b55bf5','CMM023','#e7dd91',
+                    'CMM070','#1dc0e1','CMM099','#f3349b','CMM100','#8ce06f','EMB500','#8d89ef',
+                    'EMB501','#f0590e','EMM502','#4ed9a5','EMM520','#e065eb','HAA048','#def781',
+                    'HAA104','#2c7fd2','HBB006','#e64163','HBB018','#5bf568','HBB046','#b291e7',
+                    'HBB059','#e1a01d','HBB061','#34f3eb','HBM028','#e06fc4','HBM049','#b8ef89',
+                    'HBM055','#0e33f0','HMA011','#d9604e','HMA068','#65eb9d','HMB003','#d581f7',
+                    'HMB009','#d1d22c','HMB014','#41b5e6','HMB016','#f55b9a','HMB020','#9ce791',
+                    'HMB021','#3e1de1','HMB031','#f38c34','HMB040','#6fe0c4','HMB043','#ef89eb',
+                    'HMB057','#a4f00e','HMB077','#4e81d9','HMB078','#eb6570','HMB096','#81f79a',
+                    'HMB101','#802cd2','HMM004','#e6c441','HMM005','#5be7f5','HMM010','#e791c7',
+                    'HMM012','#5de11d','HMM017','#343bf3','HMM026','#e08c6f','HMM027','#89efc1',
+                    'HMM030','#cc0ef0','HMM033','#c7d94e','HMM034','#65b2eb','HMM035','#f781a3',
+                    'HMM039','#2cd22d','HMM041','#7241e6','HMM050','#f5b65b','HMM058','#91e7dd',
+                    'HMM060','#e11dbf','HMM073','#9af334','HMM075','#6f8be0','HMM082','#ef8e89',
+                    'HMM089','#0ef05b','HMM097','#a64ed9','HMM105','#ebe065','HMM106','#81def7',
+                    'HMM107','#d22c7e','IMB051','#62e641','IMB056','#695bf5','TMM037','#e7b291',
+                    'XMB025','#1de1a1','XMB084','#ec34f3','XMB085','#c3e06f','XMM001','#89b7ef',
+                    'XMM013','#f00e31','XMM036','#4ed960','XMM038','#9e65eb','XMM042','#f7d681',
+                    'XMM072','#2cd0d2','XMM086','#e641b4','XMM090','#99f55b','XMM091','#919be7',
+                    'XMM093','#e1401d','XMM094','#34f38d','XMM095','#c56fe0',
+                    '#888888'
+                ],
+                'fill-extrusion-height': 8,
+                'fill-extrusion-base': 0,
+                'fill-extrusion-opacity': 0.88
+            }
+        });
+    }
+
+    // Iluminación
+    map.setLight({
+        anchor: 'viewport',
+        color: '#ffeedd',
+        intensity: 0.35,
+        position: [1.5, 180, 40]
+    });
+
+    showProgress(100);
+
+    // UI
+    document.getElementById('splash').classList.add('hidden');
+    document.getElementById('controls').style.display = '';
+    document.getElementById('legend').style.display = '';
+    document.getElementById('speedometer').style.display = '';
+    document.getElementById('stats').innerHTML =
+        `${total.toLocaleString('es-CL')} predios &middot; ` +
+        `${conDato.toLocaleString('es-CL')} con AH &middot; ` +
+        `${ahUnicos} areas homogeneas`;
+
+    dataLoaded = true;
+
+    // Fit bounds si hay data
+    if (features.length > 0) {
+        const bounds = new maplibregl.LngLatBounds();
+        let sampled = 0;
+        for (let i = 0; i < features.length && sampled < 1000; i += Math.ceil(features.length/1000)) {
+            const coords = features[i].geometry?.coordinates;
+            if (coords && coords[0] && coords[0][0]) {
+                const ring = coords[0];
+                if (Array.isArray(ring[0])) {
+                    bounds.extend(ring[0]);
+                    sampled++;
+                }
+            }
+        }
+        if (!bounds.isEmpty()) {
+            // Volar al centro de los datos
+            const c = bounds.getCenter();
+            map.flyTo({
+                center: [c.lng, c.lat],
+                zoom: 16.2,
+                pitch: 70,
+                bearing: -20,
+                duration: 2000
+            });
+        }
+    }
+}
+
+function loadFile(file) {
+    showProgress(10);
+    const reader = new FileReader();
+    reader.onprogress = (e) => {
+        if (e.lengthComputable) showProgress(10 + (e.loaded / e.total) * 40);
+    };
+    reader.onload = (e) => {
+        showProgress(50);
+        try {
+            const data = JSON.parse(e.target.result);
+            map.once('idle', () => loadGeoJSON(data));
+            if (map.loaded()) loadGeoJSON(data);
+        } catch (err) {
+            alert('Error parseando JSON: ' + err.message);
+            showProgress(0);
+        }
+    };
+    reader.readAsText(file);
+}
+
+// ============================================================
+// DEMO DATA (zona Plaza Nunoa, ~200 predios sintéticos)
+// ============================================================
+function generateDemoData() {
+    showProgress(20);
+    const features = [];
+    const cx = -70.5956, cy = -33.4563;
+
+    // Generar grilla de predios demo alrededor de Plaza Nunoa
+    for (let row = -15; row <= 15; row++) {
+        for (let col = -15; col <= 15; col++) {
+            // Saltar algunas posiciones para simular calles
+            if (row % 4 === 0 || col % 5 === 0) continue;
+
+            const lon = cx + col * 0.00025;
+            const lat = cy + row * 0.0002;
+
+            // Tamanio variable del lote
+            const w = 0.00015 + Math.random() * 0.00008;
+            const h = 0.00012 + Math.random() * 0.00006;
+
+            // Avaluo: mayor cerca de Irarrazaval (row~0) y zonas comerciales
+            const distCenter = Math.sqrt(row*row + col*col);
+            const baseAvaluo = Math.max(5e6, 500e6 * Math.exp(-distCenter * 0.15));
+            const avaluo = Math.round(baseAvaluo * (0.5 + Math.random()));
+
+            const logVal = Math.log10(Math.max(avaluo, 1));
+            const height = Math.max(3, Math.min(300, (logVal - 5) * 40));
+
+            const destinos = ['H', 'H', 'H', 'H', 'C', 'O', 'E'];
+            const destino = distCenter < 4 ?
+                (Math.random() < 0.4 ? 'C' : 'H') :
+                destinos[Math.floor(Math.random() * destinos.length)];
+
+            features.push({
+                type: 'Feature',
+                geometry: {
+                    type: 'Polygon',
+                    coordinates: [[
+                        [lon, lat],
+                        [lon + w, lat],
+                        [lon + w, lat + h],
+                        [lon, lat + h],
+                        [lon, lat]
+                    ]]
+                },
+                properties: {
+                    avaluo: avaluo,
+                    height: Math.round(height * 10) / 10,
+                    destino: destino,
+                    rol: `${1000 + Math.abs(row)}-${Math.abs(col) + 1}`,
+                    pisos: destino === 'C' ? String(Math.ceil(Math.random() * 15)) : String(Math.ceil(Math.random() * 4))
+                }
+            });
+        }
+    }
+
+    showProgress(50);
+    return { type: 'FeatureCollection', features };
+}
+
+// ============================================================
+// FIRST-PERSON CONTROLS
+// ============================================================
+
+document.addEventListener('keydown', (e) => {
+    // No capturar si está en un input
+    if (e.target.tagName === 'INPUT') return;
+    keysDown.add(e.key.toLowerCase());
+
+    // Velocidad con teclas numéricas
+    if (e.key === '1') setSpeedMode('walk');
+    if (e.key === '2') setSpeedMode('drive');
+    if (e.key === '3') setSpeedMode('fly');
+
+    // Espacio: toggle tour
+    if (e.key === ' ') { e.preventDefault(); toggleTour(); }
+});
+
+document.addEventListener('keyup', (e) => {
+    keysDown.delete(e.key.toLowerCase());
+});
+
+function setSpeedMode(mode) {
+    currentSpeed = SPEEDS[mode];
+    document.getElementById('speed-mode').textContent = currentSpeed.label;
+
+    // Ajustar pitch según modo
+    if (mode === 'walk') map.easeTo({ pitch: 75, duration: 500 });
+    if (mode === 'drive') map.easeTo({ pitch: 70, duration: 500 });
+    if (mode === 'fly') map.easeTo({ pitch: 55, zoom: 15, duration: 800 });
+
+    // Highlight botón activo
+    document.querySelectorAll('#walk-btn, #drive-btn, #fly-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(mode + '-btn')?.classList.add('active');
+}
+
+function animate() {
+    if (!dataLoaded || touring) {
+        requestAnimationFrame(animate);
+        return;
+    }
+
+    const speed = keysDown.has('shift') ? currentSpeed.fast : currentSpeed.normal;
+    const bearingRad = map.getBearing() * Math.PI / 180;
+
+    let dx = 0, dy = 0;
+
+    // WASD + flechas
+    if (keysDown.has('w') || keysDown.has('arrowup')) {
+        dx += Math.sin(bearingRad) * speed;
+        dy += Math.cos(bearingRad) * speed;
+    }
+    if (keysDown.has('s') || keysDown.has('arrowdown')) {
+        dx -= Math.sin(bearingRad) * speed;
+        dy -= Math.cos(bearingRad) * speed;
+    }
+    if (keysDown.has('a') || keysDown.has('arrowleft')) {
+        dx -= Math.cos(bearingRad) * speed;
+        dy += Math.sin(bearingRad) * speed;
+    }
+    if (keysDown.has('d') || keysDown.has('arrowright')) {
+        dx += Math.cos(bearingRad) * speed;
+        dy -= Math.sin(bearingRad) * speed;
+    }
+
+    if (dx !== 0 || dy !== 0) {
+        const center = map.getCenter();
+        map.setCenter([center.lng + dx, center.lat + dy]);
+    }
+
+    // Q/E: pitch
+    if (keysDown.has('q')) map.setPitch(Math.min(85, map.getPitch() + 0.4));
+    if (keysDown.has('e')) map.setPitch(Math.max(0, map.getPitch() - 0.4));
+
+    // Z/X: rotación
+    if (keysDown.has('z')) map.setBearing(map.getBearing() - 0.8);
+    if (keysDown.has('x')) map.setBearing(map.getBearing() + 0.8);
+
+    // Velocímetro
+    updateSpeedometer();
+
+    requestAnimationFrame(animate);
+}
+
+function updateSpeedometer() {
+    const now = Date.now();
+    const center = map.getCenter();
+
+    if (lastCenter && (now - lastTime) > 0) {
+        // Calcular velocidad aproximada
+        const dlat = (center.lat - lastCenter.lat) * 111320;
+        const dlon = (center.lng - lastCenter.lng) * 111320 * Math.cos(center.lat * Math.PI / 180);
+        const dist = Math.sqrt(dlat * dlat + dlon * dlon); // metros
+        const dt = (now - lastTime) / 1000; // segundos
+        const mps = dist / dt;
+        const kmh = Math.round(mps * 3.6);
+
+        document.getElementById('speed-val').textContent = Math.min(kmh, 999);
+    }
+
+    lastCenter = { lat: center.lat, lng: center.lng };
+    lastTime = now;
+}
+
+// ============================================================
+// AUTO-TOUR
+// ============================================================
+
+function toggleTour() {
+    touring = !touring;
+    const btn = document.getElementById('tour-btn');
+
+    if (touring) {
+        btn.classList.add('active');
+        btn.textContent = 'Detener Tour';
+        // Tour: misma altura, solo cambia cámara
+        tourIndex = 0;
+        nextTourWaypoint();
+    } else {
+        btn.classList.remove('active');
+        btn.textContent = 'Auto-Tour';
+        // Detener tour
+        map.stop();
+    }
+}
+
+function nextTourWaypoint() {
+    if (!touring) return;
+    if (tourIndex >= TOUR_WAYPOINTS.length) tourIndex = 0;
+
+    const wp = TOUR_WAYPOINTS[tourIndex];
+    tourIndex++;
+
+    map.flyTo({
+        center: wp.center,
+        bearing: wp.bearing,
+        zoom: wp.zoom,
+        pitch: wp.pitch,
+        duration: wp.duration,
+        essential: true,
+        curve: 1.2
+    });
+}
+
+map.on('moveend', () => {
+    if (touring) {
+        setTimeout(nextTourWaypoint, 800);
+    }
+});
+
+// ============================================================
+// HOVER / CLICK INTERACTION
+// ============================================================
+
+let hoveredId = null;
+
+map.on('mousemove', 'predios-3d', (e) => {
+    if (!e.features?.length) return;
+
+    // Hover state
+    if (hoveredId !== null) {
+        map.setFeatureState({ source: 'predios', id: hoveredId }, { hover: false });
+    }
+    hoveredId = e.features[0].id;
+    map.setFeatureState({ source: 'predios', id: hoveredId }, { hover: true });
+
+    // Info panel
+    const props = e.features[0].properties;
+    const ah = props.ah || '';
+    const infoEl = document.getElementById('info');
+    const avaluoEl = document.getElementById('info-avaluo');
+    const detailEl = document.getElementById('info-detail');
+
+    infoEl.style.display = '';
+    avaluoEl.textContent = ah || 'Sin AH';
+
+    const parts = [];
+    if (props.destino) parts.push(expandDestino(props.destino));
+    if (props.rol) parts.push('Rol: ' + props.rol);
+    if (props.pisos && props.pisos !== '0') parts.push(props.pisos + ' pisos');
+    detailEl.textContent = parts.join(' · ');
+
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+map.on('mouseleave', 'predios-3d', () => {
+    if (hoveredId !== null) {
+        map.setFeatureState({ source: 'predios', id: hoveredId }, { hover: false });
+    }
+    hoveredId = null;
+    document.getElementById('info').style.display = 'none';
+    map.getCanvas().style.cursor = '';
+});
+
+function expandDestino(code) {
+    const map_d = {
+        'H': 'Habitacional', 'C': 'Comercio', 'I': 'Industria',
+        'O': 'Oficina', 'E': 'Educacion', 'D': 'Deporte',
+        'S': 'Salud', 'A': 'Agricola', 'HO': 'Hotel',
+        'AP': 'Admin. Publica', 'B': 'Bodega', 'SE': 'Sitio Eriazo',
+        'BC': 'Bien Comun', 'CU': 'Culto', 'EST': 'Estacionamiento',
+        'M': 'Mineria'
+    };
+    return map_d[code] || code;
+}
+
+// ============================================================
+// FILE / DROP HANDLERS
+// ============================================================
+
+// Control buttons
+document.getElementById('tour-btn').addEventListener('click', toggleTour);
+document.getElementById('walk-btn').addEventListener('click', () => setSpeedMode('walk'));
+document.getElementById('drive-btn').addEventListener('click', () => setSpeedMode('drive'));
+document.getElementById('fly-btn').addEventListener('click', () => setSpeedMode('fly'));
+document.getElementById('reset-btn').addEventListener('click', () => {
+    touring = false;
+    document.getElementById('tour-btn').classList.remove('active');
+    document.getElementById('tour-btn').textContent = 'Auto-Tour';
+    map.flyTo({ ...INITIAL_VIEW, duration: 1500 });
+});
+
+// ============================================================
+// START
+// ============================================================
+map.on('load', () => {
+    animate();
+    setSpeedMode('walk');
+
+    // Cargar GeoJSON de Ñuñoa desde el servidor
+    showProgress(5);
+    fetch('nunoa_3d.geojson')
+        .then(r => {
+            if (!r.ok) throw new Error('No encontrado');
+            showProgress(20);
+            return r.json();
+        })
+        .then(data => {
+            loadGeoJSON(data);
+        })
+        .catch(err => {
+            console.error('Error cargando datos:', err);
+            document.getElementById('stats').textContent = 'Error cargando datos';
+        });
+});
+</script>
+</body>
+</html>
