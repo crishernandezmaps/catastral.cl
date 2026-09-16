@@ -186,3 +186,15 @@ carritos abandonados en Flow eran todos de exactamente 3 comunas.
 - Implementación: `app_catastral/backend/app/ventas.py` (precios, escala y
   endpoint `/ventas/precios` que publica comuna→tier); el frontend de
   `catastralV2` pinta todo desde ese endpoint.
+
+### Plan Datos reformado a billetera (2026-09-16, misma sesión)
+
+El crédito murió: con la tienda a precio por tamaño cobraba 2-3× la tienda en
+todos los tamaños. Ahora: **3 UF/mes = 4 UF de tienda al mes** («pagas 3,
+descargas 4»), al precio por tamaño vigente (fuente única
+`creditos.PRECIO_UF_TIER`), goteo mensual no acumulable, la repetida no se
+re-cobra, y el diferencial del plan es la **actualización semestral del
+acumulado** mientras esté vigente. Mínimo 3 meses, trimestre up front −10%
+(8,1 UF), sin cambios de precio de lista. Sanidad: el recurrente de ~4 UF/mes
+pagaría 3,6-3,8 por tienda → el plan le gana; al puntual le gana la tienda.
+No había suscriptores al reformar (tabla `subscriptions` vacía): sin migración.
