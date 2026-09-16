@@ -78,6 +78,13 @@ venta de datasets por comuna deja de ser negocio y pasa a ser anzuelo gratis.
 
 ### Pricing de la API: suscripción plana, NO precio por consulta
 
+> ⚠️ **Actualizado el 2026-08-27.** Para los segmentos **Empresa** y **Educacional** se adoptó
+> cobro **por llamada con tramos decrecientes y techo mensual**. El techo (USD 1.800/mes ≈ 40 UF)
+> preserva el argumento de esta sección: al alcanzarlo el acceso pasa a ilimitado, de modo que
+> ningún cliente paga más que la plana. Precios y guardarraíles en
+> `mcp_catastral/docs/PLANES.md`. Lo que sigue explica **por qué** el techo existe.
+
+
 La competencia cobra ~**0,02 UF por consulta** (1 UF / 50 búsquedas ≈ USD 0,83 c/u),
 modelo transaccional. **No competimos en esa métrica — la cambiamos.** Cobramos
 **suscripción plana** (acceso amplio + frescura), piso ~40 UF/mes. Bajar nuestro precio
@@ -137,9 +144,14 @@ propio a optimizar**, no una línea que se pasa al cliente.
 
 ## Decisiones abiertas (pendientes de cerrar)
 
-- **Piso de costo de infra por cliente** — para confirmar que 50 UF/mes deja margen sano.
-- **Piso exacto de la suscripción API** — modelo definido (plana, ~40 UF/mes); falta
-  fijar el número final (idealmente contra el volumen real de Renta Nacional).
+- ~~**Piso de costo de infra por cliente**~~ — **cerrado (2026-08-27):** USD 60/mes fijos
+  (VPS Hetzner 50 + S3 10) para toda la operación, no por cliente. El margen sobre 50 UF/mes es
+  >95%; el límite real es capacidad de servidor, no costo.
+- ~~**Piso exacto de la suscripción API**~~ — **cerrado (2026-08-27):** piso USD 200/mes
+  (plan Empresa), techo USD 1.800/mes ≈ 40 UF. Ver `mcp_catastral/docs/PLANES.md`.
+- **Cumplimiento Ley 21.719** (vigente 2026-12-01) — la excepción de "fuente accesible al
+  público" desaparece; hay que documentar base de licitud y EIPD. Ver
+  `mcp_catastral/docs/MARCO_LEGAL.md`.
 - **Calibrar el límite del free** — 100/día = 3.000/mes es generoso; confirmar que ningún
   caso de uso empresarial real quepa dentro del free.
 - **Cabezales premium por valor** — si scoring u otros se cobran sobre el valor generado.
@@ -148,3 +160,29 @@ propio a optimizar**, no una línea que se pasa al cliente.
 
 **Net Revenue Retention** (¿renuevan la licencia de 12 meses y activan más cabezales?).
 Negocio iniciado ~marzo 2026, aún en implementación — todavía sin datos de renovación.
+
+## Tienda de comunas: precio por tamaño (decidido 2026-09-16)
+
+Reemplaza el «1 UF plana + mínimo 3» del 09-09. Razón: el valor del dato es la
+**cantidad de predios**, no la unidad «comuna» (Combarbalá no vale lo que Las
+Condes), y el mínimo de 3 (~$146.000 con IVA) era la barrera de entrada — los
+carritos abandonados en Flow eran todos de exactamente 3 comunas.
+
+| Tamaño | Corte (predios z16) | UF + IVA |
+|---|---|---|
+| Chica | < 10.000 | 0,5 |
+| Mediana | 10.000 – 25.000 | 0,7 |
+| Grande | > 25.000 | 1,0 |
+
+- **Sin mínimo** (1 comuna chica ≈ $24.000: la degustación pagada). Tope 50
+  comunas; sobre eso, cotización directa.
+- **El corte de tamaño es el MISMO de los créditos del Plan Datos**
+  (`creditos.tier`, 10k/25k predios): un solo criterio en toda la casa.
+- **Descuento por cantidad sobre el total**: 3–4 −5% · 5–9 −10% · 10–19 −15% ·
+  20–29 −20% · 30–50 −25%.
+- ⚠️ Deuda asumida: la chica suelta (0,5 UF) queda más barata por unidad que el
+  crédito del Plan Datos (1 UF efectiva). El Plan retiene la actualización
+  semestral como diferencial; **recalibrar sus créditos con ventas reales**.
+- Implementación: `app_catastral/backend/app/ventas.py` (precios, escala y
+  endpoint `/ventas/precios` que publica comuna→tier); el frontend de
+  `catastralV2` pinta todo desde ese endpoint.
