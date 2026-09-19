@@ -48,3 +48,10 @@ comunas_fase3v2.json
 catalog_fase4v2.json
 plataforma_catastral_cl.md
 docker-compose.yml
+
+# Datos personales de terceros — NO versionar.
+# leads_after_closing/ son los 15 leads comerciales de agosto 2026 con nombre,
+# correo y empresa de personas reales, más un PDF por persona. Entrar a git los
+# vuelve permanentes en la historia y los replica a GitHub y a todo clon futuro;
+# sacarlos después exige reescribir la historia. Viven solo en local / en el CRM.
+leads_after_closing/
