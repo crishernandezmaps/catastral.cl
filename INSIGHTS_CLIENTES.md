@@ -87,18 +87,32 @@ regalando el que genera hábito.**
 
 ---
 
-## 4. Hay recurrencia, y está entera en el plan gratis
+## 4. Hay recurrencia, hay disposición a pagar, y el checkout se las come
 
 Al 2026-09-19, **12 clientes con actividad en varios días distintos**, el mayor con **28
-días repartidos en casi dos meses**. Todos en tier `free`.
+días repartidos en casi dos meses**. Once de los doce, en tier `free`.
 
 Uno acumuló 1.328 requests en 14 días ≈ **95 por día, con el límite en 100**: está
 calibrando su uso para no pasarse del borde. Eso no es un usuario casual, es alguien
 trabajando con la herramienta todos los días sin pagar.
 
-**Implicancia:** el problema no es falta de recurrencia — es que el free la absorbe
-completa. Vale separar la cuota **por tipo de pregunta** y no solo por volumen: la ficha
-del predio como gancho, y lo que es flujo (CBR y ofertas) con cuota corta en free.
+**Pero el problema no es que no quieran pagar.** El embudo de API Pro (2 UF/mes) tiene
+**9 de 10 intentos en `pendiente_pago` — 90% de abandono, 18 UF sin cobrar en diez días**.
+Y entre los que no completaron está **el cliente de 28 días activos**, que inició la compra
+el 13 de septiembre. La demanda de pago existe; se pierde en el paso de cobro.
+
+Sumado a la tienda, el negocio **deja en el camino 1,38 UF por cada UF que cobra** (31,18
+abandonadas contra 22,65 cobradas). Ningún producto nuevo mejora ese número.
+
+**Dos lecturas más del embudo Pro:** siete de los nueve que abandonaron **nunca habían
+usado la API** — llegan a pagar sin haber probado, lo que sugiere que el flujo los empuja
+antes de tiempo o que venían a comprar otra cosa. Y el único que sí pagó **quedó servido
+como `free` por un hardcode del portal**, tuvo que regularizarse a mano y reintentó el pago
+creyendo que no había funcionado: casi se le cobra dos veces.
+
+**Implicancia:** antes de rediseñar planes o cuotas, arreglar el cobro. Y sí, después vale
+separar la cuota **por tipo de pregunta** y no solo por volumen: la ficha del predio como
+gancho, y lo que es flujo (CBR y ofertas) con cuota corta en free.
 
 ---
 
