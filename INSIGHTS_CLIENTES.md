@@ -101,15 +101,14 @@ trabajando con la herramienta todos los días sin pagar.
 completaron está **el cliente de 28 días activos**, que inició la compra el 13 de
 septiembre.
 
-⚠️ **Es abandono, no falla técnica — verificado.** Las diez órdenes, incluidas todas las
-pendientes, tienen su `flow_token` de 40 caracteres: el sistema creó la orden, Flow la
-aceptó y la persona llegó a la pasarela. El carro funciona. **Lo que la base NO distingue
-es si dentro de Flow hubo rechazo de tarjeta o simplemente cerraron la pestaña** — eso solo
-se ve en el panel de Flow y **queda por mirar**. Hasta entonces, llamarlo «no pudieron
-pagar» es una afirmación sin respaldo.
+✅ **Es abandono puro, no falla técnica — confirmado en el panel de Flow (2026-09-19):**
+*«No se registraron pagos fallidos durante el periodo seleccionado»*. Nadie fue rechazado.
+Todas las órdenes, pendientes incluidas, tienen su `flow_token`: el sistema las creó, Flow
+las aceptó y la persona llegó a la pasarela y no cerró. **Decir «no pudieron pagar» era una
+afirmación sin respaldo; `pendiente_pago` solo dice que no pagaron.**
 
-Sumado a la tienda, el negocio **deja en el camino 1,29 UF por cada UF que cobra** (29,18
-abandonadas contra 22,65 cobradas).
+Sumado a la tienda son 29,18 UF abandonadas contra 22,65 cobradas — pero ojo con leer eso
+como plata perdida, por lo que viene abajo.
 
 **Dos lecturas más del embudo Pro:** siete de los nueve que abandonaron **nunca habían
 usado la API** — llegan a pagar sin haber probado, lo que sugiere que el flujo los empuja
@@ -128,7 +127,37 @@ la ficha del predio como gancho, y lo que es flujo (CBR y ofertas) con cuota cor
 
 ---
 
-## 5. Señales sueltas que conviene no perder
+## 5. El ticket grande no usa el carro: paga por transferencia
+
+**Conciliación contra el panel de Flow al 2026-09-19.** De los $1.102.570 (22,65 UF)
+cobrados, solo **$292.108 pasaron por la pasarela** — Flow depositó $281.020, la diferencia
+es 3,796% de comisión (3,19% + IVA) y cuadra al peso. Los otros **$810.462 entraron por
+transferencia bancaria**, marcados en `flow_orden` con el literal `transferencia`.
+
+Y el reparto no es aleatorio:
+
+| Vía | Ventas | Tickets |
+|---|---|---|
+| Pasarela (Flow) | 3 | 3 UF · 2 UF · 1 UF |
+| **Transferencia** | 2 | **9 UF · 7,65 UF** |
+
+**El 73% de la facturación no pasó por el checkout**, y los dos tickets más grandes por
+lejos son los que se fueron al banco. El carro sirve para la compra chica y autoservida;
+sobre cierto monto la gente escribe, conversa y transfiere.
+
+**Implicancia — corrige una conclusión anterior:** parte del «abandono de carro» puede no
+ser plata perdida sino **un canal distinto que no se está midiendo**: alguien que llegó a
+la pasarela, vio el monto y prefirió preguntar. Antes de tratar el abandono como fuga, hay
+que cruzar los `pendiente_pago` con los correos de `seguimiento_contactos`. Donde el
+abandono sí duele sin matices es en **API Pro: 8 intentos de 2 UF que deberían cerrarse
+solos** y no se cerraron.
+
+**Consecuencia operativa:** si el ticket grande va a seguir llegando por transferencia,
+conviene tratarlo como camino de primera clase —con su instructivo, su conciliación y su
+registro— en vez de como excepción que alguien regulariza a mano. Hoy se marca escribiendo
+`transferencia` en el campo de la orden de Flow, que funciona pero no es un método.
+
+## 6. Señales sueltas que conviene no perder
 
 - **El mínimo de 3 comunas funcionó como techo, no como piso:** 6 de las primeras 10
   ventas fueron de exactamente 3 comunas. Corregido en septiembre con precio por tamaño
@@ -155,3 +184,5 @@ la ficha del predio como gancho, y lo que es flujo (CBR y ofertas) con cuota cor
       simplemente se van?
 - [ ] ¿Cuánto del uso de `cbr.cerca` es exploración y cuánto trabajo facturable del
       cliente?
+- [ ] De los `pendiente_pago`, ¿cuántos terminaron pagando por transferencia? Cruzar con
+      `seguimiento_contactos` antes de contarlos como fuga.
