@@ -96,13 +96,20 @@ Uno acumuló 1.328 requests en 14 días ≈ **95 por día, con el límite en 100
 calibrando su uso para no pasarse del borde. Eso no es un usuario casual, es alguien
 trabajando con la herramienta todos los días sin pagar.
 
-**Pero el problema no es que no quieran pagar.** El embudo de API Pro (2 UF/mes) tiene
-**9 de 10 intentos en `pendiente_pago` — 90% de abandono, 18 UF sin cobrar en diez días**.
-Y entre los que no completaron está **el cliente de 28 días activos**, que inició la compra
-el 13 de septiembre. La demanda de pago existe; se pierde en el paso de cobro.
+**Y hay intención de compra que no se concreta.** El embudo de API Pro (2 UF/mes) tiene
+**8 de 9 intentos en `pendiente_pago`** — 16 UF sin cobrar en diez días. Entre los que no
+completaron está **el cliente de 28 días activos**, que inició la compra el 13 de
+septiembre.
 
-Sumado a la tienda, el negocio **deja en el camino 1,38 UF por cada UF que cobra** (31,18
-abandonadas contra 22,65 cobradas). Ningún producto nuevo mejora ese número.
+⚠️ **Es abandono, no falla técnica — verificado.** Las diez órdenes, incluidas todas las
+pendientes, tienen su `flow_token` de 40 caracteres: el sistema creó la orden, Flow la
+aceptó y la persona llegó a la pasarela. El carro funciona. **Lo que la base NO distingue
+es si dentro de Flow hubo rechazo de tarjeta o simplemente cerraron la pestaña** — eso solo
+se ve en el panel de Flow y **queda por mirar**. Hasta entonces, llamarlo «no pudieron
+pagar» es una afirmación sin respaldo.
+
+Sumado a la tienda, el negocio **deja en el camino 1,29 UF por cada UF que cobra** (29,18
+abandonadas contra 22,65 cobradas).
 
 **Dos lecturas más del embudo Pro:** siete de los nueve que abandonaron **nunca habían
 usado la API** — llegan a pagar sin haber probado, lo que sugiere que el flujo los empuja
@@ -110,9 +117,14 @@ antes de tiempo o que venían a comprar otra cosa. Y el único que sí pagó **q
 como `free` por un hardcode del portal**, tuvo que regularizarse a mano y reintentó el pago
 creyendo que no había funcionado: casi se le cobra dos veces.
 
-**Implicancia:** antes de rediseñar planes o cuotas, arreglar el cobro. Y sí, después vale
-separar la cuota **por tipo de pregunta** y no solo por volumen: la ficha del predio como
-gancho, y lo que es flujo (CBR y ofertas) con cuota corta en free.
+**Implicancia y qué se hizo:** con el carro funcionando, lo que faltaba era una razón más
+fuerte para completar el pago. El **2026-09-19 la cuota free bajó de 100 a 50/día**: con
+100 el techo casi no mordía (6 días-cliente lo superaron en 60 días, contra 50 días-cliente
+en el tramo 51-100) y nueve clientes distintos quedaban clavados en 100 exactos, la firma
+de alguien que quiso seguir. Queda por medir si eso convierte o solo ahuyenta.
+
+Siguiente paso natural: separar la cuota **por tipo de pregunta** y no solo por volumen —
+la ficha del predio como gancho, y lo que es flujo (CBR y ofertas) con cuota corta en free.
 
 ---
 
