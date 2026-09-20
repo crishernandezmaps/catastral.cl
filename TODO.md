@@ -4,39 +4,41 @@ _Cabecera reordenada el **2026-09-19**. Arriba, lo que hay que decidir; abajo, l
 
 ---
 
-# 🔴 DECISIONES PARA LA PRÓXIMA SESIÓN
+# 🔴 DECISIONES — cerradas el 2026-09-20
 
-Las cinco primeras son de Cris: no las puede cerrar nadie más y bloquean lo demás.
-Contexto y evidencia en `MODELO_NEGOCIO.md` e `INSIGHTS_CLIENTES.md`.
+Las cinco se decidieron el **2026-09-20**. Resolución y lo que cada una deja vivo:
 
-### 1. ¿La lista de precios se sostiene o se baja a lo que el mercado paga?
-A precio de lista (base 30 + 7 cabezales) el catálogo completo vale **100 UF/mes**. Pero
-Grant Thornton lo tiene a **25** y Póliza a **85,5 con desarrollo incluido**. Hoy se cotiza
-con una lista que no se cobra, y eso ancla la negociación hacia abajo.
-**Decidir antes de cotizar al cliente número cuatro.**
+### 1. Lista de precios → SE MANTIENE, reinterpretada
+Las **100 UF/mes son una meta agregada de MRR** del catálogo completo, no un precio a
+cobrarle a un cliente. La lista sigue vigente en ese sentido.
+⚠️ Lo que esto NO resuelve: el ancla de negociación (Grant Thornton a 25, Póliza a 85,5)
+sigue ahí. Al cotizar al **cliente n.º 4** igual hay que fijar el precio de ESE contrato.
 
-### 2. ¿El desarrollo se cotiza como línea separada del dato?
-Es el **75% del MRR** y hoy va implícito dentro del paquete. Mientras siga invisible, no se
-puede subir el precio del dato ni mostrar lo que el cliente realmente valora.
-_Recomendación: sí, línea propia con alcance, plazo y entregables._
+### 2. Desarrollo → SE MANTIENE en el paquete; explorar módulos pre-hechos
+No se separa como línea propia. En su lugar, explorar **módulos ya construidos y
+activables** (TGR, Diario Oficial, CBR) como forma de productizar lo que hoy se vende
+como desarrollo a medida.
+- [ ] Diseñar el catálogo de módulos pre-hechos (TGR / Diario Oficial / CBR): qué incluye
+      cada uno, precio de activación, y qué horas de desarrollo reemplaza. Conecta con
+      «Feature flags por tenant» de Productización técnica.
 
-### 3. Propiedad intelectual en los contratos
-- **Nuevos**: adoptar el molde de Grant Thornton — retener componentes preexistentes y
-  genéricos, ceder solo el entregable específico (o licencia de uso perpetua).
-- **Firmados**: revisar con abogado si la cesión alcanza a todo el software o solo a los
-  desarrollos específicos. De esto depende si cada proyecto alimenta el catálogo o muere
-  donde nace. «Cambiar dos líneas» **no** resuelve el problema: es obra derivada.
+### 3. Propiedad intelectual → SE RETIENE SIEMPRE
+Regla sin excepciones para todo contrato nuevo: TREMEN retiene la PI; el cliente recibe
+licencia de uso (o cesión solo del entregable específico).
+- [ ] Sigue abierto lo de los **contratos ya firmados**: revisar con abogado si la cesión
+      alcanza a todo el software o solo a los desarrollos específicos. La regla nueva no
+      retroactúa sola.
 
-### 4. ¿Qué se hace con la tienda de comunas?
-El modelo decía que la venta por comuna «deja de ser negocio y pasa a ser anzuelo gratis»,
-pero la tienda cobra. **O es anzuelo gratis, o es producto.** Hoy son las dos cosas y se
-contradicen.
+### 4. Tienda y API → SE DEJAN COMO ESTÁN
+Se observa cómo se mueve el mercado antes de tocar nada. La tensión anzuelo/producto se
+tolera a propósito; se revisita con los datos de los próximos `/mercadoCatastral`.
 
-### 5. El correo de seguimiento de la newsletter
-La campaña prometió por escrito «si no haces nada, no vuelves a recibir correos nuestros».
-Hay **574 en `sin_respuesta` y solo 4 en `opt_in`**. Escribirle a los 574 contradice lo
-dicho, y con ese volumen **dos quejas de spam pasan el umbral de Gmail**. Detalle en
-`catastralV2/TODO.md`.
+### 5. Newsletter → cola cerrada, SIN correo de seguimiento
+Todos los correos ya se enviaron (589 de 604; los 15 restantes son `invalido` a propósito).
+No hay tanda de seguimiento: la promesa de re-permiso se respeta.
+- [ ] **2026-10-04** (dos semanas después del cierre): revisar quién quedó en la lista —
+      conteo por estado (`opt_in` / `opt_out` / `sin_respuesta`) filtrando por remitente
+      `news.catastral.cl`, y con eso decidir qué canal queda de verdad.
 
 ---
 
@@ -82,6 +84,8 @@ dicho, y con ese volumen **dos quejas de spam pasan el umbral de Gmail**. Detall
 
 ## 📅 Con fecha dura
 
+- [ ] **2026-10-04: revisar quién quedó en la lista de la newsletter** tras la ventana de
+      re-permiso (ver decisión 5 arriba).
 - [ ] **Ley 21.719, vigente 2026-12-01.** Desaparece la excepción de «fuente accesible al
       público»: hay que documentar base de licitud y EIPD. Ver `mcp_catastral/docs/MARCO_LEGAL.md`.
 - [ ] **~sept 2027: MINVU y Grant Thornton vencen el mismo mes** — el 56% del MRR en
