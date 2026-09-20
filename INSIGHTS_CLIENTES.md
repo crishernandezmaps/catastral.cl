@@ -10,6 +10,84 @@ descartarla cuando llegue dato nuevo. Lo alimenta `/mercadoCatastral`._
 
 ---
 
+## 0. El negocio real: contratos, no autoservicio
+
+**Conversación estratégica del 2026-09-19.** El autoservicio lleva **22,65 UF en toda su
+historia**. Los contratos vigentes:
+
+| Cliente | Mensual | Plazo | Alcance |
+|---|---|---|---|
+| Póliza Gestión | $3,5M (~85,5 UF) | 24 meses | catálogo completo **+ desarrollo de plataforma** |
+| MINVU | $3,5M (~85,5 UF) | 12 meses | **desarrollo de un servicio** sobre los datos |
+| Grant Thornton | 25 UF | 12 meses | catálogo completo, sin desarrollo |
+
+**MRR ~196 UF · ARR ~2.350 UF · backlog contratado ~3.376 UF (~$138M).** Es **149 veces**
+todo lo que el autoservicio facturó desde que existe. Antes: consultorías cerradas por
+18M, 16M y dos de ~5M.
+
+**El precio revelado del dato es 25 UF/mes** (Grant Thornton, catálogo puro). Todo lo que
+Póliza y MINVU pagan por encima de eso es desarrollo: **el 75% del MRR son horas, no
+licencia**. El cliente paga 2,4× más por lo que construyes sobre el dato que por el dato.
+
+⚠️ **Tres consecuencias que conviene no perder de vista:**
+- **El contrato de desarrollo tiene final natural** — el día que lo desarrollado está
+  listo. MINVU vence a los 12 meses y ahí la conversación pasa a mantención, que vale una
+  fracción. Un contrato de datos se renueva solo; uno de desarrollo no.
+- **Concentración**: Póliza y MINVU son el 87% del MRR, y **MINVU y GT vencen el mismo
+  mes** (~sept 2027), con el 56% del MRR en renovación simultánea. Conviene desfasarlos.
+- **La propiedad del software se cede al cliente** (salvo GT). «Le cambio dos líneas y
+  tengo otro» es **obra derivada** y no resuelve el problema legal: lo que sí es propio es
+  la arquitectura y el know-how, no el código entregado. En MINVU pesa doble por ser
+  sector público — otro organismo podría acceder a lo desarrollado. Para contratos nuevos:
+  retener componentes preexistentes y genéricos, ceder solo el entregable específico (es
+  lo que ya se hace con GT).
+
+**El `MODELO_NEGOCIO.md` no describe este negocio.** Trata la consultoría como riesgo a
+evitar («daría sabor consultoría»), declara que la venta por comuna «deja de ser negocio y
+pasa a ser anzuelo gratis» mientras la tienda cobra, y dice que «no hay tier de pago
+self-service» mientras API Pro existe a 2 UF. A precio de lista del modelo (base 30 + 7
+cabezales) el catálogo completo debería valer 100 UF/mes: **GT lo tiene a 25 y Póliza a
+85,5 con desarrollo incluido**. Los contratos están por debajo de la lista propia.
+
+---
+
+## 0.b Por qué compran, y cómo llegan
+
+**Los tres compraron por lo mismo: el polígono del SII.** Póliza contrató «cuando supo que
+tenía los polígonos, que nadie más tiene». MINVU igual, y entró por **contratación
+directa** — vale confirmar si la causal fue proveedor único, porque sería un precedente
+formal replicable con municipios, SERVIU y gobiernos regionales.
+
+Es la tercera evidencia independiente del mismo hecho, junto con la cita de RENREN Map
+(§1) y que `cbr.cerca` sea el tercer endpoint más usado (§3). **El polígono no es una
+característica del catálogo: es el producto.**
+
+**El canal que trajo los $138M es: el sitio como vitrina + LinkedIn + una prueba.**
+Grant Thornton los descubrió por LinkedIn, hicieron pruebas, les gustó. **No es el free de
+la API, no es la tienda, no es la newsletter.** Ninguno de los tres evaluó a la
+competencia antes de contratar: no se gana la comparación, no se participa en ella —
+porque lo que compran no existe como producto de nadie.
+
+**Lo que funciona en LinkedIn son experimentos abiertos** que la gente comenta y
+republica, y de ahí salen las conversaciones. El filtro para cada uno: *¿alguien podría
+rehacer esto sin mi base?* Si la respuesta es sí, genera audiencia pero no demanda. El
+post tiene que **ser** la demo del polígono.
+
+⚠️ **El foso tiene fecha.** Si la única razón de compra es la exclusividad del polígono,
+el día que el SII publique vectores o alguien replique el pipeline, los contratos quedan
+sostenidos solo por lo construido encima y la relación. Los 24 meses de pista contratada
+sirven para volver prescindible esa exclusividad.
+
+**Competencia:** [Inciti](https://www.inciti.com/cl) (inteligencia inmobiliaria, 9M de
+propiedades, **modelo modular ya en producción** — el mismo de «cabezales» que el modelo
+propone construir) y [Propiteq](https://www.propiteq.com/) (tasación online a $9.990,
+matriz Transsa). ⚠️ **Inciti es además proveedor**: `app_catastral/backend/app/ext.py` lo
+integra por BYO-key y 4 proyectos del ecosistema lo usan. Atacar su cartera de frente
+tiene costo. Los clientes de Propiteq son corredores de ticket bajo, el segmento que ya se
+comprobó que no mueve la aguja.
+
+---
+
 ## 1. El producto no es el dato: es el join
 
 **El hallazgo más importante, y lo dijo un cliente, no nosotros.** Un desarrollador de
