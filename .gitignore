@@ -55,3 +55,7 @@ docker-compose.yml
 # vuelve permanentes en la historia y los replica a GitHub y a todo clon futuro;
 # sacarlos después exige reescribir la historia. Viven solo en local / en el CRM.
 leads_after_closing/
+
+# clave de API dejada por cris en la raiz del paraguas — nunca versionar
+k.txt
+*k.txt
