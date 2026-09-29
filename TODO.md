@@ -36,9 +36,13 @@ tolera a propósito; se revisita con los datos de los próximos `/mercadoCatastr
 ### 5. Newsletter → cola cerrada, SIN correo de seguimiento
 Todos los correos ya se enviaron (589 de 604; los 15 restantes son `invalido` a propósito).
 No hay tanda de seguimiento: la promesa de re-permiso se respeta.
-- [ ] **2026-10-04** (dos semanas después del cierre): revisar quién quedó en la lista —
-      conteo por estado (`opt_in` / `opt_out` / `sin_respuesta`) filtrando por remitente
-      `news.catastral.cl`, y con eso decidir qué canal queda de verdad.
+- [x] **Revisión de la lista — adelantada y CERRADA el 2026-09-28** (estaba para el 10-04).
+      Conteo en `reportes/newsletter_lista_2026-09-28.md`. **Conclusión: el correo no es canal.**
+      La campaña dejó **4 opt-in sobre 589 (0,7%)**, todos en los primeros 4 días y ninguno
+      después. Los otros 6 opt-in llegaron por el **formulario de solicitud de licencias**
+      (6 en una semana): ese es el canal que suma consentimiento, y es de gente con intención.
+      No hay newsletter recurrente que sostener con 10 opt-in. El cron del Mac y la rutina
+      cloud de respaldo quedaron desactivados.
 
 ---
 
@@ -84,8 +88,6 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 
 ## 📅 Con fecha dura
 
-- [ ] **2026-10-04: revisar quién quedó en la lista de la newsletter** tras la ventana de
-      re-permiso (ver decisión 5 arriba).
 - [ ] **Ley 21.719, vigente 2026-12-01.** Desaparece la excepción de «fuente accesible al
       público»: hay que documentar base de licitud y EIPD. Ver `mcp_catastral/docs/MARCO_LEGAL.md`.
 - [ ] **~sept 2027: MINVU y Grant Thornton vencen el mismo mes** — el 56% del MRR en
