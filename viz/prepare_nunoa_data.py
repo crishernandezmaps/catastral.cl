@@ -2,7 +2,8 @@
 """
 Prepara datos de Ñuñoa para visualización 3D.
 
-Ejecutar en el VPS (root@46.62.214.65):
+Ejecutar en el VPS (root@46.62.214.65 — DADA DE BAJA en sept-2026; script histórico,
+/root/carto_predios no existe en las VPS vivas):
     cd /root/carto_predios/sii_vectorizer
     source ../venv/bin/activate
     python3 prepare_nunoa_data.py

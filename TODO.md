@@ -74,13 +74,13 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 
 ## ⚪ Deuda técnica menor
 
-- [ ] **`apiV3_catastral/scripts/deploy.sh` nunca se ha corrido de verdad.** Se reescribió a
+- [x] **`apiV3_catastral/scripts/deploy.sh` nunca se ha corrido de verdad.** _(Hecho 2026-09-22: rsync + rebuild + smoke OK.)_ Se reescribió a
       deploy por copia el 19-09 y el dry-run pasó, pero la primera corrida real conviene
       hacerla con un cambio trivial y mirando `docker logs apiv3-api`.
-- [ ] Borrar la deploy key `vps-46.62.214.65` de `mcp_catastral` en GitHub (máquina fuera de
-      nuestro control).
-- [ ] ~25 archivos en los repos todavía nombran las IPs dadas de baja (`46.62.214.65`,
-      `167.233.70.166`). Ya no quedan scripts ejecutables entre ellos: es ruido documental.
+- [x] Borrar la deploy key `vps-46.62.214.65` de `mcp_catastral` en GitHub (máquina fuera de
+      nuestro control). _(Verificado 2026-09-28: ya no existe. Ojo: `apiV3_catastral` tenía otra igual, read-write.)_
+- [x] ~25 archivos en los repos todavía nombran las IPs dadas de baja (`46.62.214.65`,
+      `167.233.70.166`). _Limpiado 2026-09-28: comandos operativos → 188; históricos con nota; `sync_oferta.sh` ya no tiene default a la 46.62._
 
 ## 📅 Con fecha dura
 
@@ -112,5 +112,5 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 - [ ] **Feature flags por tenant** en el shell — requisito para cobrar cabezales activables como switch, no como desarrollo.
 - [ ] **Shell estándar único** sobre la base de Póliza Gestión (MapLibre + Workbench + Flujos + Export + master read-only + capa privada por cliente).
 - [ ] **Aislar clientes** (sobre todo seguros) de los proyectos internos en las VPS compartidas.
-- [ ] Rebalancear RAM entre VPS (46.62.214.65 ociosa, 46.224.221.33 al límite; apiv2 rozando OOM).
+- [~] ~~Rebalancear RAM entre VPS (46.62.214.65 ociosa, 46.224.221.33 al límite; apiv2 rozando OOM).~~ Obsoleto: la consolidación dejó dos VPS.
 - [ ] Construir Nialem desde el inicio sobre el shell estándar (no como silo CSV divergente).

@@ -4,11 +4,12 @@ Este repositorio es la plataforma de producción **catastral.cl**.
 
 ## Despliegue
 
-- **Frontend dist:** `/var/www/catastral.cl/frontend/dist/` en VPS `46.62.214.65`
-- **Backend:** `/var/www/catastral.cl/backend/` en VPS `46.62.214.65`
+- **Frontend dist:** `/var/www/catastral.cl/frontend/dist/` en VPS `188.245.241.255`
+- **Backend:** `/var/www/catastral.cl/backend/` en VPS `188.245.241.255`
 - **Script de deploy:** `infra/deploy.sh` (rsync + restart)
 
-Solo este repositorio (`catastro/`) tiene autorización para escribir en `/var/www/catastral.cl/`.
+⚠️ **Actualizado 2026-09-28: este repo YA NO despliega catastral.cl.** Su copia de backend/frontend está
+desactualizada; el deploy real sale del repo `catastralV2`. No correr `infra/deploy.sh` desde aquí.
 
 ## PROHIBIDO
 
