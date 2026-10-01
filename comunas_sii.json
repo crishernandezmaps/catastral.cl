@@ -2422,7 +2422,7 @@
   },
   {
     "id": "10502",
-    "nombre": "Futaleufú",
+    "nombre": "Hualaihué",
     "region": "Los Lagos",
     "parquet": "s3://siipredios/sii_extractor/HUALAIHUE_10502/comuna=10502.parquet",
     "csv": "s3://siipredios/sii_extractor/HUALAIHUE_10502/comuna=10502.csv",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "10503",
-    "nombre": "Hualaihué",
+    "nombre": "Futaleufú",
     "region": "Los Lagos",
     "parquet": "s3://siipredios/sii_extractor/FUTALEUFU_10503/comuna=10503.parquet",
     "csv": "s3://siipredios/sii_extractor/FUTALEUFU_10503/comuna=10503.csv",
@@ -2449,7 +2449,7 @@
   },
   {
     "id": "11101",
-    "nombre": "Coyhaique",
+    "nombre": "Aysén",
     "region": "Aysén",
     "parquet": "s3://siipredios/sii_extractor/AYSEN_11101/comuna=11101.parquet",
     "csv": "s3://siipredios/sii_extractor/AYSEN_11101/comuna=11101.csv",
@@ -2476,7 +2476,7 @@
   },
   {
     "id": "11201",
-    "nombre": "Aysén",
+    "nombre": "Chile Chico",
     "region": "Aysén",
     "parquet": "s3://siipredios/sii_extractor/CHILE_CHICO_11201/comuna=11201.parquet",
     "csv": "s3://siipredios/sii_extractor/CHILE_CHICO_11201/comuna=11201.csv",
@@ -2521,7 +2521,7 @@
   },
   {
     "id": "11401",
-    "nombre": "Chile Chico",
+    "nombre": "Coyhaique",
     "region": "Aysén",
     "parquet": "s3://siipredios/sii_extractor/COYHAIQUE_11401/comuna=11401.parquet",
     "csv": "s3://siipredios/sii_extractor/COYHAIQUE_11401/comuna=11401.csv",
