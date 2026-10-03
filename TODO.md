@@ -89,14 +89,13 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 - [ ] La revisión ampliada destapó **tu key MCP (`cris@tremen.tech`) en `pro` sin plan**: aparecerá
       a diario como descalce en el aviso de `chequeo-planes` hasta registrarle un plan interno.
 
-- [ ] ⚖️ **El convenio de la licencia gratuita solo cubre investigación académica.**
-      `catastralV2/backend/data/convenio_academico.md` (l. 62) dice «exclusivamente para la
-      investigación académica declarada», y los Términos («Licencia educativa») nombran solo a
-      universidades y estudiantes. Pero el formulario (desde 09-16) y la portada (desde 10-03)
-      la ofrecen a **gobierno y ONG**, y el 10-03 se le ofreció a la Municipalidad de Ñuñoa para
-      uso institucional (verificar roles), que no es investigación. Decidir (idealmente con
-      abogado): ampliar la cláusula a «uso institucional sin fines de lucro» o crear un convenio
-      separado para organismos públicos y ONG.
+- [x] ⚖️ **Convenio de la licencia gratuita ampliado** a gestión pública y tercer sector —
+      publicado el 2026-10-03 (catastralV2 `HEAD`), junto con los Términos (cl. 5).
+- [ ] ⚖️ **Para el abogado:** (1) revisar la redacción nueva de la cláusula 5 del convenio y de
+      los Términos; (2) **Ley 20.285**: un órgano del Estado licenciatario podría verse obligado
+      a entregar los datos por una solicitud de transparencia, lo que choca con la prohibición
+      de redistribuir (6.2). Falta una cláusula que lo resuelva (p. ej. remitir a la fuente
+      pública original o al acceso vía Tremen).
 
 ## 🟡 Marketing: el canal que sí funciona
 
