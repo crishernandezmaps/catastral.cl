@@ -77,11 +77,12 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       académica): su solicitud sigue en `antecedentes`.
 - [ ] **Factura de Sustentable S.A. (venta 9, $372.648)**: `seguimiento_contactos` la tiene
       `pendiente` desde el 16-09. Confirmar si se emitió.
-- [ ] ⚠️ **API Pro no se degrada al vencer.** El correo de activación promete «si no renuevas,
-      el plan vuelve solo al free», pero ningún proceso lo hace: la key `pro` tiene
-      `expires_at` NULL, `portal_planes` tiene `hasta` NULL y no hay cron. `api_pro.vigente()`
-      solo se usa para sumar días al renovar y en el panel. Primer caso real: Vial y Cía.
-      vence el **2026-10-09** (y no usa la API desde el 09-15).
+- [x] **API Pro se corta solo al vencer** — RESUELTO y desplegado el 2026-10-03 (apiV2 `425298a`).
+      El `chequeo-planes.timer` diario avisa al cliente 3 días antes, y si venció sin renovar
+      baja su key a free y se lo comunica. Vial y Cía. pasó al flujo normal (regularización
+      anulada, key free+2000, MCP free): recordatorio automático el 07-10, corte el 10-10.
+- [ ] Corregir «free (100/día)» → 50 en el correo de activación (`app_catastral/.../api_pro.py::_avisar`), en el próximo deploy de la app.
+- [ ] `portal_users.mcp_key_id` de Vial apunta a una key MCP **inactiva**: `discrepancias()` no ve la activa. Revisar si hay más casos así.
 
 ## 🟡 Marketing: el canal que sí funciona
 
