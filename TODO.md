@@ -89,6 +89,15 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 - [ ] La revisión ampliada destapó **tu key MCP (`cris@tremen.tech`) en `pro` sin plan**: aparecerá
       a diario como descalce en el aviso de `chequeo-planes` hasta registrarle un plan interno.
 
+- [ ] ⚖️ **El convenio de la licencia gratuita solo cubre investigación académica.**
+      `catastralV2/backend/data/convenio_academico.md` (l. 62) dice «exclusivamente para la
+      investigación académica declarada», y los Términos («Licencia educativa») nombran solo a
+      universidades y estudiantes. Pero el formulario (desde 09-16) y la portada (desde 10-03)
+      la ofrecen a **gobierno y ONG**, y el 10-03 se le ofreció a la Municipalidad de Ñuñoa para
+      uso institucional (verificar roles), que no es investigación. Decidir (idealmente con
+      abogado): ampliar la cláusula a «uso institucional sin fines de lucro» o crear un convenio
+      separado para organismos públicos y ONG.
+
 ## 🟡 Marketing: el canal que sí funciona
 
 - [x] **El titular del sitio** — PUBLICADO el 2026-10-03: H1 «El catastro de Chile, listo para usar» + bajada con rol↔mapa y cartografía SII vectorizada (respaldo `188:/root/bak-landing-20261003.tgz`). Medir en el próximo `/mercadoCatastral` si cambia la conversión de la landing. Antecedente: lo que hizo firmar a Póliza y al MINVU es *tenemos los
