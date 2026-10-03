@@ -85,7 +85,7 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 
 ## 🟡 Marketing: el canal que sí funciona
 
-- [ ] **El titular del sitio.** Lo que hizo firmar a Póliza y al MINVU es *tenemos los
+- [x] **El titular del sitio** — PUBLICADO el 2026-10-03: H1 «El catastro de Chile, listo para usar» + bajada con rol↔mapa y cartografía SII vectorizada (respaldo `188:/root/bak-landing-20261003.tgz`). Medir en el próximo `/mercadoCatastral` si cambia la conversión de la landing. Antecedente: lo que hizo firmar a Póliza y al MINVU es *tenemos los
       polígonos del SII, que nadie más tiene*. Al 2026-10-03 el H1 ya no dice «10 millones de
       predios» sino «Expertos en datos públicos» — más genérico todavía. Decisión del 10-03:
       cambiarlo, pero **sin ser literal** con el foso; se están buscando opciones. Cuidado: el
