@@ -54,15 +54,42 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 - [ ] **El hardcode del portal**: un cliente pagó API Pro y quedó servido como `free`. Se
       regularizó a mano el 15-09; falta confirmar que está corregido **de raíz** y no solo
       en ese caso.
-- [ ] **Cruzar los `pendiente_pago` con `seguimiento_contactos`.** El 73% de lo facturado
-      entró por transferencia, así que parte del «abandono de carro» puede ser gente que
-      terminó pagando por banco. Sin ese cruce no se puede llamar fuga.
+- [x] **Cruzar los `pendiente_pago` con `seguimiento_contactos`** — HECHO el 2026-10-03.
+      **La hipótesis de la transferencia era falsa**: ninguno de los 21 pendientes (8 tienda,
+      13 API Pro) pagó por otra vía. El 73% por transferencia son los *contratos*, otro canal.
+      Cruce contra las tres tablas de cobro, `portal_planes`, `seguimiento_contactos`,
+      `api_keys`, `solicitudes` (Postgres) y el panel de Flow (las 10 órdenes Webpay del
+      13-09 al 02-10 calzan 1:1 con `entregada`; no hay pagos huérfanos).
+      | Clase | Carros | UF |
+      |---|---|---|
+      | Reintento de alguien que sí pagó (IDVIA 25-26→27; Más Recursos 28→29) | 3 | 8,2 |
+      | Duplicado de cliente ya pagado (Vial y Cía.) | 1 | 2 |
+      | Prueba interna | 1 | 2 |
+      | **Fuga real** (13 personas: 11 API Pro, 3 tienda, una en ambas) | 16 | 35,2 |
+      ⇒ el 26% del «abandono» era ruido: la cifra del 09-19 (1,38 UF perdidas por UF
+      cobrada) estaba inflada. Un caso probable más: `aruz@dpp.cl` abandonó API Pro el 09-22
+      y una hora después `aaruzf@gmail.com` compró 1 comuna — misma persona, otro correo.
+      Patrón: varios abandonos de API Pro ocurren 1-2 min después de crear la cuenta
+      (mirar el precio, no compra frustrada).
+- [ ] **Llamar a los que abandonaron el pago y siguen usando la API free**: Axity
+      (abandonó 09-30, usa la API a diario), regu.cl (09-13) y `jlulloaa` (10-01).
+- [ ] **Correo pendiente desde el 09-10** al estudiante U. de Chile (compra 3 UF vs licencia
+      académica): su solicitud sigue en `antecedentes`.
+- [ ] **Factura de Sustentable S.A. (venta 9, $372.648)**: `seguimiento_contactos` la tiene
+      `pendiente` desde el 16-09. Confirmar si se emitió.
+- [ ] ⚠️ **API Pro no se degrada al vencer.** El correo de activación promete «si no renuevas,
+      el plan vuelve solo al free», pero ningún proceso lo hace: la key `pro` tiene
+      `expires_at` NULL, `portal_planes` tiene `hasta` NULL y no hay cron. `api_pro.vigente()`
+      solo se usa para sumar días al renovar y en el panel. Primer caso real: Vial y Cía.
+      vence el **2026-10-09** (y no usa la API desde el 09-15).
 
 ## 🟡 Marketing: el canal que sí funciona
 
-- [ ] **El titular del sitio.** Hoy comunica «10 millones de predios». Lo que hizo firmar a
-      Póliza y al MINVU es *tenemos los polígonos del SII, que nadie más tiene*. Esa frase
-      debería estar en la primera pantalla.
+- [ ] **El titular del sitio.** Lo que hizo firmar a Póliza y al MINVU es *tenemos los
+      polígonos del SII, que nadie más tiene*. Al 2026-10-03 el H1 ya no dice «10 millones de
+      predios» sino «Expertos en datos públicos» — más genérico todavía. Decisión del 10-03:
+      cambiarlo, pero **sin ser literal** con el foso; se están buscando opciones. Cuidado: el
+      polígono SII es huella edificada, no deslinde — no prometer «el polígono de tu predio».
 - [ ] **Primer experimento de LinkedIn**: el mapa vectorial contra la imagen WMS del SII.
       Es la demo del foso en una imagen. Material y consultas ya identificadas.
 - [ ] **Registrar qué publicación origina cada conversación** (la tabla
