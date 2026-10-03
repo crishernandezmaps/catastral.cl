@@ -81,8 +81,13 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       El `chequeo-planes.timer` diario avisa al cliente 3 días antes, y si venció sin renovar
       baja su key a free y se lo comunica. Vial y Cía. pasó al flujo normal (regularización
       anulada, key free+2000, MCP free): recordatorio automático el 07-10, corte el 10-10.
-- [ ] Corregir «free (100/día)» → 50 en el correo de activación (`app_catastral/.../api_pro.py::_avisar`), en el próximo deploy de la app.
-- [ ] `portal_users.mcp_key_id` de Vial apunta a una key MCP **inactiva**: `discrepancias()` no ve la activa. Revisar si hay más casos así.
+- [x] Correo de activación de API Pro sin «100/día» — desplegado el 2026-10-03 (app `b17de06`, md5 verificado en host y ambas réplicas).
+- [x] **Punteros de `portal_users` a keys revocadas** — RESUELTO el 2026-10-03 (apiV2 `7bc8809`):
+      `aplicar()` y `discrepancias()` ahora miran todas las keys activas del correo, no el
+      puntero. Había 3 casos (Vial MCP; plomolex API+MCP), reapuntados. Además, bajar a free
+      conserva las 2000/día si el API Pro de la app sigue vigente.
+- [ ] La revisión ampliada destapó **tu key MCP (`cris@tremen.tech`) en `pro` sin plan**: aparecerá
+      a diario como descalce en el aviso de `chequeo-planes` hasta registrarle un plan interno.
 
 ## 🟡 Marketing: el canal que sí funciona
 
