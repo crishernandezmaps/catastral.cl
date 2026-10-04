@@ -124,7 +124,10 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 - [ ] **Módulo «Efecto OGUC» en la plataforma** (decidido 2026-10-04: el efecto del decreto MINVU —toma
       de razón 01-10-2026, publicación en el D.O. esperada la semana del 05-10— se vende SOLO como módulo
       recurrente, nunca por comuna). **Incluido en la base del plan Plataforma (5 UF/mes)**, no como módulo
-      aparte; acceso mientras la suscripción esté pagada (Cris, 2026-10-04). No existe aún en `app_catastral`. Reutilizar `pse3/oguc/capacidad.py` (18 comunas calculadas;
+      aparte; acceso mientras la suscripción esté pagada (Cris, 2026-10-04). No existe aún en `app_catastral`.
+      **La normativa también pasa a la base de 5 UF/mes** (decidido 2026-10-04). Al construir el módulo, sacar
+      `ordenanzas` de los módulos pagados en `app_catastral` (`subs.py` / `modulos.py`) y llevar el cambio a
+      `MODELO_NEGOCIO.md` y al portal de planes. Lo construye Cris. Reutilizar `pse3/oguc/capacidad.py` (18 comunas calculadas;
       `SIN_GUARISMO` = delta ~0). Ajustar al texto publicado. Borrador v2 de la propuesta MJAA en
       `cotizaciones/mjaa_providencia_2026-10-04/muestra_catastral_providencia_v2_BORRADOR.pdf` (no enviado).
 - [ ] **Newsletter: Cris decidió (2026-10-04) seguir enviando.** Definir a quién: la promesa de
