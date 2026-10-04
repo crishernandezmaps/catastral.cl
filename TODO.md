@@ -101,9 +101,10 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       comuna, ninguno compró; + gabriel.martinez 09-10). Decidir seguimiento: segundo correo,
       llamada, o cerrarlos. **1 sin responder:** geotax.cl (09-29) pregunta por índices de
       conservadores / CBR y cómo probar la plataforma — candidato al módulo CBR.
-- [ ] **Completar `inicio` de los contratos** en `188:/opt/app_catastral/data/contratos.json`
-      (Póliza 24 m, MINVU 12 m, Grant Thornton 12 m). Sin fecha el panel los cuenta vigentes
-      para siempre y no avisa vencimientos.
+- [x] Fechas de los contratos cargadas el 2026-10-03 (aprox., día 1 del mes): Póliza 2026-05-01
+      (24 m → may-2028), MINVU y Grant Thornton 2026-10-01 (12 m → oct-2027).
+- [ ] **Lunes 2026-10-05: revisar respuestas** a los 12 correos del 10-03 (Evolutiva, Axity,
+      Regu, mtbarrav, Ñuñoa y 7 académicos). geotax.cl lo lleva Cris en persona.
 
 ## 🟡 Marketing: el canal que sí funciona
 
