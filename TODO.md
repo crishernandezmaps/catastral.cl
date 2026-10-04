@@ -111,7 +111,8 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       con mapas. Método en `PLAYBOOK_MUESTRAS.md`; archivos en `CATASTRAL/cotizaciones/mjaa_providencia_2026-10-04/`.
 - [ ] **MJAA: seguimiento.** Se propuso una llamada de 30 min la semana del 2026-10-05. Si no responde
       en ~5 días hábiles, segundo correo. Siguiente paso comercial: muestra sobre SU zona.
-- [ ] **Registrar MJAA en `seguimiento_contactos`** (origen LinkedIn) — pendiente de OK (escribe en producción).
+- [x] **MJAA registrado en `seguimiento_contactos`** (id 263, motivo `muestra_prospecto`, estado `pendiente`,
+      origen LinkedIn en la nota) el 2026-10-04. Respaldo previo: `188:/root/bak-acceso-20261004-pre-mjaa.sqlite`.
 - [ ] **Opción B del contacto del propietario** (decidida 2026-10-04): el CBR a $800 incluye el contacto
       vía proveedor externo y el cliente no ve a Inciti. Hoy `app_catastral/backend/app/ext.py` consulta
       con la llave del cliente → hay que pasarlo a la llave de TREMEN **antes de que MJAA contrate**.
