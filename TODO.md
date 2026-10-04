@@ -97,6 +97,14 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       de redistribuir (6.2). Falta una cláusula que lo resuelva (p. ej. remitir a la fuente
       pública original o al acceso vía Tremen).
 
+- [ ] **13 pedidos comerciales cotizados sin cierre** (12 cotizados el 17-09 con precio por
+      comuna, ninguno compró; + gabriel.martinez 09-10). Decidir seguimiento: segundo correo,
+      llamada, o cerrarlos. **1 sin responder:** geotax.cl (09-29) pregunta por índices de
+      conservadores / CBR y cómo probar la plataforma — candidato al módulo CBR.
+- [ ] **Completar `inicio` de los contratos** en `188:/opt/app_catastral/data/contratos.json`
+      (Póliza 24 m, MINVU 12 m, Grant Thornton 12 m). Sin fecha el panel los cuenta vigentes
+      para siempre y no avisa vencimientos.
+
 ## 🟡 Marketing: el canal que sí funciona
 
 - [x] **El titular del sitio** — PUBLICADO el 2026-10-03: H1 «El catastro de Chile, listo para usar» + bajada con rol↔mapa y cartografía SII vectorizada (respaldo `188:/root/bak-landing-20261003.tgz`). Medir en el próximo `/mercadoCatastral` si cambia la conversión de la landing. Antecedente: lo que hizo firmar a Póliza y al MINVU es *tenemos los
