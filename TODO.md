@@ -121,6 +121,12 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
 - [x] **Precio TGR masivo fijado (2026-10-04):** 1 UF por 1.000 roles, escalera 1,00/0,90/0,80/0,70/0,60
       UF por mil hasta 10.000 (tramo aplica a todo el pedido; solo certificados obtenidos; >10.000 se
       cotiza). Costo medido ≈ US$0,0034/rol → margen ≥ 7× en el tramo más barato. Llevarlo a `MODELO_NEGOCIO.md`.
+- [ ] **Módulo «Efecto OGUC» en la plataforma** (decidido 2026-10-04: el efecto del decreto MINVU —toma
+      de razón 01-10-2026, publicación en el D.O. esperada la semana del 05-10— se vende SOLO como módulo
+      recurrente, nunca por comuna). No existe aún en `app_catastral/backend/app/modulos.py`. Precio
+      propuesto +1 UF/mes, por confirmar. Reutilizar `pse3/oguc/capacidad.py` (18 comunas calculadas;
+      `SIN_GUARISMO` = delta ~0). Ajustar al texto publicado. Borrador v2 de la propuesta MJAA en
+      `cotizaciones/mjaa_providencia_2026-10-04/muestra_catastral_providencia_v2_BORRADOR.pdf` (no enviado).
 - [ ] **Newsletter: Cris decidió (2026-10-04) seguir enviando.** Definir a quién: la promesa de
       re-permiso excluye a los 574 `sin_respuesta`; lo coherente es opt-in (~10) + nuevos.
 
