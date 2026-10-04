@@ -86,8 +86,8 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       `aplicar()` y `discrepancias()` ahora miran todas las keys activas del correo, no el
       puntero. Había 3 casos (Vial MCP; plomolex API+MCP), reapuntados. Además, bajar a free
       conserva las 2000/día si el API Pro de la app sigue vigente.
-- [ ] La revisión ampliada destapó **tu key MCP (`cris@tremen.tech`) en `pro` sin plan**: aparecerá
-      a diario como descalce en el aviso de `chequeo-planes` hasta registrarle un plan interno.
+- [x] ~~Key MCP de `cris@tremen.tech` en `pro` sin plan~~ — verificado el 2026-10-04: la corrida de
+      `chequeo-planes` de ese día reporta `descalces plan ↔ tier: 0`. Nada que hacer.
 
 - [x] ⚖️ **Convenio de la licencia gratuita ampliado** a gestión pública y tercer sector —
       publicado el 2026-10-03 (catastralV2 `HEAD`), junto con los Términos (cl. 5).
@@ -105,6 +105,23 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       (24 m → may-2028), MINVU y Grant Thornton 2026-10-01 (12 m → oct-2027).
 - [ ] **Lunes 2026-10-05: revisar respuestas** a los 12 correos del 10-03 (Evolutiva, Axity,
       Regu, mtbarrav, Ñuñoa y 7 académicos). geotax.cl lo lleva Cris en persona.
+- [x] **MJAA (Matías Jarpa, inmobiliaria, llegó por LinkedIn el 2026-10-04)** pidió probar el servicio.
+      Muestra enviada el mismo día (Resend `delivered`, desde cris@tremen.tech): 3 manzanas de
+      Providencia (2303, 857, 7003; 64 roles) con SII + PRC/Ordenanza + TGR + transacciones, Excel + PDF
+      con mapas. Método en `PLAYBOOK_MUESTRAS.md`; archivos en `CATASTRAL/cotizaciones/mjaa_providencia_2026-10-04/`.
+- [ ] **MJAA: seguimiento.** Se propuso una llamada de 30 min la semana del 2026-10-05. Si no responde
+      en ~5 días hábiles, segundo correo. Siguiente paso comercial: muestra sobre SU zona.
+- [ ] **Registrar MJAA en `seguimiento_contactos`** (origen LinkedIn) — pendiente de OK (escribe en producción).
+- [ ] **Opción B del contacto del propietario** (decidida 2026-10-04): el CBR a $800 incluye el contacto
+      vía proveedor externo y el cliente no ve a Inciti. Hoy `app_catastral/backend/app/ext.py` consulta
+      con la llave del cliente → hay que pasarlo a la llave de TREMEN **antes de que MJAA contrate**.
+      ⚠️ Margen ≈ 0 cuando se pide el contacto (Inciti ≈ 0,02 UF/consulta) y revisar con el abogado que
+      el contrato con Inciti permita revender.
+- [x] **Precio TGR masivo fijado (2026-10-04):** 1 UF por 1.000 roles, escalera 1,00/0,90/0,80/0,70/0,60
+      UF por mil hasta 10.000 (tramo aplica a todo el pedido; solo certificados obtenidos; >10.000 se
+      cotiza). Costo medido ≈ US$0,0034/rol → margen ≥ 7× en el tramo más barato. Llevarlo a `MODELO_NEGOCIO.md`.
+- [ ] **Newsletter: Cris decidió (2026-10-04) seguir enviando.** Definir a quién: la promesa de
+      re-permiso excluye a los 574 `sin_respuesta`; lo coherente es opt-in (~10) + nuevos.
 
 ## 🟡 Marketing: el canal que sí funciona
 
