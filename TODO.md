@@ -75,8 +75,8 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       (abandonó 09-30, usa la API a diario), regu.cl (09-13) y `jlulloaa` (10-01).
 - [ ] **Correo pendiente desde el 09-10** al estudiante U. de Chile (compra 3 UF vs licencia
       académica): su solicitud sigue en `antecedentes`.
-- [ ] **Factura de Sustentable S.A. (venta 9, $372.648)**: `seguimiento_contactos` la tiene
-      `pendiente` desde el 16-09. Confirmar si se emitió.
+- [x] **Factura de Sustentable S.A. (venta 9, $372.648)** — emitida y enviada el 2026-10-05
+      (FE n.º 57, total $372.649). Tarea 124 de `seguimiento_contactos` cerrada el 2026-10-06.
 - [x] **API Pro se corta solo al vencer** — RESUELTO y desplegado el 2026-10-03 (apiV2 `425298a`).
       El `chequeo-planes.timer` diario avisa al cliente 3 días antes, y si venció sin renovar
       baja su key a free y se lo comunica. Vial y Cía. pasó al flujo normal (regularización
