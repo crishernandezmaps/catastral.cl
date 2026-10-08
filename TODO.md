@@ -75,6 +75,18 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       (abandonó 09-30, usa la API a diario), regu.cl (09-13) y `jlulloaa` (10-01).
 - [ ] **Correo pendiente desde el 09-10** al estudiante U. de Chile (compra 3 UF vs licencia
       académica): su solicitud sigue en `antecedentes`.
+- [ ] **AGS (David Briones) — Las Cabras y Peumo** (cotizado 2026-10-06, en su hilo): 1,20 UF + IVA por
+      las dos comunas + oferta O'Higgins completa (33 comunas, 15,97 UF + IVA, −25%). AGS ya compró antes
+      (venta 10, 9 UF): preguntar para qué análisis lo necesitan — si es una cartera, es contrato.
+      Hoja en `CATASTRAL/cotizaciones/ags_las-cabras-peumo_2026-10-06/`.
+- [ ] **Déficit Cero — licencia gratuita NACIONAL 2026S2** (`LIC-2026-DC01`, enviada 2026-10-07):
+      convenio (cl. 9, tercer sector) + enlace de descarga de la capa completa (130 col, 2,85 GB; vence
+      2026-10-14). Falta: **recibir el convenio firmado** (reunión con ellos el 19-10). Entrega registrada
+      a mano en `entregas` (sin solicitud → sin avisos automáticos de vencimiento). Primera licencia gratuita
+      de cobertura nacional: excepción deliberada a «país gratuito no existe»; sin marca de agua.
+- [ ] **La capa 2026S2 no está en el flujo de entregas**: la tienda y `entregas.py` sirven 2026S1
+      (`comunas_z16.json`). Para vender o licenciar 2026S2 por comuna hay que publicar su catálogo por comuna.
+      El parquet nacional completo no trae metadatos GeoParquet (hay que declarar EPSG:4326 al abrir).
 - [x] **Factura de Sustentable S.A. (venta 9, $372.648)** — emitida y enviada el 2026-10-05
       (FE n.º 57, total $372.649). Tarea 124 de `seguimiento_contactos` cerrada el 2026-10-06.
 - [x] **API Pro se corta solo al vencer** — RESUELTO y desplegado el 2026-10-03 (apiV2 `425298a`).
