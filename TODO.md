@@ -75,10 +75,14 @@ No hay tanda de seguimiento: la promesa de re-permiso se respeta.
       (abandonó 09-30, usa la API a diario), regu.cl (09-13) y `jlulloaa` (10-01).
 - [ ] **Correo pendiente desde el 09-10** al estudiante U. de Chile (compra 3 UF vs licencia
       académica): su solicitud sigue en `antecedentes`.
-- [ ] **AGS (David Briones) — Las Cabras y Peumo** (cotizado 2026-10-06, en su hilo): 1,20 UF + IVA por
-      las dos comunas + oferta O'Higgins completa (33 comunas, 15,97 UF + IVA, −25%). AGS ya compró antes
-      (venta 10, 9 UF): preguntar para qué análisis lo necesitan — si es una cartera, es contrato.
-      Hoja en `CATASTRAL/cotizaciones/ags_las-cabras-peumo_2026-10-06/`.
+- [x] **AGS — Las Cabras y Peumo**: cotizado 06-10, pago por transferencia confirmado por Christian Casanova
+      (Finanzas) el 08-10 y **entregado ese día** en el hilo (ZIP con 2026S2 + 2026S1, GeoParquet con encabezado).
+      - [ ] Verificar el abono en la cuenta y **registrar la venta** (`ventas_comunas`/`entregas`: no hay fila).
+- [ ] 🔥 **Los parquet de la tienda no traen el encabezado GeoParquet** (metadato `geo`): QGIS los abre como tabla.
+      Lo destapó el reclamo de Dinámica Plataforma (VTA-2026-0067, 15 comunas, 08-10), resuelto con una entrega
+      2026S2 + Monte Patria y Cabildo de regalo. Falta: (1) corregir el origen (`watermark.marca_parquet` o
+      `licencias/base_z16/`), (2) listar las entregas de la tienda desde el 09-09 y avisar o reentregar,
+      (3) mismo defecto en `chile_predios_2026s2_completa.parquet` (Déficit Cero).
 - [ ] **Déficit Cero — licencia gratuita NACIONAL 2026S2** (`LIC-2026-DC01`, enviada 2026-10-07):
       convenio (cl. 9, tercer sector) + enlace de descarga de la capa completa (130 col, 2,85 GB; vence
       2026-10-14). Falta: **recibir el convenio firmado** (reunión con ellos el 19-10). Entrega registrada
