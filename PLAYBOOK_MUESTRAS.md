@@ -78,3 +78,20 @@ Hojas: Resumen · Predios (una fila por rol) · Transacciones · Normas por zona
 
 **Solo con OK explícito.** Remitente `cris@tremen.tech`, CC a Cris, adjuntos PDF + Excel. Guardar
 todo en `CATASTRAL/cotizaciones/<cliente>_<comuna>_<fecha>/` (fuera de git; archivos 600).
+
+## Entrega en KMZ (Google Earth) a pedido del cliente
+
+_Desde el 2026-10-20 (CMP, venta 44, La Serena, VTA-2026-0077)._ La tienda entrega GeoParquet y CSV; si el
+cliente pide KMZ, se convierte **el mismo parquet entregado** (con su marca de agua) en la .33:
+
+```
+aws --profile 18o s3 cp s3://siipredios/licencias/entregas/<VTA>/<Comuna>_<cod>.parquet .
+python3 -c "import duckdb;c=duckdb.connect();c.sql('load spatial');c.sql(\"copy (select * exclude (bbox_min_lon,bbox_max_lon,bbox_min_lat,bbox_max_lat) from '<archivo>.parquet' where geometry is not null) to 'x.fgb' with (format gdal, driver 'FlatGeobuf', srs 'EPSG:4326')\")"
+ogr2ogr -f KML doc.kml x.fgb -dsco NameField=rol && zip -9 -q <Comuna>_<cod>.kmz doc.kml
+aws --profile 18o s3 cp <Comuna>_<cod>.kmz s3://siipredios/licencias/entregas/<VTA>/   # y presign de 7 días
+```
+
+Usar el driver **KML** (~1 min), **no LIBKML**: este arma todo en memoria y tardó más de 20 min sin terminar. La Serena
+(145 mil polígonos, todos los atributos) pesa 44 MB comprimida y ~900 MB sin comprimir. Advertir que Google Earth puede
+ir lento y ofrecer una versión por sectores o con menos atributos. Envío desde cris@catastral.cl por Resend,
+**solo con OK de Cris**.
