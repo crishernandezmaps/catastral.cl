@@ -1,0 +1,3454 @@
+[
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Laguna Blanca",
+"cods": [
+12206
+],
+"poligonos": 203,
+"archivo": "LagunaBlanca_12206_2026S2.geojson",
+"mb_est": 1
+},
+{
+"region": "Antofagasta",
+"comuna": "Ollagüe",
+"cods": [
+2302
+],
+"poligonos": 245,
+"archivo": "Ollague_2302_2026S2.geojson",
+"mb_est": 1
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Río Verde",
+"cods": [
+12202
+],
+"poligonos": 284,
+"archivo": "RioVerde_12202_2026S2.geojson",
+"mb_est": 1
+},
+{
+"region": "Arica y Parinacota",
+"comuna": "General Lagos",
+"cods": [
+1302
+],
+"poligonos": 291,
+"archivo": "GeneralLagos_1302_2026S2.geojson",
+"mb_est": 1
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "San Gregorio",
+"cods": [
+12204
+],
+"poligonos": 354,
+"archivo": "SanGregorio_12204_2026S2.geojson",
+"mb_est": 1
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Primavera",
+"cods": [
+12302
+],
+"poligonos": 455,
+"archivo": "Primavera_12302_2026S2.geojson",
+"mb_est": 1
+},
+{
+"region": "Valparaíso",
+"comuna": "Juan Fernández",
+"cods": [
+5308
+],
+"poligonos": 457,
+"archivo": "JuanFernandez_5308_2026S2.geojson",
+"mb_est": 1
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Timaukel",
+"cods": [
+12304
+],
+"poligonos": 460,
+"archivo": "Timaukel_12304_2026S2.geojson",
+"mb_est": 1
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Torres del Paine",
+"cods": [
+12103
+],
+"poligonos": 727,
+"archivo": "TorresdelPaine_12103_2026S2.geojson",
+"mb_est": 2
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "O’Higgins",
+"cods": [
+11302
+],
+"poligonos": 873,
+"archivo": "OHiggins_11302_2026S2.geojson",
+"mb_est": 2
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Guaitecas",
+"cods": [
+11104
+],
+"poligonos": 999,
+"archivo": "Guaitecas_11104_2026S2.geojson",
+"mb_est": 3
+},
+{
+"region": "Arica y Parinacota",
+"comuna": "Camarones",
+"cods": [
+1106
+],
+"poligonos": 1541,
+"archivo": "Camarones_1106_2026S2.geojson",
+"mb_est": 4
+},
+{
+"region": "Biobío",
+"comuna": "Alto Biobío",
+"cods": [
+8414
+],
+"poligonos": 1595,
+"archivo": "AltoBiobio_8414_2026S2.geojson",
+"mb_est": 4
+},
+{
+"region": "Tarapacá",
+"comuna": "Camiña",
+"cods": [
+1208
+],
+"poligonos": 1605,
+"archivo": "Camina_1208_2026S2.geojson",
+"mb_est": 4
+},
+{
+"region": "Biobío",
+"comuna": "San Rosendo",
+"cods": [
+8411
+],
+"poligonos": 1774,
+"archivo": "SanRosendo_8411_2026S2.geojson",
+"mb_est": 5
+},
+{
+"region": "Los Lagos",
+"comuna": "Palena",
+"cods": [
+10504
+],
+"poligonos": 1819,
+"archivo": "Palena_10504_2026S2.geojson",
+"mb_est": 5
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Lago Verde",
+"cods": [
+11402
+],
+"poligonos": 1914,
+"archivo": "LagoVerde_11402_2026S2.geojson",
+"mb_est": 5
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Cabo de Hornos",
+"cods": [
+12401
+],
+"poligonos": 2156,
+"archivo": "CabodeHornos_12401_2026S2.geojson",
+"mb_est": 6
+},
+{
+"region": "Antofagasta",
+"comuna": "María Elena",
+"cods": [
+2103
+],
+"poligonos": 2175,
+"archivo": "MariaElena_2103_2026S2.geojson",
+"mb_est": 6
+},
+{
+"region": "Tarapacá",
+"comuna": "Colchane",
+"cods": [
+1210
+],
+"poligonos": 2243,
+"archivo": "Colchane_1210_2026S2.geojson",
+"mb_est": 6
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Alhué",
+"cods": [
+14605
+],
+"poligonos": 2253,
+"archivo": "Alhue_14605_2026S2.geojson",
+"mb_est": 6
+},
+{
+"region": "Los Lagos",
+"comuna": "Futaleufú",
+"cods": [
+10503
+],
+"poligonos": 2393,
+"archivo": "Futaleufu_10503_2026S2.geojson",
+"mb_est": 7
+},
+{
+"region": "Los Lagos",
+"comuna": "Curaco de Vélez",
+"cods": [
+10410
+],
+"poligonos": 2464,
+"archivo": "CuracodeVelez_10410_2026S2.geojson",
+"mb_est": 7
+},
+{
+"region": "Antofagasta",
+"comuna": "Sierra Gorda",
+"cods": [
+2206
+],
+"poligonos": 2674,
+"archivo": "SierraGorda_2206_2026S2.geojson",
+"mb_est": 7
+},
+{
+"region": "Coquimbo",
+"comuna": "Paiguano",
+"cods": [
+4106
+],
+"poligonos": 2758,
+"archivo": "Paiguano_4106_2026S2.geojson",
+"mb_est": 8
+},
+{
+"region": "Valparaíso",
+"comuna": "Isla de Pascua",
+"cods": [
+5101
+],
+"poligonos": 2794,
+"archivo": "IsladePascua_5101_2026S2.geojson",
+"mb_est": 8
+},
+{
+"region": "Biobío",
+"comuna": "Antuco",
+"cods": [
+8413
+],
+"poligonos": 2807,
+"archivo": "Antuco_8413_2026S2.geojson",
+"mb_est": 8
+},
+{
+"region": "Ñuble",
+"comuna": "Ránquil",
+"cods": [
+8119
+],
+"poligonos": 2880,
+"archivo": "Ranquil_8119_2026S2.geojson",
+"mb_est": 8
+},
+{
+"region": "Los Lagos",
+"comuna": "Puqueldón",
+"cods": [
+10405
+],
+"poligonos": 2940,
+"archivo": "Puqueldon_10405_2026S2.geojson",
+"mb_est": 8
+},
+{
+"region": "Valparaíso",
+"comuna": "Panquehue",
+"cods": [
+5602
+],
+"poligonos": 3031,
+"archivo": "Panquehue_5602_2026S2.geojson",
+"mb_est": 8
+},
+{
+"region": "Ñuble",
+"comuna": "Portezuelo",
+"cods": [
+8106
+],
+"poligonos": 3126,
+"archivo": "Portezuelo_8106_2026S2.geojson",
+"mb_est": 9
+},
+{
+"region": "Biobío",
+"comuna": "Quilaco",
+"cods": [
+8408
+],
+"poligonos": 3173,
+"archivo": "Quilaco_8408_2026S2.geojson",
+"mb_est": 9
+},
+{
+"region": "Ñuble",
+"comuna": "San Fabián",
+"cods": [
+8111
+],
+"poligonos": 3203,
+"archivo": "SanFabian_8111_2026S2.geojson",
+"mb_est": 9
+},
+{
+"region": "Los Ríos",
+"comuna": "Corral",
+"cods": [
+10106
+],
+"poligonos": 3303,
+"archivo": "Corral_10106_2026S2.geojson",
+"mb_est": 9
+},
+{
+"region": "Ñuble",
+"comuna": "Treguaco",
+"cods": [
+8108
+],
+"poligonos": 3507,
+"archivo": "Treguaco_8108_2026S2.geojson",
+"mb_est": 10
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Coinco",
+"cods": [
+6116
+],
+"poligonos": 3671,
+"archivo": "Coinco_6116_2026S2.geojson",
+"mb_est": 10
+},
+{
+"region": "Coquimbo",
+"comuna": "Río Hurtado",
+"cods": [
+4206
+],
+"poligonos": 3732,
+"archivo": "RioHurtado_4206_2026S2.geojson",
+"mb_est": 10
+},
+{
+"region": "Los Lagos",
+"comuna": "Quinchao",
+"cods": [
+10415
+],
+"poligonos": 3751,
+"archivo": "Quinchao_10415_2026S2.geojson",
+"mb_est": 10
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Pumanque",
+"cods": [
+6214
+],
+"poligonos": 3822,
+"archivo": "Pumanque_6214_2026S2.geojson",
+"mb_est": 10
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Cochrane",
+"cods": [
+11301
+],
+"poligonos": 3874,
+"archivo": "Cochrane_11301_2026S2.geojson",
+"mb_est": 11
+},
+{
+"region": "Los Lagos",
+"comuna": "Cochamó",
+"cods": [
+10302
+],
+"poligonos": 3921,
+"archivo": "Cochamo_10302_2026S2.geojson",
+"mb_est": 11
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Tortel",
+"cods": [
+11303
+],
+"poligonos": 3978,
+"archivo": "Tortel_11303_2026S2.geojson",
+"mb_est": 11
+},
+{
+"region": "Atacama",
+"comuna": "Freirina",
+"cods": [
+3302
+],
+"poligonos": 4089,
+"archivo": "Freirina_3302_2026S2.geojson",
+"mb_est": 11
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Placilla",
+"cods": [
+6204
+],
+"poligonos": 4094,
+"archivo": "Placilla_6204_2026S2.geojson",
+"mb_est": 11
+},
+{
+"region": "Región Metropolitana",
+"comuna": "San Pedro",
+"cods": [
+14604
+],
+"poligonos": 4124,
+"archivo": "SanPedro_14604_2026S2.geojson",
+"mb_est": 11
+},
+{
+"region": "Arica y Parinacota",
+"comuna": "Putre",
+"cods": [
+1301
+],
+"poligonos": 4221,
+"archivo": "Putre_1301_2026S2.geojson",
+"mb_est": 11
+},
+{
+"region": "Los Ríos",
+"comuna": "Máfil",
+"cods": [
+10107
+],
+"poligonos": 4230,
+"archivo": "Mafil_10107_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Tarapacá",
+"comuna": "Huara",
+"cods": [
+1206
+],
+"poligonos": 4332,
+"archivo": "Huara_1206_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Olivar",
+"cods": [
+6114
+],
+"poligonos": 4352,
+"archivo": "Olivar_6114_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Lolol",
+"cods": [
+6206
+],
+"poligonos": 4375,
+"archivo": "Lolol_6206_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Ñuble",
+"comuna": "Ninhue",
+"cods": [
+8105
+],
+"poligonos": 4398,
+"archivo": "Ninhue_8105_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Atacama",
+"comuna": "Alto del Carmen",
+"cods": [
+3304
+],
+"poligonos": 4440,
+"archivo": "AltodelCarmen_3304_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Araucanía",
+"comuna": "Ercilla",
+"cods": [
+9106
+],
+"poligonos": 4461,
+"archivo": "Ercilla_9106_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Los Lagos",
+"comuna": "Chaitén",
+"cods": [
+10501
+],
+"poligonos": 4490,
+"archivo": "Chaiten_10501_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Porvenir",
+"cods": [
+12301
+],
+"poligonos": 4593,
+"archivo": "Porvenir_12301_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Biobío",
+"comuna": "Negrete",
+"cods": [
+8406
+],
+"poligonos": 4594,
+"archivo": "Negrete_8406_2026S2.geojson",
+"mb_est": 12
+},
+{
+"region": "Coquimbo",
+"comuna": "Andacollo",
+"cods": [
+4104
+],
+"poligonos": 4599,
+"archivo": "Andacollo_4104_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Araucanía",
+"comuna": "Perquenco",
+"cods": [
+9206
+],
+"poligonos": 4607,
+"archivo": "Perquenco_9206_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Araucanía",
+"comuna": "Melipeuco",
+"cods": [
+9217
+],
+"poligonos": 4607,
+"archivo": "Melipeuco_9217_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Palmilla",
+"cods": [
+6207
+],
+"poligonos": 4690,
+"archivo": "Palmilla_6207_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Codegua",
+"cods": [
+6107
+],
+"poligonos": 4767,
+"archivo": "Codegua_6107_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Atacama",
+"comuna": "Diego de Almagro",
+"cods": [
+3102
+],
+"poligonos": 4786,
+"archivo": "DiegodeAlmagro_3102_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Los Lagos",
+"comuna": "Queilén",
+"cods": [
+10403
+],
+"poligonos": 4797,
+"archivo": "Queilen_10403_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Peumo",
+"cods": [
+6108
+],
+"poligonos": 4838,
+"archivo": "Peumo_6108_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Ñuble",
+"comuna": "Pemuco",
+"cods": [
+8117
+],
+"poligonos": 4906,
+"archivo": "Pemuco_8117_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Biobío",
+"comuna": "Contulmo",
+"cods": [
+8306
+],
+"poligonos": 4945,
+"archivo": "Contulmo_8306_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Malloa",
+"cods": [
+6115
+],
+"poligonos": 4956,
+"archivo": "Malloa_6115_2026S2.geojson",
+"mb_est": 13
+},
+{
+"region": "Región Metropolitana",
+"comuna": "María Pinto",
+"cods": [
+14602
+],
+"poligonos": 5032,
+"archivo": "MariaPinto_14602_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Biobío",
+"comuna": "Tirúa",
+"cods": [
+8307
+],
+"poligonos": 5111,
+"archivo": "Tirua_8307_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Los Lagos",
+"comuna": "Hualaihué",
+"cods": [
+10502
+],
+"poligonos": 5146,
+"archivo": "Hualaihue_10502_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Coquimbo",
+"comuna": "Canela",
+"cods": [
+4304
+],
+"poligonos": 5173,
+"archivo": "Canela_4304_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Los Lagos",
+"comuna": "San Juan de la Costa",
+"cods": [
+10207
+],
+"poligonos": 5185,
+"archivo": "SanJuandelaCosta_10207_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Ñuble",
+"comuna": "Coelemu",
+"cods": [
+8120
+],
+"poligonos": 5191,
+"archivo": "Coelemu_8120_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Araucanía",
+"comuna": "Los Sauces",
+"cods": [
+9103
+],
+"poligonos": 5225,
+"archivo": "LosSauces_9103_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Tarapacá",
+"comuna": "Pica",
+"cods": [
+1203
+],
+"poligonos": 5290,
+"archivo": "Pica_1203_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Chile Chico",
+"cods": [
+11201
+],
+"poligonos": 5301,
+"archivo": "ChileChico_11201_2026S2.geojson",
+"mb_est": 14
+},
+{
+"region": "Biobío",
+"comuna": "Quilleco",
+"cods": [
+8404
+],
+"poligonos": 5411,
+"archivo": "Quilleco_8404_2026S2.geojson",
+"mb_est": 15
+},
+{
+"region": "Atacama",
+"comuna": "Tierra Amarilla",
+"cods": [
+3203
+],
+"poligonos": 5629,
+"archivo": "TierraAmarilla_3203_2026S2.geojson",
+"mb_est": 15
+},
+{
+"region": "Maule",
+"comuna": "Licantén",
+"cods": [
+7105
+],
+"poligonos": 5650,
+"archivo": "Licanten_7105_2026S2.geojson",
+"mb_est": 15
+},
+{
+"region": "Araucanía",
+"comuna": "Renaico",
+"cods": [
+9104
+],
+"poligonos": 5717,
+"archivo": "Renaico_9104_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "La Estrella",
+"cods": [
+6304
+],
+"poligonos": 5802,
+"archivo": "LaEstrella_6304_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Quinta de Tilcoco",
+"cods": [
+6117
+],
+"poligonos": 5822,
+"archivo": "QuintadeTilcoco_6117_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Valparaíso",
+"comuna": "Petorca",
+"cods": [
+5202
+],
+"poligonos": 5869,
+"archivo": "Petorca_5202_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Río Ibáñez",
+"cods": [
+11203
+],
+"poligonos": 5872,
+"archivo": "RioIbanez_11203_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Maule",
+"comuna": "Empedrado",
+"cods": [
+7209
+],
+"poligonos": 6011,
+"archivo": "Empedrado_7209_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Peralillo",
+"cods": [
+6208
+],
+"poligonos": 6019,
+"archivo": "Peralillo_6208_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Maule",
+"comuna": "Chanco",
+"cods": [
+7403
+],
+"poligonos": 6024,
+"archivo": "Chanco_7403_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Antofagasta",
+"comuna": "Mejillones",
+"cods": [
+2203
+],
+"poligonos": 6036,
+"archivo": "Mejillones_2203_2026S2.geojson",
+"mb_est": 16
+},
+{
+"region": "Maule",
+"comuna": "Rauco",
+"cods": [
+7104
+],
+"poligonos": 6080,
+"archivo": "Rauco_7104_2026S2.geojson",
+"mb_est": 17
+},
+{
+"region": "Ñuble",
+"comuna": "Cobquecura",
+"cods": [
+8107
+],
+"poligonos": 6092,
+"archivo": "Cobquecura_8107_2026S2.geojson",
+"mb_est": 17
+},
+{
+"region": "Antofagasta",
+"comuna": "San Pedro de Atacama",
+"cods": [
+2303
+],
+"poligonos": 6108,
+"archivo": "SanPedrodeAtacama_2303_2026S2.geojson",
+"mb_est": 17
+},
+{
+"region": "Valparaíso",
+"comuna": "Calle Larga",
+"cods": [
+5702
+],
+"poligonos": 6147,
+"archivo": "CalleLarga_5702_2026S2.geojson",
+"mb_est": 17
+},
+{
+"region": "Valparaíso",
+"comuna": "Catemu",
+"cods": [
+5603
+],
+"poligonos": 6166,
+"archivo": "Catemu_5603_2026S2.geojson",
+"mb_est": 17
+},
+{
+"region": "Valparaíso",
+"comuna": "Rinconada",
+"cods": [
+5704
+],
+"poligonos": 6271,
+"archivo": "Rinconada_5704_2026S2.geojson",
+"mb_est": 17
+},
+{
+"region": "Maule",
+"comuna": "Pelarco",
+"cods": [
+7203
+],
+"poligonos": 6331,
+"archivo": "Pelarco_7203_2026S2.geojson",
+"mb_est": 17
+},
+{
+"region": "Antofagasta",
+"comuna": "Taltal",
+"cods": [
+2202
+],
+"poligonos": 6383,
+"archivo": "Taltal_2202_2026S2.geojson",
+"mb_est": 17
+},
+{
+"region": "Araucanía",
+"comuna": "Toltén",
+"cods": [
+9213
+],
+"poligonos": 6469,
+"archivo": "Tolten_9213_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Atacama",
+"comuna": "Huasco",
+"cods": [
+3303
+],
+"poligonos": 6504,
+"archivo": "Huasco_3303_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Araucanía",
+"comuna": "Lumaco",
+"cods": [
+9108
+],
+"poligonos": 6528,
+"archivo": "Lumaco_9108_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Maule",
+"comuna": "San Rafael",
+"cods": [
+7210
+],
+"poligonos": 6535,
+"archivo": "SanRafael_7210_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Nancagua",
+"cods": [
+6203
+],
+"poligonos": 6581,
+"archivo": "Nancagua_6203_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Valparaíso",
+"comuna": "Santa María",
+"cods": [
+5605
+],
+"poligonos": 6699,
+"archivo": "SantaMaria_5605_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Región Metropolitana",
+"comuna": "San José de Maipo",
+"cods": [
+16303
+],
+"poligonos": 6706,
+"archivo": "SanJosedeMaipo_16303_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Ñuble",
+"comuna": "Quirihue",
+"cods": [
+8104
+],
+"poligonos": 6712,
+"archivo": "Quirihue_8104_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Araucanía",
+"comuna": "Purén",
+"cods": [
+9102
+],
+"poligonos": 6750,
+"archivo": "Puren_9102_2026S2.geojson",
+"mb_est": 18
+},
+{
+"region": "Atacama",
+"comuna": "Chañaral",
+"cods": [
+3101
+],
+"poligonos": 6831,
+"archivo": "Chanaral_3101_2026S2.geojson",
+"mb_est": 19
+},
+{
+"region": "Los Lagos",
+"comuna": "San Pablo",
+"cods": [
+10202
+],
+"poligonos": 6904,
+"archivo": "SanPablo_10202_2026S2.geojson",
+"mb_est": 19
+},
+{
+"region": "Los Lagos",
+"comuna": "Quemchi",
+"cods": [
+10407
+],
+"poligonos": 6991,
+"archivo": "Quemchi_10407_2026S2.geojson",
+"mb_est": 19
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Tiltil",
+"cods": [
+14203
+],
+"poligonos": 7103,
+"archivo": "Tiltil_14203_2026S2.geojson",
+"mb_est": 19
+},
+{
+"region": "Araucanía",
+"comuna": "Curarrehue",
+"cods": [
+9218
+],
+"poligonos": 7122,
+"archivo": "Curarrehue_9218_2026S2.geojson",
+"mb_est": 19
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Doñihue",
+"cods": [
+6105
+],
+"poligonos": 7164,
+"archivo": "Donihue_6105_2026S2.geojson",
+"mb_est": 19
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Coltauco",
+"cods": [
+6106
+],
+"poligonos": 7172,
+"archivo": "Coltauco_6106_2026S2.geojson",
+"mb_est": 20
+},
+{
+"region": "Los Lagos",
+"comuna": "Puerto Octay",
+"cods": [
+10203
+],
+"poligonos": 7237,
+"archivo": "PuertoOctay_10203_2026S2.geojson",
+"mb_est": 20
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Chépica",
+"cods": [
+6209
+],
+"poligonos": 7259,
+"archivo": "Chepica_6209_2026S2.geojson",
+"mb_est": 20
+},
+{
+"region": "Ñuble",
+"comuna": "Ñiquén",
+"cods": [
+8110
+],
+"poligonos": 7404,
+"archivo": "Niquen_8110_2026S2.geojson",
+"mb_est": 20
+},
+{
+"region": "Valparaíso",
+"comuna": "Putaendo",
+"cods": [
+5604
+],
+"poligonos": 7588,
+"archivo": "Putaendo_5604_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Los Lagos",
+"comuna": "Fresia",
+"cods": [
+10304
+],
+"poligonos": 7614,
+"archivo": "Fresia_10304_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Maule",
+"comuna": "Vichuquén",
+"cods": [
+7106
+],
+"poligonos": 7620,
+"archivo": "Vichuquen_7106_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Coquimbo",
+"comuna": "La Higuera",
+"cods": [
+4102
+],
+"poligonos": 7671,
+"archivo": "LaHiguera_4102_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Calera de Tango",
+"cods": [
+16402
+],
+"poligonos": 7671,
+"archivo": "CaleradeTango_16402_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Araucanía",
+"comuna": "Saavedra",
+"cods": [
+9210
+],
+"poligonos": 7700,
+"archivo": "Saavedra_9210_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Coquimbo",
+"comuna": "Punitaqui",
+"cods": [
+4204
+],
+"poligonos": 7746,
+"archivo": "Punitaqui_4204_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Pichidegua",
+"cods": [
+6111
+],
+"poligonos": 7829,
+"archivo": "Pichidegua_6111_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Cisnes",
+"cods": [
+11102
+],
+"poligonos": 7869,
+"archivo": "Cisnes_11102_2026S2.geojson",
+"mb_est": 21
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Marchihue",
+"cods": [
+6305
+],
+"poligonos": 7922,
+"archivo": "Marchihue_6305_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Ñuble",
+"comuna": "El Carmen",
+"cods": [
+8118
+],
+"poligonos": 7946,
+"archivo": "ElCarmen_8118_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Maule",
+"comuna": "Pencahue",
+"cods": [
+7205
+],
+"poligonos": 8005,
+"archivo": "Pencahue_7205_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Biobío",
+"comuna": "Santa Bárbara",
+"cods": [
+8402
+],
+"poligonos": 8024,
+"archivo": "SantaBarbara_8402_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Valparaíso",
+"comuna": "Nogales",
+"cods": [
+5502
+],
+"poligonos": 8113,
+"archivo": "Nogales_5502_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Araucanía",
+"comuna": "Galvarino",
+"cods": [
+9207
+],
+"poligonos": 8153,
+"archivo": "Galvarino_9207_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Maule",
+"comuna": "Río Claro",
+"cods": [
+7204
+],
+"poligonos": 8177,
+"archivo": "RioClaro_7204_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Araucanía",
+"comuna": "Lonquimay",
+"cods": [
+9111
+],
+"poligonos": 8222,
+"archivo": "Lonquimay_9111_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Los Ríos",
+"comuna": "Lanco",
+"cods": [
+10103
+],
+"poligonos": 8230,
+"archivo": "Lanco_10103_2026S2.geojson",
+"mb_est": 22
+},
+{
+"region": "Araucanía",
+"comuna": "Cholchol",
+"cods": [
+9221
+],
+"poligonos": 8349,
+"archivo": "Cholchol_9221_2026S2.geojson",
+"mb_est": 23
+},
+{
+"region": "Coquimbo",
+"comuna": "Combarbalá",
+"cods": [
+4205
+],
+"poligonos": 8410,
+"archivo": "Combarbala_4205_2026S2.geojson",
+"mb_est": 23
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Navidad",
+"cods": [
+6302
+],
+"poligonos": 8427,
+"archivo": "Navidad_6302_2026S2.geojson",
+"mb_est": 23
+},
+{
+"region": "Valparaíso",
+"comuna": "Hijuelas",
+"cods": [
+5503
+],
+"poligonos": 8508,
+"archivo": "Hijuelas_5503_2026S2.geojson",
+"mb_est": 23
+},
+{
+"region": "Los Ríos",
+"comuna": "Lago Ranco",
+"cods": [
+10112
+],
+"poligonos": 8512,
+"archivo": "LagoRanco_10112_2026S2.geojson",
+"mb_est": 23
+},
+{
+"region": "Los Lagos",
+"comuna": "Llanquihue",
+"cods": [
+10306
+],
+"poligonos": 8594,
+"archivo": "Llanquihue_10306_2026S2.geojson",
+"mb_est": 23
+},
+{
+"region": "Los Lagos",
+"comuna": "Dalcahue",
+"cods": [
+10408
+],
+"poligonos": 8662,
+"archivo": "Dalcahue_10408_2026S2.geojson",
+"mb_est": 24
+},
+{
+"region": "Maule",
+"comuna": "Romeral",
+"cods": [
+7103
+],
+"poligonos": 8690,
+"archivo": "Romeral_7103_2026S2.geojson",
+"mb_est": 24
+},
+{
+"region": "Los Lagos",
+"comuna": "Río Negro",
+"cods": [
+10205
+],
+"poligonos": 8712,
+"archivo": "RioNegro_10205_2026S2.geojson",
+"mb_est": 24
+},
+{
+"region": "Valparaíso",
+"comuna": "Cabildo",
+"cods": [
+5203
+],
+"poligonos": 8788,
+"archivo": "Cabildo_5203_2026S2.geojson",
+"mb_est": 24
+},
+{
+"region": "Los Ríos",
+"comuna": "Futrono",
+"cods": [
+10105
+],
+"poligonos": 8885,
+"archivo": "Futrono_10105_2026S2.geojson",
+"mb_est": 24
+},
+{
+"region": "Valparaíso",
+"comuna": "San Esteban",
+"cods": [
+5703
+],
+"poligonos": 8968,
+"archivo": "SanEsteban_5703_2026S2.geojson",
+"mb_est": 24
+},
+{
+"region": "Maule",
+"comuna": "Sagrada Familia",
+"cods": [
+7109
+],
+"poligonos": 8970,
+"archivo": "SagradaFamilia_7109_2026S2.geojson",
+"mb_est": 24
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Pirque",
+"cods": [
+16302
+],
+"poligonos": 9015,
+"archivo": "Pirque_16302_2026S2.geojson",
+"mb_est": 25
+},
+{
+"region": "Maule",
+"comuna": "Hualañé",
+"cods": [
+7107
+],
+"poligonos": 9043,
+"archivo": "Hualane_7107_2026S2.geojson",
+"mb_est": 25
+},
+{
+"region": "Biobío",
+"comuna": "Tucapel",
+"cods": [
+8412
+],
+"poligonos": 9057,
+"archivo": "Tucapel_8412_2026S2.geojson",
+"mb_est": 25
+},
+{
+"region": "Maule",
+"comuna": "Curepto",
+"cods": [
+7207
+],
+"poligonos": 9103,
+"archivo": "Curepto_7207_2026S2.geojson",
+"mb_est": 25
+},
+{
+"region": "Maule",
+"comuna": "Yerbas Buenas",
+"cods": [
+7302
+],
+"poligonos": 9166,
+"archivo": "YerbasBuenas_7302_2026S2.geojson",
+"mb_est": 25
+},
+{
+"region": "Maule",
+"comuna": "Villa Alegre",
+"cods": [
+7309
+],
+"poligonos": 9209,
+"archivo": "VillaAlegre_7309_2026S2.geojson",
+"mb_est": 25
+},
+{
+"region": "Araucanía",
+"comuna": "Traiguén",
+"cods": [
+9107
+],
+"poligonos": 9281,
+"archivo": "Traiguen_9107_2026S2.geojson",
+"mb_est": 25
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Paredones",
+"cods": [
+6306
+],
+"poligonos": 9481,
+"archivo": "Paredones_6306_2026S2.geojson",
+"mb_est": 26
+},
+{
+"region": "Araucanía",
+"comuna": "Gorbea",
+"cods": [
+9212
+],
+"poligonos": 9725,
+"archivo": "Gorbea_9212_2026S2.geojson",
+"mb_est": 26
+},
+{
+"region": "Los Lagos",
+"comuna": "Puyehue",
+"cods": [
+10204
+],
+"poligonos": 9733,
+"archivo": "Puyehue_10204_2026S2.geojson",
+"mb_est": 26
+},
+{
+"region": "Biobío",
+"comuna": "Los Álamos",
+"cods": [
+8304
+],
+"poligonos": 9798,
+"archivo": "LosAlamos_8304_2026S2.geojson",
+"mb_est": 27
+},
+{
+"region": "Los Ríos",
+"comuna": "Los Lagos",
+"cods": [
+10104
+],
+"poligonos": 9846,
+"archivo": "LosLagos_10104_2026S2.geojson",
+"mb_est": 27
+},
+{
+"region": "Maule",
+"comuna": "Pelluhue",
+"cods": [
+7402
+],
+"poligonos": 9854,
+"archivo": "Pelluhue_7402_2026S2.geojson",
+"mb_est": 27
+},
+{
+"region": "Maule",
+"comuna": "Colbún",
+"cods": [
+7303
+],
+"poligonos": 10124,
+"archivo": "Colbun_7303_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Biobío",
+"comuna": "Laja",
+"cods": [
+8403
+],
+"poligonos": 10127,
+"archivo": "Laja_8403_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Ñuble",
+"comuna": "Pinto",
+"cods": [
+8102
+],
+"poligonos": 10199,
+"archivo": "Pinto_8102_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Los Ríos",
+"comuna": "Paillaco",
+"cods": [
+10110
+],
+"poligonos": 10325,
+"archivo": "Paillaco_10110_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Antofagasta",
+"comuna": "Tocopilla",
+"cods": [
+2101
+],
+"poligonos": 10408,
+"archivo": "Tocopilla_2101_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Valparaíso",
+"comuna": "Llaillay",
+"cods": [
+5606
+],
+"poligonos": 10419,
+"archivo": "Llaillay_5606_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Araucanía",
+"comuna": "Teodoro Schmidt",
+"cods": [
+9219
+],
+"poligonos": 10446,
+"archivo": "TeodoroSchmidt_9219_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Ñuble",
+"comuna": "San Ignacio",
+"cods": [
+8114
+],
+"poligonos": 10457,
+"archivo": "SanIgnacio_8114_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Los Lagos",
+"comuna": "Quellón",
+"cods": [
+10404
+],
+"poligonos": 10470,
+"archivo": "Quellon_10404_2026S2.geojson",
+"mb_est": 28
+},
+{
+"region": "Valparaíso",
+"comuna": "La Cruz",
+"cods": [
+5505
+],
+"poligonos": 10584,
+"archivo": "LaCruz_5505_2026S2.geojson",
+"mb_est": 29
+},
+{
+"region": "Valparaíso",
+"comuna": "Olmué",
+"cods": [
+5507
+],
+"poligonos": 10592,
+"archivo": "Olmue_5507_2026S2.geojson",
+"mb_est": 29
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Litueche",
+"cods": [
+6303
+],
+"poligonos": 10607,
+"archivo": "Litueche_6303_2026S2.geojson",
+"mb_est": 29
+},
+{
+"region": "Ñuble",
+"comuna": "Yungay",
+"cods": [
+8116
+],
+"poligonos": 10666,
+"archivo": "Yungay_8116_2026S2.geojson",
+"mb_est": 29
+},
+{
+"region": "Biobío",
+"comuna": "Lebu",
+"cods": [
+8303
+],
+"poligonos": 10828,
+"archivo": "Lebu_8303_2026S2.geojson",
+"mb_est": 29
+},
+{
+"region": "Los Lagos",
+"comuna": "Purranque",
+"cods": [
+10206
+],
+"poligonos": 10874,
+"archivo": "Purranque_10206_2026S2.geojson",
+"mb_est": 30
+},
+{
+"region": "Biobío",
+"comuna": "Curanilahue",
+"cods": [
+8302
+],
+"poligonos": 10977,
+"archivo": "Curanilahue_8302_2026S2.geojson",
+"mb_est": 30
+},
+{
+"region": "Valparaíso",
+"comuna": "Zapallar",
+"cods": [
+5204
+],
+"poligonos": 11080,
+"archivo": "Zapallar_5204_2026S2.geojson",
+"mb_est": 30
+},
+{
+"region": "Ñuble",
+"comuna": "San Nicolás",
+"cods": [
+8112
+],
+"poligonos": 11137,
+"archivo": "SanNicolas_8112_2026S2.geojson",
+"mb_est": 30
+},
+{
+"region": "Los Ríos",
+"comuna": "Mariquina",
+"cods": [
+10102
+],
+"poligonos": 11220,
+"archivo": "Mariquina_10102_2026S2.geojson",
+"mb_est": 31
+},
+{
+"region": "Los Lagos",
+"comuna": "Maullín",
+"cods": [
+10307
+],
+"poligonos": 11262,
+"archivo": "Maullin_10307_2026S2.geojson",
+"mb_est": 31
+},
+{
+"region": "Biobío",
+"comuna": "Florida",
+"cods": [
+8204
+],
+"poligonos": 11323,
+"archivo": "Florida_8204_2026S2.geojson",
+"mb_est": 31
+},
+{
+"region": "Biobío",
+"comuna": "Santa Juana",
+"cods": [
+8209
+],
+"poligonos": 11616,
+"archivo": "SantaJuana_8209_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Requínoa",
+"cods": [
+6113
+],
+"poligonos": 11617,
+"archivo": "Requinoa_6113_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Valparaíso",
+"comuna": "El Tabo",
+"cods": [
+5404
+],
+"poligonos": 11621,
+"archivo": "ElTabo_5404_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Región Metropolitana",
+"comuna": "El Monte",
+"cods": [
+14503
+],
+"poligonos": 11641,
+"archivo": "ElMonte_14503_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Valparaíso",
+"comuna": "Papudo",
+"cods": [
+5205
+],
+"poligonos": 11661,
+"archivo": "Papudo_5205_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Mostazal",
+"cods": [
+6104
+],
+"poligonos": 11742,
+"archivo": "Mostazal_6104_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Araucanía",
+"comuna": "Collipulli",
+"cods": [
+9105
+],
+"poligonos": 11789,
+"archivo": "Collipulli_9105_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Atacama",
+"comuna": "Caldera",
+"cods": [
+3202
+],
+"poligonos": 11812,
+"archivo": "Caldera_3202_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Los Lagos",
+"comuna": "Los Muermos",
+"cods": [
+10308
+],
+"poligonos": 11900,
+"archivo": "LosMuermos_10308_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Coquimbo",
+"comuna": "Salamanca",
+"cods": [
+4302
+],
+"poligonos": 11931,
+"archivo": "Salamanca_4302_2026S2.geojson",
+"mb_est": 32
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Chimbarongo",
+"cods": [
+6202
+],
+"poligonos": 12105,
+"archivo": "Chimbarongo_6202_2026S2.geojson",
+"mb_est": 33
+},
+{
+"region": "Los Lagos",
+"comuna": "Chonchi",
+"cods": [
+10402
+],
+"poligonos": 12301,
+"archivo": "Chonchi_10402_2026S2.geojson",
+"mb_est": 33
+},
+{
+"region": "Coquimbo",
+"comuna": "Illapel",
+"cods": [
+4301
+],
+"poligonos": 12429,
+"archivo": "Illapel_4301_2026S2.geojson",
+"mb_est": 34
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Graneros",
+"cods": [
+6103
+],
+"poligonos": 12718,
+"archivo": "Graneros_6103_2026S2.geojson",
+"mb_est": 35
+},
+{
+"region": "Ñuble",
+"comuna": "Coihueco",
+"cods": [
+8103
+],
+"poligonos": 12824,
+"archivo": "Coihueco_8103_2026S2.geojson",
+"mb_est": 35
+},
+{
+"region": "Biobío",
+"comuna": "Hualqui",
+"cods": [
+8203
+],
+"poligonos": 12909,
+"archivo": "Hualqui_8203_2026S2.geojson",
+"mb_est": 35
+},
+{
+"region": "Ñuble",
+"comuna": "Quillón",
+"cods": [
+8115
+],
+"poligonos": 12975,
+"archivo": "Quillon_8115_2026S2.geojson",
+"mb_est": 35
+},
+{
+"region": "Ñuble",
+"comuna": "Bulnes",
+"cods": [
+8113
+],
+"poligonos": 13192,
+"archivo": "Bulnes_8113_2026S2.geojson",
+"mb_est": 36
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Isla de Maipo",
+"cods": [
+14502
+],
+"poligonos": 13285,
+"archivo": "IsladeMaipo_14502_2026S2.geojson",
+"mb_est": 36
+},
+{
+"region": "Biobío",
+"comuna": "Mulchén",
+"cods": [
+8407
+],
+"poligonos": 13411,
+"archivo": "Mulchen_8407_2026S2.geojson",
+"mb_est": 36
+},
+{
+"region": "Biobío",
+"comuna": "Nacimiento",
+"cods": [
+8405
+],
+"poligonos": 13644,
+"archivo": "Nacimiento_8405_2026S2.geojson",
+"mb_est": 37
+},
+{
+"region": "Valparaíso",
+"comuna": "Cartagena",
+"cods": [
+5403
+],
+"poligonos": 13672,
+"archivo": "Cartagena_5403_2026S2.geojson",
+"mb_est": 37
+},
+{
+"region": "Coquimbo",
+"comuna": "Vicuña",
+"cods": [
+4105
+],
+"poligonos": 13786,
+"archivo": "Vicuna_4105_2026S2.geojson",
+"mb_est": 37
+},
+{
+"region": "Los Lagos",
+"comuna": "Calbuco",
+"cods": [
+10309
+],
+"poligonos": 14022,
+"archivo": "Calbuco_10309_2026S2.geojson",
+"mb_est": 38
+},
+{
+"region": "Araucanía",
+"comuna": "Curacautín",
+"cods": [
+9110
+],
+"poligonos": 14054,
+"archivo": "Curacautin_9110_2026S2.geojson",
+"mb_est": 38
+},
+{
+"region": "Ñuble",
+"comuna": "Chillán Viejo",
+"cods": [
+8121
+],
+"poligonos": 14440,
+"archivo": "ChillanViejo_8121_2026S2.geojson",
+"mb_est": 39
+},
+{
+"region": "Biobío",
+"comuna": "Lota",
+"cods": [
+8208
+],
+"poligonos": 14456,
+"archivo": "Lota_8208_2026S2.geojson",
+"mb_est": 39
+},
+{
+"region": "Araucanía",
+"comuna": "Freire",
+"cods": [
+9203
+],
+"poligonos": 14884,
+"archivo": "Freire_9203_2026S2.geojson",
+"mb_est": 40
+},
+{
+"region": "Tarapacá",
+"comuna": "Pozo Almonte",
+"cods": [
+1204
+],
+"poligonos": 14941,
+"archivo": "PozoAlmonte_1204_2026S2.geojson",
+"mb_est": 41
+},
+{
+"region": "Araucanía",
+"comuna": "Cunco",
+"cods": [
+9204
+],
+"poligonos": 15012,
+"archivo": "Cunco_9204_2026S2.geojson",
+"mb_est": 41
+},
+{
+"region": "Biobío",
+"comuna": "Cañete",
+"cods": [
+8305
+],
+"poligonos": 15052,
+"archivo": "Canete_8305_2026S2.geojson",
+"mb_est": 41
+},
+{
+"region": "Maule",
+"comuna": "Retiro",
+"cods": [
+7306
+],
+"poligonos": 15258,
+"archivo": "Retiro_7306_2026S2.geojson",
+"mb_est": 42
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Las Cabras",
+"cods": [
+6109
+],
+"poligonos": 15552,
+"archivo": "LasCabras_6109_2026S2.geojson",
+"mb_est": 42
+},
+{
+"region": "Biobío",
+"comuna": "Cabrero",
+"cods": [
+8410
+],
+"poligonos": 15574,
+"archivo": "Cabrero_8410_2026S2.geojson",
+"mb_est": 42
+},
+{
+"region": "Los Lagos",
+"comuna": "Frutillar",
+"cods": [
+10305
+],
+"poligonos": 15745,
+"archivo": "Frutillar_10305_2026S2.geojson",
+"mb_est": 43
+},
+{
+"region": "Biobío",
+"comuna": "Arauco",
+"cods": [
+8301
+],
+"poligonos": 15927,
+"archivo": "Arauco_8301_2026S2.geojson",
+"mb_est": 43
+},
+{
+"region": "Araucanía",
+"comuna": "Carahue",
+"cods": [
+9209
+],
+"poligonos": 15963,
+"archivo": "Carahue_9209_2026S2.geojson",
+"mb_est": 43
+},
+{
+"region": "Araucanía",
+"comuna": "Pitrufquén",
+"cods": [
+9211
+],
+"poligonos": 16325,
+"archivo": "Pitrufquen_9211_2026S2.geojson",
+"mb_est": 44
+},
+{
+"region": "Valparaíso",
+"comuna": "Santo Domingo",
+"cods": [
+5402
+],
+"poligonos": 16428,
+"archivo": "SantoDomingo_5402_2026S2.geojson",
+"mb_est": 45
+},
+{
+"region": "Araucanía",
+"comuna": "Victoria",
+"cods": [
+9109
+],
+"poligonos": 16688,
+"archivo": "Victoria_9109_2026S2.geojson",
+"mb_est": 45
+},
+{
+"region": "Araucanía",
+"comuna": "Loncoche",
+"cods": [
+9214
+],
+"poligonos": 16857,
+"archivo": "Loncoche_9214_2026S2.geojson",
+"mb_est": 46
+},
+{
+"region": "Valparaíso",
+"comuna": "El Quisco",
+"cods": [
+5405
+],
+"poligonos": 16882,
+"archivo": "ElQuisco_5405_2026S2.geojson",
+"mb_est": 46
+},
+{
+"region": "Biobío",
+"comuna": "Penco",
+"cods": [
+8202
+],
+"poligonos": 16993,
+"archivo": "Penco_8202_2026S2.geojson",
+"mb_est": 46
+},
+{
+"region": "Maule",
+"comuna": "Teno",
+"cods": [
+7102
+],
+"poligonos": 17063,
+"archivo": "Teno_7102_2026S2.geojson",
+"mb_est": 46
+},
+{
+"region": "Coquimbo",
+"comuna": "Monte Patria",
+"cods": [
+4203
+],
+"poligonos": 17251,
+"archivo": "MontePatria_4203_2026S2.geojson",
+"mb_est": 47
+},
+{
+"region": "Valparaíso",
+"comuna": "Calera",
+"cods": [
+5504
+],
+"poligonos": 17529,
+"archivo": "Calera_5504_2026S2.geojson",
+"mb_est": 48
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Pichilemu",
+"cods": [
+6301
+],
+"poligonos": 18421,
+"archivo": "Pichilemu_6301_2026S2.geojson",
+"mb_est": 50
+},
+{
+"region": "Biobío",
+"comuna": "Yumbel",
+"cods": [
+8409
+],
+"poligonos": 18468,
+"archivo": "Yumbel_8409_2026S2.geojson",
+"mb_est": 50
+},
+{
+"region": "Coquimbo",
+"comuna": "Los Vilos",
+"cods": [
+4303
+],
+"poligonos": 18560,
+"archivo": "LosVilos_4303_2026S2.geojson",
+"mb_est": 50
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Curacaví",
+"cods": [
+14603
+],
+"poligonos": 18832,
+"archivo": "Curacavi_14603_2026S2.geojson",
+"mb_est": 51
+},
+{
+"region": "Araucanía",
+"comuna": "Vilcún",
+"cods": [
+9202
+],
+"poligonos": 18899,
+"archivo": "Vilcun_9202_2026S2.geojson",
+"mb_est": 51
+},
+{
+"region": "Región Metropolitana",
+"comuna": "San Ramón",
+"cods": [
+16153
+],
+"poligonos": 18932,
+"archivo": "SanRamon_16153_2026S2.geojson",
+"mb_est": 51
+},
+{
+"region": "Los Ríos",
+"comuna": "Río Bueno",
+"cods": [
+10111
+],
+"poligonos": 18944,
+"archivo": "RioBueno_10111_2026S2.geojson",
+"mb_est": 52
+},
+{
+"region": "Araucanía",
+"comuna": "Nueva Imperial",
+"cods": [
+9208
+],
+"poligonos": 19390,
+"archivo": "NuevaImperial_9208_2026S2.geojson",
+"mb_est": 53
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Aysén",
+"cods": [
+11101
+],
+"poligonos": 19653,
+"archivo": "Aysen_11101_2026S2.geojson",
+"mb_est": 53
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Natales",
+"cods": [
+12101
+],
+"poligonos": 19703,
+"archivo": "Natales_12101_2026S2.geojson",
+"mb_est": 54
+},
+{
+"region": "Maule",
+"comuna": "Longaví",
+"cods": [
+7304
+],
+"poligonos": 19898,
+"archivo": "Longavi_7304_2026S2.geojson",
+"mb_est": 54
+},
+{
+"region": "Valparaíso",
+"comuna": "Casablanca",
+"cods": [
+5305
+],
+"poligonos": 20173,
+"archivo": "Casablanca_5305_2026S2.geojson",
+"mb_est": 55
+},
+{
+"region": "Valparaíso",
+"comuna": "La Ligua",
+"cods": [
+5201
+],
+"poligonos": 20291,
+"archivo": "LaLigua_5201_2026S2.geojson",
+"mb_est": 55
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Santa Cruz",
+"cods": [
+6205
+],
+"poligonos": 20308,
+"archivo": "SantaCruz_6205_2026S2.geojson",
+"mb_est": 55
+},
+{
+"region": "Valparaíso",
+"comuna": "Quintero",
+"cods": [
+5306
+],
+"poligonos": 21372,
+"archivo": "Quintero_5306_2026S2.geojson",
+"mb_est": 58
+},
+{
+"region": "Los Ríos",
+"comuna": "Panguipulli",
+"cods": [
+10108
+],
+"poligonos": 21836,
+"archivo": "Panguipulli_10108_2026S2.geojson",
+"mb_est": 59
+},
+{
+"region": "Araucanía",
+"comuna": "Lautaro",
+"cods": [
+9205
+],
+"poligonos": 21961,
+"archivo": "Lautaro_9205_2026S2.geojson",
+"mb_est": 60
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "San Vicente",
+"cods": [
+6110
+],
+"poligonos": 22128,
+"archivo": "SanVicente_6110_2026S2.geojson",
+"mb_est": 60
+},
+{
+"region": "Los Lagos",
+"comuna": "Castro",
+"cods": [
+10401
+],
+"poligonos": 22627,
+"archivo": "Castro_10401_2026S2.geojson",
+"mb_est": 62
+},
+{
+"region": "Los Ríos",
+"comuna": "La Unión",
+"cods": [
+10109
+],
+"poligonos": 22790,
+"archivo": "LaUnion_10109_2026S2.geojson",
+"mb_est": 62
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Lo Prado",
+"cods": [
+14155
+],
+"poligonos": 22799,
+"archivo": "LoPrado_14155_2026S2.geojson",
+"mb_est": 62
+},
+{
+"region": "Maule",
+"comuna": "Molina",
+"cods": [
+7108
+],
+"poligonos": 23200,
+"archivo": "Molina_7108_2026S2.geojson",
+"mb_est": 63
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Lo Espejo",
+"cods": [
+16164
+],
+"poligonos": 23938,
+"archivo": "LoEspejo_16164_2026S2.geojson",
+"mb_est": 65
+},
+{
+"region": "Valparaíso",
+"comuna": "Puchuncaví",
+"cods": [
+5307
+],
+"poligonos": 24099,
+"archivo": "Puchuncavi_5307_2026S2.geojson",
+"mb_est": 66
+},
+{
+"region": "Atacama",
+"comuna": "Vallenar",
+"cods": [
+3301
+],
+"poligonos": 25290,
+"archivo": "Vallenar_3301_2026S2.geojson",
+"mb_est": 69
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Talagante",
+"cods": [
+14501
+],
+"poligonos": 25889,
+"archivo": "Talagante_14501_2026S2.geojson",
+"mb_est": 70
+},
+{
+"region": "Maule",
+"comuna": "Constitución",
+"cods": [
+7208
+],
+"poligonos": 26099,
+"archivo": "Constitucion_7208_2026S2.geojson",
+"mb_est": 71
+},
+{
+"region": "Maule",
+"comuna": "Parral",
+"cods": [
+7305
+],
+"poligonos": 26276,
+"archivo": "Parral_7305_2026S2.geojson",
+"mb_est": 71
+},
+{
+"region": "Biobío",
+"comuna": "Tomé",
+"cods": [
+8205
+],
+"poligonos": 26823,
+"archivo": "Tome_8205_2026S2.geojson",
+"mb_est": 73
+},
+{
+"region": "Valparaíso",
+"comuna": "Limache",
+"cods": [
+5506
+],
+"poligonos": 26947,
+"archivo": "Limache_5506_2026S2.geojson",
+"mb_est": 73
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Paine",
+"cods": [
+16404
+],
+"poligonos": 27190,
+"archivo": "Paine_16404_2026S2.geojson",
+"mb_est": 74
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Machalí",
+"cods": [
+6102
+],
+"poligonos": 27285,
+"archivo": "Machali_6102_2026S2.geojson",
+"mb_est": 74
+},
+{
+"region": "Maule",
+"comuna": "Maule",
+"cods": [
+7206
+],
+"poligonos": 27605,
+"archivo": "Maule_7206_2026S2.geojson",
+"mb_est": 75
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Rengo",
+"cods": [
+6112
+],
+"poligonos": 28355,
+"archivo": "Rengo_6112_2026S2.geojson",
+"mb_est": 77
+},
+{
+"region": "Valparaíso",
+"comuna": "Los Andes",
+"cods": [
+5701
+],
+"poligonos": 28575,
+"archivo": "LosAndes_5701_2026S2.geojson",
+"mb_est": 78
+},
+{
+"region": "Ñuble",
+"comuna": "San Carlos",
+"cods": [
+8109
+],
+"poligonos": 28990,
+"archivo": "SanCarlos_8109_2026S2.geojson",
+"mb_est": 79
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Pedro Aguirre Cerda",
+"cods": [
+16162
+],
+"poligonos": 29010,
+"archivo": "PedroAguirreCerda_16162_2026S2.geojson",
+"mb_est": 79
+},
+{
+"region": "Araucanía",
+"comuna": "Angol",
+"cods": [
+9101
+],
+"poligonos": 29049,
+"archivo": "Angol_9101_2026S2.geojson",
+"mb_est": 79
+},
+{
+"region": "Maule",
+"comuna": "San Clemente",
+"cods": [
+7202
+],
+"poligonos": 29227,
+"archivo": "SanClemente_7202_2026S2.geojson",
+"mb_est": 79
+},
+{
+"region": "Región Metropolitana",
+"comuna": "La Granja",
+"cods": [
+16131
+],
+"poligonos": 29630,
+"archivo": "LaGranja_16131_2026S2.geojson",
+"mb_est": 81
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Padre Hurtado",
+"cods": [
+14505
+],
+"poligonos": 30130,
+"archivo": "PadreHurtado_14505_2026S2.geojson",
+"mb_est": 82
+},
+{
+"region": "Maule",
+"comuna": "San Javier de Loncomilla",
+"cods": [
+7310
+],
+"poligonos": 30423,
+"archivo": "SanJavierdeLoncomilla_7310_2026S2.geojson",
+"mb_est": 83
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Peñaflor",
+"cods": [
+14504
+],
+"poligonos": 30758,
+"archivo": "Penaflor_14504_2026S2.geojson",
+"mb_est": 84
+},
+{
+"region": "Los Lagos",
+"comuna": "Ancud",
+"cods": [
+10406
+],
+"poligonos": 31009,
+"archivo": "Ancud_10406_2026S2.geojson",
+"mb_est": 84
+},
+{
+"region": "Valparaíso",
+"comuna": "Algarrobo",
+"cods": [
+5406
+],
+"poligonos": 31745,
+"archivo": "Algarrobo_5406_2026S2.geojson",
+"mb_est": 86
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Cerro Navia",
+"cods": [
+14156
+],
+"poligonos": 32277,
+"archivo": "CerroNavia_14156_2026S2.geojson",
+"mb_est": 88
+},
+{
+"region": "Biobío",
+"comuna": "Chiguayante",
+"cods": [
+8211
+],
+"poligonos": 32562,
+"archivo": "Chiguayante_8211_2026S2.geojson",
+"mb_est": 89
+},
+{
+"region": "Valparaíso",
+"comuna": "San Felipe",
+"cods": [
+5601
+],
+"poligonos": 32716,
+"archivo": "SanFelipe_5601_2026S2.geojson",
+"mb_est": 89
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Cerrillos",
+"cods": [
+14166
+],
+"poligonos": 32865,
+"archivo": "Cerrillos_14166_2026S2.geojson",
+"mb_est": 89
+},
+{
+"region": "Araucanía",
+"comuna": "Padre las Casas",
+"cods": [
+9220
+],
+"poligonos": 32997,
+"archivo": "PadrelasCasas_9220_2026S2.geojson",
+"mb_est": 90
+},
+{
+"region": "Aysén del Gral. Carlos Ibáñez del Campo",
+"comuna": "Coyhaique",
+"cods": [
+11401
+],
+"poligonos": 34048,
+"archivo": "Coyhaique_11401_2026S2.geojson",
+"mb_est": 93
+},
+{
+"region": "Biobío",
+"comuna": "Hualpén",
+"cods": [
+8212
+],
+"poligonos": 34404,
+"archivo": "Hualpen_8212_2026S2.geojson",
+"mb_est": 94
+},
+{
+"region": "Maule",
+"comuna": "Cauquenes",
+"cods": [
+7401
+],
+"poligonos": 34512,
+"archivo": "Cauquenes_7401_2026S2.geojson",
+"mb_est": 94
+},
+{
+"region": "Araucanía",
+"comuna": "Pucón",
+"cods": [
+9216
+],
+"poligonos": 35154,
+"archivo": "Pucon_9216_2026S2.geojson",
+"mb_est": 96
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Conchalí",
+"cods": [
+14127
+],
+"poligonos": 35365,
+"archivo": "Conchali_14127_2026S2.geojson",
+"mb_est": 96
+},
+{
+"region": "Valparaíso",
+"comuna": "San Antonio",
+"cods": [
+5401
+],
+"poligonos": 36258,
+"archivo": "SanAntonio_5401_2026S2.geojson",
+"mb_est": 99
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "San Fernando",
+"cods": [
+6201
+],
+"poligonos": 36364,
+"archivo": "SanFernando_6201_2026S2.geojson",
+"mb_est": 99
+},
+{
+"region": "Tarapacá",
+"comuna": "Alto Hospicio",
+"cods": [
+1211
+],
+"poligonos": 37298,
+"archivo": "AltoHospicio_1211_2026S2.geojson",
+"mb_est": 101
+},
+{
+"region": "Región Metropolitana",
+"comuna": "San Joaquín",
+"cods": [
+16163
+],
+"poligonos": 37309,
+"archivo": "SanJoaquin_16163_2026S2.geojson",
+"mb_est": 101
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Buin",
+"cods": [
+16403
+],
+"poligonos": 40919,
+"archivo": "Buin_16403_2026S2.geojson",
+"mb_est": 111
+},
+{
+"region": "Los Lagos",
+"comuna": "Puerto Varas",
+"cods": [
+10303
+],
+"poligonos": 42031,
+"archivo": "PuertoVaras_10303_2026S2.geojson",
+"mb_est": 114
+},
+{
+"region": "Región Metropolitana",
+"comuna": "La Reina",
+"cods": [
+15132
+],
+"poligonos": 42821,
+"archivo": "LaReina_15132_2026S2.geojson",
+"mb_est": 116
+},
+{
+"region": "Región Metropolitana",
+"comuna": "El Bosque",
+"cods": [
+16165
+],
+"poligonos": 43059,
+"archivo": "ElBosque_16165_2026S2.geojson",
+"mb_est": 117
+},
+{
+"region": "Valparaíso",
+"comuna": "Quillota",
+"cods": [
+5501
+],
+"poligonos": 44521,
+"archivo": "Quillota_5501_2026S2.geojson",
+"mb_est": 121
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Renca",
+"cods": [
+14113
+],
+"poligonos": 45710,
+"archivo": "Renca_14113_2026S2.geojson",
+"mb_est": 124
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Huechuraba",
+"cods": [
+14158
+],
+"poligonos": 46853,
+"archivo": "Huechuraba_14158_2026S2.geojson",
+"mb_est": 127
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Lampa",
+"cods": [
+14202
+],
+"poligonos": 47076,
+"archivo": "Lampa_14202_2026S2.geojson",
+"mb_est": 128
+},
+{
+"region": "Araucanía",
+"comuna": "Villarrica",
+"cods": [
+9215
+],
+"poligonos": 47742,
+"archivo": "Villarrica_9215_2026S2.geojson",
+"mb_est": 130
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Melipilla",
+"cods": [
+14601
+],
+"poligonos": 48333,
+"archivo": "Melipilla_14601_2026S2.geojson",
+"mb_est": 131
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Quinta Normal",
+"cods": [
+14107
+],
+"poligonos": 49159,
+"archivo": "QuintaNormal_14107_2026S2.geojson",
+"mb_est": 134
+},
+{
+"region": "Biobío",
+"comuna": "Coronel",
+"cods": [
+8207
+],
+"poligonos": 49481,
+"archivo": "Coronel_8207_2026S2.geojson",
+"mb_est": 135
+},
+{
+"region": "Región Metropolitana",
+"comuna": "La Pintana",
+"cods": [
+16154
+],
+"poligonos": 50581,
+"archivo": "LaPintana_16154_2026S2.geojson",
+"mb_est": 138
+},
+{
+"region": "Maule",
+"comuna": "Linares",
+"cods": [
+7301
+],
+"poligonos": 51236,
+"archivo": "Linares_7301_2026S2.geojson",
+"mb_est": 139
+},
+{
+"region": "Valparaíso",
+"comuna": "Concón",
+"cods": [
+5309
+],
+"poligonos": 51846,
+"archivo": "Concon_5309_2026S2.geojson",
+"mb_est": 141
+},
+{
+"region": "Biobío",
+"comuna": "Talcahuano",
+"cods": [
+8206
+],
+"poligonos": 52112,
+"archivo": "Talcahuano_8206_2026S2.geojson",
+"mb_est": 142
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Recoleta",
+"cods": [
+13159
+],
+"poligonos": 56434,
+"archivo": "Recoleta_13159_2026S2.geojson",
+"mb_est": 154
+},
+{
+"region": "Valparaíso",
+"comuna": "Villa Alemana",
+"cods": [
+5303
+],
+"poligonos": 57551,
+"archivo": "VillaAlemana_5303_2026S2.geojson",
+"mb_est": 157
+},
+{
+"region": "Región Metropolitana",
+"comuna": "La Cisterna",
+"cods": [
+16110
+],
+"poligonos": 58433,
+"archivo": "LaCisterna_16110_2026S2.geojson",
+"mb_est": 159
+},
+{
+"region": "Antofagasta",
+"comuna": "Calama",
+"cods": [
+2301
+],
+"poligonos": 59940,
+"archivo": "Calama_2301_2026S2.geojson",
+"mb_est": 163
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Independencia",
+"cods": [
+13167
+],
+"poligonos": 60614,
+"archivo": "Independencia_13167_2026S2.geojson",
+"mb_est": 165
+},
+{
+"region": "Coquimbo",
+"comuna": "Ovalle",
+"cods": [
+4201
+],
+"poligonos": 63163,
+"archivo": "Ovalle_4201_2026S2.geojson",
+"mb_est": 172
+},
+{
+"region": "Magallanes y de la Antártica Chilena",
+"comuna": "Punta Arenas",
+"cods": [
+12205
+],
+"poligonos": 63652,
+"archivo": "PuntaArenas_12205_2026S2.geojson",
+"mb_est": 173
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Colina",
+"cods": [
+14201
+],
+"poligonos": 64124,
+"archivo": "Colina_14201_2026S2.geojson",
+"mb_est": 174
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Quilicura",
+"cods": [
+14114
+],
+"poligonos": 69509,
+"archivo": "Quilicura_14114_2026S2.geojson",
+"mb_est": 189
+},
+{
+"region": "Valparaíso",
+"comuna": "Quilpué",
+"cods": [
+5304
+],
+"poligonos": 69697,
+"archivo": "Quilpue_5304_2026S2.geojson",
+"mb_est": 190
+},
+{
+"region": "Biobío",
+"comuna": "San Pedro de la Paz",
+"cods": [
+8210
+],
+"poligonos": 69840,
+"archivo": "SanPedrodelaPaz_8210_2026S2.geojson",
+"mb_est": 190
+},
+{
+"region": "Atacama",
+"comuna": "Copiapó",
+"cods": [
+3201
+],
+"poligonos": 70137,
+"archivo": "Copiapo_3201_2026S2.geojson",
+"mb_est": 191
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Pudahuel",
+"cods": [
+14111
+],
+"poligonos": 70519,
+"archivo": "Pudahuel_14111_2026S2.geojson",
+"mb_est": 192
+},
+{
+"region": "Los Ríos",
+"comuna": "Valdivia",
+"cods": [
+10101
+],
+"poligonos": 70642,
+"archivo": "Valdivia_10101_2026S2.geojson",
+"mb_est": 192
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Peñalolén",
+"cods": [
+15152
+],
+"poligonos": 70849,
+"archivo": "Penalolen_15152_2026S2.geojson",
+"mb_est": 193
+},
+{
+"region": "Los Lagos",
+"comuna": "Osorno",
+"cods": [
+10201
+],
+"poligonos": 73876,
+"archivo": "Osorno_10201_2026S2.geojson",
+"mb_est": 201
+},
+{
+"region": "Maule",
+"comuna": "Curicó",
+"cods": [
+7101
+],
+"poligonos": 76004,
+"archivo": "Curico_7101_2026S2.geojson",
+"mb_est": 207
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Lo Barnechea",
+"cods": [
+15161
+],
+"poligonos": 76409,
+"archivo": "LoBarnechea_15161_2026S2.geojson",
+"mb_est": 208
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Macul",
+"cods": [
+15151
+],
+"poligonos": 76686,
+"archivo": "Macul_15151_2026S2.geojson",
+"mb_est": 209
+},
+{
+"region": "Arica y Parinacota",
+"comuna": "Arica",
+"cods": [
+1101
+],
+"poligonos": 83229,
+"archivo": "Arica_1101_2026S2.geojson",
+"mb_est": 226
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Estación Central",
+"cods": [
+14157
+],
+"poligonos": 93354,
+"archivo": "EstacionCentral_14157_2026S2.geojson",
+"mb_est": 254
+},
+{
+"region": "Ñuble",
+"comuna": "Chillán",
+"cods": [
+8101
+],
+"poligonos": 93667,
+"archivo": "Chillan_8101_2026S2.geojson",
+"mb_est": 255
+},
+{
+"region": "Tarapacá",
+"comuna": "Iquique",
+"cods": [
+1201
+],
+"poligonos": 94779,
+"archivo": "Iquique_1201_2026S2.geojson",
+"mb_est": 258
+},
+{
+"region": "Región Metropolitana",
+"comuna": "San Bernardo",
+"cods": [
+16401
+],
+"poligonos": 100117,
+"archivo": "SanBernardo_16401_2026S2.geojson",
+"mb_est": 272
+},
+{
+"region": "Biobío",
+"comuna": "Los Ángeles",
+"cods": [
+8401
+],
+"poligonos": 105738,
+"archivo": "LosAngeles_8401_2026S2.geojson",
+"mb_est": 288
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Vitacura",
+"cods": [
+15160
+],
+"poligonos": 114622,
+"archivo": "Vitacura_15160_2026S2.geojson",
+"mb_est": 312
+},
+{
+"region": "Libertador Gral. Bernardo O’Higgins",
+"comuna": "Rancagua",
+"cods": [
+6101
+],
+"poligonos": 115258,
+"archivo": "Rancagua_6101_2026S2.geojson",
+"mb_est": 314
+},
+{
+"region": "Región Metropolitana",
+"comuna": "San Miguel",
+"cods": [
+16106
+],
+"poligonos": 116048,
+"archivo": "SanMiguel_16106_2026S2.geojson",
+"mb_est": 316
+},
+{
+"region": "Los Lagos",
+"comuna": "Puerto Montt",
+"cods": [
+10301
+],
+"poligonos": 121574,
+"archivo": "PuertoMontt_10301_2026S2.geojson",
+"mb_est": 331
+},
+{
+"region": "Maule",
+"comuna": "Talca",
+"cods": [
+7201
+],
+"poligonos": 123016,
+"archivo": "Talca_7201_2026S2.geojson",
+"mb_est": 335
+},
+{
+"region": "Coquimbo",
+"comuna": "Coquimbo",
+"cods": [
+4103
+],
+"poligonos": 126001,
+"archivo": "Coquimbo_4103_2026S2.geojson",
+"mb_est": 343
+},
+{
+"region": "Valparaíso",
+"comuna": "Valparaíso",
+"cods": [
+5301
+],
+"poligonos": 130555,
+"archivo": "Valparaiso_5301_2026S2.geojson",
+"mb_est": 355
+},
+{
+"region": "Biobío",
+"comuna": "Concepción",
+"cods": [
+8201
+],
+"poligonos": 138893,
+"archivo": "Concepcion_8201_2026S2.geojson",
+"mb_est": 378
+},
+{
+"region": "Coquimbo",
+"comuna": "La Serena",
+"cods": [
+4101
+],
+"poligonos": 140624,
+"archivo": "LaSerena_4101_2026S2.geojson",
+"mb_est": 382
+},
+{
+"region": "Araucanía",
+"comuna": "Temuco",
+"cods": [
+9201
+],
+"poligonos": 157915,
+"archivo": "Temuco_9201_2026S2.geojson",
+"mb_est": 430
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Maipú",
+"cods": [
+14109
+],
+"poligonos": 172836,
+"archivo": "Maipu_14109_2026S2.geojson",
+"mb_est": 470
+},
+{
+"region": "Antofagasta",
+"comuna": "Antofagasta",
+"cods": [
+2201
+],
+"poligonos": 178077,
+"archivo": "Antofagasta_2201_2026S2.geojson",
+"mb_est": 484
+},
+{
+"region": "Región Metropolitana",
+"comuna": "La Florida",
+"cods": [
+15128
+],
+"poligonos": 185970,
+"archivo": "LaFlorida_15128_2026S2.geojson",
+"mb_est": 506
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Puente Alto",
+"cods": [
+16301
+],
+"poligonos": 189362,
+"archivo": "PuenteAlto_16301_2026S2.geojson",
+"mb_est": 515
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Providencia",
+"cods": [
+15103
+],
+"poligonos": 218046,
+"archivo": "Providencia_15103_2026S2.geojson",
+"mb_est": 593
+},
+{
+"region": "Valparaíso",
+"comuna": "Viña del Mar",
+"cods": [
+5302
+],
+"poligonos": 233974,
+"archivo": "VinadelMar_5302_2026S2.geojson",
+"mb_est": 636
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Ñuñoa",
+"cods": [
+15105
+],
+"poligonos": 256810,
+"archivo": "Nunoa_15105_2026S2.geojson",
+"mb_est": 699
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Las Condes",
+"cods": [
+15108
+],
+"poligonos": 393852,
+"archivo": "LasCondes_15108_2026S2.geojson",
+"mb_est": 1071
+},
+{
+"region": "Región Metropolitana",
+"comuna": "Santiago",
+"cods": [
+13101,
+13135,
+13134
+],
+"poligonos": 422452,
+"archivo": "Santiago_13101-13135-13134_2026S2.geojson",
+"mb_est": 1149
+}
+]
