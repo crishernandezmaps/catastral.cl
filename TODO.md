@@ -52,10 +52,20 @@ Proceso oficial en [`PLAYBOOK_CITIFY.md`](PLAYBOOK_CITIFY.md): se sube desde la 
 con un Chrome remoto, noVNC por túnel SSH y `citify/conductor_vps.py`. 2026-10-20: 307 de 345
 comunas desde el Mac y las 38 grandes desde la .33. **345/345 confirmadas en el editor** (2026-10-21 01:01 UTC). Seis van en versión liviana (tope de 536 MB de Chrome): Antofagasta, Providencia, Viña del Mar, Ñuñoa, Las Condes y Santiago.
 - [ ] Revisar en el mapa una comuna liviana (Las Condes o Santiago): que se dibuje y que el tooltip muestre «Versión de datos»
+- [x] 2026-10-26: capa demo «Demo · Predios SII 2026S2 · Recoleta» creada (pintada por tramo de avalúo); la habilita Cris
 - [ ] Decidir con Cris si se habilita la capa a usuarios de Citify (switches en el detalle de la capa = publicar a terceros)
 - [ ] Explicar «Compartida con: 3» (no lo cambiamos nosotros) y el pintado «Por valores de atributo» (Destino)
 - [x] 2026-10-21: navegador remoto apagado con `apaga.sh` (perfil con la sesión conservado, por decisión de Cris); `/root/tmp_citify` y `s3://siipredios/tmp_citify/` borrados
 - [ ] El arreglo de `conductor_vps.py` (esperar a que se cierre el diálogo anterior) ya está desplegado, pero en la carga final siguió gastando un reintento por tanda: subir la espera o detectar el cierre real del diálogo
+
+## 🔴 Todo en 2026S2 — la tienda sigue entregando 2026S1
+
+Regla de Cris (2026-10-26): todo lo que se vende es 2026S2. La lista de precios (enviada a Citify el 22-10) y las
+cotizaciones ya lo dicen, pero `catastral.cl/comprar` entrega 2026S1 (`catastralV2/backend/lib/entregas.py` con `'2026S1'`
+fijo + catálogo `comunas_z16.json`). Las entregas manuales 2026S2 salen con `entregas/arma_entrega_2026s2.py`.
+- [ ] Migrar la tienda a 2026S2 (plan propuesto el 26-10, pendiente de OK): paquetes por comuna en la 33 → `licencias/base_2026s2/`,
+      catálogo `comunas_2026s2.json`, entrega de prueba, periodo y diccionario, `LICENCIAS_CATALOGO_JSON` y desplegar. Decidir si con o sin F4c.
+- [ ] Registrar las ventas de AGS (Las Cabras y Peumo; Valparaíso y Viña del Mar; Alto Hospicio) y confirmar el pago de las FE 59 y 62
 
 ## 🟠 Verificaciones que abren oportunidad
 

@@ -72,6 +72,18 @@ Todo escucha **solo en 127.0.0.1** de la .33. La pantalla remota se ve únicamen
 | `citify/conductor_vps.py` | Maneja el Chrome de la .33 por CDP: tandas, reintentos, recargas, registro |
 | `citify/serve_cors_vps.py`, `citify/levanta.sh` | Servidor local de archivos y arranque del navegador remoto |
 
+## Capa demo por comuna (desde 2026-10-26)
+
+Para mostrar los datos a clientes de Citify: una capa aparte con una sola comuna, pintada por avalúo fiscal. Hoy existe
+«Demo · Predios SII 2026S2 · Recoleta».
+1. `TRAMOS=1 python3 geojson_comuna.py <cod> <salida> "<Nombre>"` agrega `tramo_avaluo` (7 tramos más «Sin avalúo informado»).
+2. Capas → «Nuevo»: nombre, categoría «Catastro predial», grupo «Catastral.cl», Nivel Comunal, Pintado **«Por valores de
+   atributo»**, descripción, región y archivo de la comuna.
+3. Marcar el radio de `tramo_avaluo` → «Valores únicos para tramo_avaluo» → en el ícono de paleta de cada valor, escribir el
+   hex: F0F921, FDB42F, F48849, DB5C68, B83289, 8B0AA5, 5302A3 y BDBDBD para «Sin avalúo».
+4. Dejar los 12 atributos más «Tramo de avalúo fiscal» y pulsar «Crear» (en la creación basta un clic).
+5. **No habilitarla**: eso lo hace Cris.
+
 ## Al terminar
 
 Apagar el navegador remoto con `/root/citify_vps/apaga.sh` (detiene Chrome, Xvfb, VNC, noVNC, el servidor

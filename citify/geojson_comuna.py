@@ -18,6 +18,15 @@ MINIMO = os.environ.get('MINIMO') == '1'
 SOLO = {'rol', 'direccion', 'destino_descripcion', 'm2_terreno', 'sup_construida_total', 'pisos_max', 'anio_construccion_max',
         'materiales', 'avaluo_total', 'contrib_sem', 'val_com_uf', 'cod_comuna', 'manzana', 'predio', 'poligono_id', 'lat', 'lon'}
 DEC = 5 if (LIVIANO or MINIMO) else 6
+# TRAMOS=1: agrega `tramo_avaluo` (texto ordenable) para pintar por avalúo fiscal en Citify («Por valores de atributo»)
+TRAMOS = os.environ.get('TRAMOS') == '1'
+CORTES = [(10e6, '1 · Menos de $10 millones'), (25e6, '2 · $10 a $25 millones'), (40e6, '3 · $25 a $40 millones'),
+          (60e6, '4 · $40 a $60 millones'), (100e6, '5 · $60 a $100 millones'), (300e6, '6 · $100 a $300 millones')]
+def tramo(v):
+    if not v: return 'Sin avalúo informado'
+    for tope, etq in CORTES:
+        if v < tope: return etq
+    return '7 · Más de $300 millones'
 COORD = {'lat', 'lon'}
 cols = [c[0] for c in con.sql(f"describe select * from '{U}'").fetchall() if c[0] not in FUERA]
 if MINIMO: cols = [c for c in cols if c in SOLO]
@@ -40,6 +49,7 @@ with open(out, 'w') as f:
     for row in rel.fetchall():
         props = {k: limpia(v, k) for k, v in zip(cols, row[:-1]) if v is not None and limpia(v, k) is not None}
         props['comuna'] = NOMBRE
+        if TRAMOS: props['tramo_avaluo'] = tramo(props.get('avaluo_total'))  # para pintar por avalúo fiscal (demo)
         if MINIMO: props['version_datos'] = 'Liviana: solo los atributos visibles'  # leyenda en el tooltip de Citify
         g = json.loads(row[-1]); g['coordinates'] = r6(g['coordinates'])
         f.write((',' if n else '') + json.dumps({'type': 'Feature', 'properties': props, 'geometry': g}, ensure_ascii=False, separators=(',', ':')))
